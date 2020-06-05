@@ -1,0 +1,29 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="goodsItem" style="{{anonymousState__temp}}">
+        <image class="goodsItem_img" src="{{item.url}}"></image>
+        <view class="goodsItem__text"><text class="goodsItem__text_title">{{item.title}}</text><text class="goodsItem__text_subTitle">{{item.subTitle}}</text>
+            <view class="goodsItem__text_footer">
+                <view class="goodsItem__text_footer--left">
+                    <block>
+                        <block wx:if="{{priceType === '1'}}"><text class="goodsItem__text_price">{{item.price}}</text>
+                        </block>
+                        <block wx:else>
+                            <view><text class="goodsItem__text_two-price1">{{item.oldPrice}}</text><text class="goodsItem__text_two-price2">{{item.price}}</text>
+                            </view>
+                        </block>
+                    </block>
+                </view>
+                <view class="goodsItem__text_footer--right">
+                    <block>
+                        <block wx:if="{{buttonType === '1'}}">
+                            <at-icon compid="{{$compid__36}}"></at-icon>
+                        </block>
+                        <block wx:else>
+                            <at-input-number compid="{{$compid__37}}"></at-input-number>
+                        </block>
+                    </block>
+                </view>
+            </view>
+        </view>
+    </view>
+</block>

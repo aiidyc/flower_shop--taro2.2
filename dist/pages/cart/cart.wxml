@@ -1,0 +1,4 @@
+<block wx:if="{{$taroCompReady}}">
+    <view><text>购物车{{props.cart.shopNum}}</text>
+    </view>
+</block>

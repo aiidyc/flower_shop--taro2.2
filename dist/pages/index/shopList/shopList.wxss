@@ -1,0 +1,96 @@
+.shopList__header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50rpx;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 25rpx 20rpx 5rpx;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.shopList__header__title {
+  color: #444444;
+  margin-left: 5rpx;
+  font-size: 35rpx;
+  font-weight: 500;
+}
+.shopList__header__more {
+  margin-right: 20rpx;
+  color: #5A5A5A;
+  font-size: 27rpx;
+}
+.shopList__item {
+  height: 260rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 10rpx 0;
+  padding: 20rpx 20rpx;
+}
+.shopList__item__img {
+  height: 100%;
+  width: 45%;
+  border-radius: 8rpx;
+}
+.shopList__item_text {
+  width: 55%;
+  height: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 30rpx;
+  overflow: hidden;
+}
+.shopList__item__text_title {
+  color: #444444;
+  font-size: 35rpx;
+  font-weight: 500;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.shopList__item__text_subTitle {
+  font-size: 26rpx;
+  color: #737373;
+  height: 54%;
+  overflow: hidden;
+}
+.shopList__item_text__price {
+  height: 25%;
+  font-size: 28rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.shopList__item_text__price--old {
+  font-size: 25rpx;
+  color: #737373;
+  text-decoration: line-through;
+}
+.shopList__item_text__price--new {
+  margin-left: 20rpx;
+  font-size: 36rpx;
+  font-weight: 500;
+  color: #E29700;
+}

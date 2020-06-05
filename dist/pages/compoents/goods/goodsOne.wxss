@@ -1,0 +1,95 @@
+.goodsItem {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  margin-top: 10rpx;
+  padding: 10rpx 0 10rpx 10rpx;
+}
+.goodsItem_img {
+  height: 100%;
+  width: 45%;
+}
+.goodsItem__text {
+  padding-left: 25rpx;
+  width: 55%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.goodsItem__text_title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #444444;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.goodsItem__text_subTitle {
+  font-size: 20rpx;
+  color: #795a4d;
+  text-align: left;
+  height: 56%;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+.goodsItem__text_footer {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.goodsItem__text_footer--left {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 50%;
+}
+.goodsItem__text_footer--right {
+  width: 50%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.goodsItem__text_two-price1 {
+  font-size: 25rpx;
+  color: #737373;
+  text-decoration: line-through;
+}
+.goodsItem__text_two-price2 {
+  margin-left: 20rpx;
+  font-size: 36rpx;
+  font-weight: 500;
+  color: #E29700;
+}

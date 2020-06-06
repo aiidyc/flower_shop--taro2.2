@@ -1,5 +1,6 @@
 export const CART = {
   ADD : 'ADD',
-  MINUS : 'MINUS'
+  MINUS : 'MINUS',
+  SELECT: 'SELECT'
 }
 

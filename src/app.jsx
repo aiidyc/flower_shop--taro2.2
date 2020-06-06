@@ -55,7 +55,7 @@ class App extends Component {
         pagePath: "pages/mine/mine",
         iconPath: "./assets/tab-bar/user.png",
         selectedIconPath: "./assets/tab-bar/user-active.png",
-        text: "个人"
+        text: "我的"
       }]
     }
   }

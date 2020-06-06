@@ -1,4 +1,5 @@
 require("./runtime");
+require("./common");
 require("./vendors");
 require("./taro");
 
@@ -107,7 +108,7 @@ var _App = function (_BaseComponent) {
           pagePath: "pages/mine/mine",
           iconPath: "./assets/tab-bar/user.png",
           selectedIconPath: "./assets/tab-bar/user-active.png",
-          text: "个人"
+          text: "我的"
         }]
       }
     }, _temp), _possibleConstructorReturn(_this, _ret);
@@ -1354,7 +1355,8 @@ exports.default = counter;
 var _reducersType = __webpack_require__(/*! ./reducersType */ "./src/reducers/reducersType.js");
 
 var INITIAL_STATE = {
-  shopNum: 0
+  shopNum: 0,
+  selectFlag: true
 };
 
 function counter() {
@@ -1370,6 +1372,10 @@ function counter() {
       return _extends({}, state, {
         shopNum: state.shopNum - 1
       });
+    case _reducersType.CART.SELECT:
+      var newState = JSON.parse(JSON.stringify(state));
+      newState.selectFlag = !newState.selectFlag;
+      return newState;
     default:
       return state;
   }
@@ -1402,26 +1408,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = (0, _redux.combineReducers)({
   cart: _cart2.default
 });
-
-/***/ }),
-
-/***/ "./src/reducers/reducersType.js":
-/*!**************************************!*\
-  !*** ./src/reducers/reducersType.js ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var CART = exports.CART = {
-  ADD: 'ADD',
-  MINUS: 'MINUS'
-};
 
 /***/ }),
 
@@ -1476,4 +1462,4 @@ function configStore() {
 
 /***/ })
 
-},[["./src/app.jsx","runtime","taro","vendors"]]]);;
+},[["./src/app.jsx","runtime","taro","vendors","common"]]]);;

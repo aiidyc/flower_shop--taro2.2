@@ -4,4 +4,7 @@ const Mine = (props) => {
     <View><Text>我的</Text></View>
     )
 }
+Mine.config = {
+  navigationBarTitleText: '我的'
+}
 export default Mine

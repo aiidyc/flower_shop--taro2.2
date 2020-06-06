@@ -1,4 +1,95 @@
 <block wx:if="{{$taroCompReady}}">
-    <view><text>购物车{{props.cart.shopNum}}</text>
+    <view class="newCart">
+        <view class="newCart__top">
+            <view class="cartItem">
+                <view class="cartItem__left">
+                    <image class="cartItem__left__img" src="{{selectFlag ? selectYes : selectNo}}" bindtap="anonymousFunc0"></image>
+                </view>
+                <view class="cartItem__Right">
+                    <goods-one compid="{{$compid__688}}"></goods-one>
+                </view>
+            </view>
+            <view class="cartItem">
+                <view class="cartItem__left">
+                    <image class="cartItem__left__img" src="{{selectFlag ? selectYes : selectNo}}" bindtap="anonymousFunc1"></image>
+                </view>
+                <view class="cartItem__Right">
+                    <goods-one compid="{{$compid__689}}"></goods-one>
+                </view>
+            </view>
+            <view class="cartItem">
+                <view class="cartItem__left">
+                    <image class="cartItem__left__img" src="{{selectFlag ? selectYes : selectNo}}" bindtap="anonymousFunc2"></image>
+                </view>
+                <view class="cartItem__Right">
+                    <goods-one compid="{{$compid__690}}"></goods-one>
+                </view>
+            </view>
+            <view class="cartItem">
+                <view class="cartItem__left">
+                    <image class="cartItem__left__img" src="{{selectFlag ? selectYes : selectNo}}" bindtap="anonymousFunc3"></image>
+                </view>
+                <view class="cartItem__Right">
+                    <goods-one compid="{{$compid__691}}"></goods-one>
+                </view>
+            </view>
+            <view class="cartItem">
+                <view class="cartItem__left">
+                    <image class="cartItem__left__img" src="{{selectFlag ? selectYes : selectNo}}" bindtap="anonymousFunc4"></image>
+                </view>
+                <view class="cartItem__Right">
+                    <goods-one compid="{{$compid__692}}"></goods-one>
+                </view>
+            </view>
+            <view class="cartItem">
+                <view class="cartItem__left">
+                    <image class="cartItem__left__img" src="{{selectFlag ? selectYes : selectNo}}" bindtap="anonymousFunc5"></image>
+                </view>
+                <view class="cartItem__Right">
+                    <goods-one compid="{{$compid__693}}"></goods-one>
+                </view>
+            </view>
+            <view class="cartItem">
+                <view class="cartItem__left">
+                    <image class="cartItem__left__img" src="{{selectFlag ? selectYes : selectNo}}" bindtap="anonymousFunc6"></image>
+                </view>
+                <view class="cartItem__Right">
+                    <goods-one compid="{{$compid__694}}"></goods-one>
+                </view>
+            </view>
+            <view class="cartItem">
+                <view class="cartItem__left">
+                    <image class="cartItem__left__img" src="{{selectFlag ? selectYes : selectNo}}" bindtap="anonymousFunc7"></image>
+                </view>
+                <view class="cartItem__Right">
+                    <goods-one compid="{{$compid__695}}"></goods-one>
+                </view>
+            </view>
+            <view class="cartItem">
+                <view class="cartItem__left">
+                    <image class="cartItem__left__img" src="{{selectFlag ? selectYes : selectNo}}" bindtap="anonymousFunc8"></image>
+                </view>
+                <view class="cartItem__Right">
+                    <goods-one compid="{{$compid__696}}"></goods-one>
+                </view>
+            </view>
+            <view class="cartItem">
+                <view class="cartItem__left">
+                    <image class="cartItem__left__img" src="{{selectFlag ? selectYes : selectNo}}" bindtap="anonymousFunc9"></image>
+                </view>
+                <view class="cartItem__Right">
+                    <goods-one compid="{{$compid__697}}"></goods-one>
+                </view>
+            </view>
+        </view>
+        <view class="newCart__footer">
+            <view class="newCart__footer__left">
+                <image style="{{anonymousState__temp}}" class="newCart__footer__img" src="{{selectFlag ? selectYes : selectNo}}" bindtap="anonymousFunc10"></image><text style="{{anonymousState__temp2}}">全选</text>
+            </view>
+            <view class="newCart__footer__right">
+                <at-button compid="{{$compid__698}}"><text>¥188.88</text><text style="{{anonymousState__temp3}}">结算</text>
+                </at-button>
+            </view>
+        </view>
     </view>
 </block>

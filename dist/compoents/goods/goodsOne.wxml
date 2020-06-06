@@ -16,10 +16,10 @@
                 <view class="goodsItem__text_footer--right">
                     <block>
                         <block wx:if="{{buttonType === '1'}}">
-                            <at-icon compid="{{$compid__36}}"></at-icon>
+                            <at-icon compid="{{$compid__42}}"></at-icon>
                         </block>
                         <block wx:else>
-                            <at-input-number compid="{{$compid__37}}"></at-input-number>
+                            <at-input-number compid="{{$compid__43}}"></at-input-number>
                         </block>
                     </block>
                 </view>

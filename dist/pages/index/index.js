@@ -88,7 +88,9 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray4", "$compid__9", "imgs"], _this.anonymousFunc0Map = {}, _this.customComponents = ["NewSwiper", "ShopList"], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
+      navigationBarTitleText: '鲜花首页'
+    }, _this.$usedState = ["loopArray15", "$compid__253", "imgs"], _this.anonymousFunc0Map = {}, _this.customComponents = ["NewSwiper", "ShopList"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Index, [{
@@ -109,17 +111,17 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__9"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__253"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__9 = _genCompid2[0],
-          $compid__9 = _genCompid2[1];
+          $prevCompid__253 = _genCompid2[0],
+          $compid__253 = _genCompid2[1];
 
-      var loopArray4 = imgs.map(function (item, index) {
+      var loopArray15 = imgs.map(function (item, index) {
         item = {
           $original: (0, _taroWeapp.internal_get_original)(item)
         };
 
-        var _$indexKey = "dzzzz" + index;
+        var _$indexKey = "bczzz" + index;
 
         _this2.anonymousFunc0Map[_$indexKey] = function () {
           console.log(index);
@@ -133,10 +135,10 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
       _taroWeapp.propsManager.set({
         "img": imgs,
         "height": '200px'
-      }, $compid__9, $prevCompid__9);
+      }, $compid__253, $prevCompid__253);
       Object.assign(this.__state, {
-        loopArray4: loopArray4,
-        $compid__9: $compid__9,
+        loopArray15: loopArray15,
+        $compid__253: $compid__253,
         imgs: imgs
       });
       return this.__state;
@@ -158,6 +160,9 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
 
   return Index;
 }(_taroWeapp2.default.Component), _class.$$events = ["anonymousFunc0"], _class.$$componentPath = "pages/index/index", _temp2);
+
+
+Index.config = { navigationBarTitleText: '鲜花首页' };
 exports.default = Index;
 
 Component(__webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@tarojs/taro-weapp/index.js").default.createComponent(Index, true));

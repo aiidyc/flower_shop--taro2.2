@@ -46,7 +46,9 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Mine.__proto__ || Object.getPrototypeOf(Mine)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = [], _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Mine.__proto__ || Object.getPrototypeOf(Mine)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
+      navigationBarTitleText: '我的'
+    }, _this.$usedState = [], _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Mine, [{
@@ -72,6 +74,9 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
 
   return Mine;
 }(_taroWeapp2.default.Component), _class.$$events = [], _class.$$componentPath = "pages/mine/mine", _temp2);
+
+
+Mine.config = { navigationBarTitleText: '我的' };
 exports.default = Mine;
 
 Component(__webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@tarojs/taro-weapp/index.js").default.createComponent(Mine, true));

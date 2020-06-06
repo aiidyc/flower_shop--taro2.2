@@ -1,9 +1,9 @@
-(wx["webpackJsonp"] = wx["webpackJsonp"] || []).push([["pages/compoents/goods/goodsOne"],{
+(wx["webpackJsonp"] = wx["webpackJsonp"] || []).push([["compoents/goods/goodsOne"],{
 
-/***/ "./node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js?!./src/pages/compoents/goods/goodsOne.jsx?taro&type=script&parse=COMPONENT&":
-/*!*******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js??ref--6-0!./src/pages/compoents/goods/goodsOne.jsx?taro&type=script&parse=COMPONENT& ***!
-  \*******************************************************************************************************************************************************************/
+/***/ "./node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js?!./src/compoents/goods/goodsOne.jsx?taro&type=script&parse=COMPONENT&":
+/*!*************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js??ref--6-0!./src/compoents/goods/goodsOne.jsx?taro&type=script&parse=COMPONENT& ***!
+  \*************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22,7 +22,7 @@ var _get = function get(object, property, receiver) { if (object === null) objec
 
 var _class, _temp2;
 
-__webpack_require__(/*! ./index.scss */ "./src/pages/compoents/goods/index.scss");
+__webpack_require__(/*! ./index.scss */ "./src/compoents/goods/index.scss");
 
 var _taroWeapp = __webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@tarojs/taro-weapp/index.js");
 
@@ -50,7 +50,7 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = GoodsOne.__proto__ || Object.getPrototypeOf(GoodsOne)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "$compid__36", "$compid__37", "item", "priceType", "buttonType"], _this.customComponents = ["AtIcon", "AtInputNumber"], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = GoodsOne.__proto__ || Object.getPrototypeOf(GoodsOne)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "$compid__42", "$compid__43", "item", "priceType", "buttonType"], _this.customComponents = ["AtIcon", "AtInputNumber"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(GoodsOne, [{
@@ -69,15 +69,15 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__36"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__42"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__36 = _genCompid2[0],
-          $compid__36 = _genCompid2[1];
+          $prevCompid__42 = _genCompid2[0],
+          $compid__42 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__37"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__43"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__37 = _genCompid4[0],
-          $compid__37 = _genCompid4[1];
+          $prevCompid__43 = _genCompid4[0],
+          $compid__43 = _genCompid4[1];
 
       var props = this.__props;
 
@@ -107,7 +107,7 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
         "value": "add-circle",
         "size": "25",
         "color": "#5F9F92"
-      }, $compid__36, $prevCompid__36);
+      }, $compid__42, $prevCompid__42);
       !(buttonType === '1') && _taroWeapp.propsManager.set({
         "min": 0,
         "max": 9999,
@@ -115,11 +115,11 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
         "value": count,
         "width": numWidth,
         "onChange": this.anonymousFunc1
-      }, $compid__37, $prevCompid__37);
+      }, $compid__43, $prevCompid__43);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
-        $compid__36: $compid__36,
-        $compid__37: $compid__37,
+        $compid__42: $compid__42,
+        $compid__43: $compid__43,
         item: item,
         priceType: priceType,
         buttonType: buttonType
@@ -139,7 +139,7 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
   }]);
 
   return GoodsOne;
-}(_taroWeapp2.default.Component), _class.$$events = [], _class.$$componentPath = "pages/compoents/goods/goodsOne", _temp2);
+}(_taroWeapp2.default.Component), _class.$$events = [], _class.$$componentPath = "compoents/goods/goodsOne", _temp2);
 
 
 GoodsOne.defaultProps = {
@@ -162,28 +162,28 @@ Component(__webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@tarojs/
 
 /***/ }),
 
-/***/ "./node_modules/file-loader/dist/cjs.js?name=[path][name].wxml&context=/Users/yuancong/Desktop/我的文件/yuancong1/线上文件/2020慧为Git/慧为小程序/鲜花/flower_shop/src!./node_modules/@tarojs/mini-runner/dist/loaders/miniTemplateLoader.js!./node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js?!./src/pages/compoents/goods/goodsOne.jsx?taro&type=template&parse=COMPONENT&":
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/file-loader/dist/cjs.js?name=[path][name].wxml&context=/Users/yuancong/Desktop/我的文件/yuancong1/线上文件/2020慧为Git/慧为小程序/鲜花/flower_shop/src!./node_modules/@tarojs/mini-runner/dist/loaders/miniTemplateLoader.js!./node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js??ref--6-0!./src/pages/compoents/goods/goodsOne.jsx?taro&type=template&parse=COMPONENT& ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/file-loader/dist/cjs.js?name=[path][name].wxml&context=/Users/yuancong/Desktop/我的文件/yuancong1/线上文件/2020慧为Git/慧为小程序/鲜花/flower_shop/src!./node_modules/@tarojs/mini-runner/dist/loaders/miniTemplateLoader.js!./node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js?!./src/compoents/goods/goodsOne.jsx?taro&type=template&parse=COMPONENT&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/file-loader/dist/cjs.js?name=[path][name].wxml&context=/Users/yuancong/Desktop/我的文件/yuancong1/线上文件/2020慧为Git/慧为小程序/鲜花/flower_shop/src!./node_modules/@tarojs/mini-runner/dist/loaders/miniTemplateLoader.js!./node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js??ref--6-0!./src/compoents/goods/goodsOne.jsx?taro&type=template&parse=COMPONENT& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pages/compoents/goods/goodsOne.wxml";
+module.exports = __webpack_require__.p + "compoents/goods/goodsOne.wxml";
 
 /***/ }),
 
-/***/ "./src/pages/compoents/goods/goodsOne.jsx":
-/*!************************************************!*\
-  !*** ./src/pages/compoents/goods/goodsOne.jsx ***!
-  \************************************************/
+/***/ "./src/compoents/goods/goodsOne.jsx":
+/*!******************************************!*\
+  !*** ./src/compoents/goods/goodsOne.jsx ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _goodsOne_jsx_taro_type_template_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./goodsOne.jsx?taro&type=template&parse=COMPONENT& */ "./src/pages/compoents/goods/goodsOne.jsx?taro&type=template&parse=COMPONENT&");
-/* harmony import */ var _goodsOne_jsx_taro_type_script_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./goodsOne.jsx?taro&type=script&parse=COMPONENT& */ "./src/pages/compoents/goods/goodsOne.jsx?taro&type=script&parse=COMPONENT&");
+/* harmony import */ var _goodsOne_jsx_taro_type_template_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./goodsOne.jsx?taro&type=template&parse=COMPONENT& */ "./src/compoents/goods/goodsOne.jsx?taro&type=template&parse=COMPONENT&");
+/* harmony import */ var _goodsOne_jsx_taro_type_script_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./goodsOne.jsx?taro&type=script&parse=COMPONENT& */ "./src/compoents/goods/goodsOne.jsx?taro&type=script&parse=COMPONENT&");
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _goodsOne_jsx_taro_type_script_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _goodsOne_jsx_taro_type_script_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
@@ -191,42 +191,42 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/pages/compoents/goods/goodsOne.jsx?taro&type=script&parse=COMPONENT&":
-/*!**********************************************************************************!*\
-  !*** ./src/pages/compoents/goods/goodsOne.jsx?taro&type=script&parse=COMPONENT& ***!
-  \**********************************************************************************/
+/***/ "./src/compoents/goods/goodsOne.jsx?taro&type=script&parse=COMPONENT&":
+/*!****************************************************************************!*\
+  !*** ./src/compoents/goods/goodsOne.jsx?taro&type=script&parse=COMPONENT& ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_goodsOne_jsx_taro_type_script_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js??ref--6-0!./goodsOne.jsx?taro&type=script&parse=COMPONENT& */ "./node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js?!./src/pages/compoents/goods/goodsOne.jsx?taro&type=script&parse=COMPONENT&");
+/* harmony import */ var _node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_goodsOne_jsx_taro_type_script_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js??ref--6-0!./goodsOne.jsx?taro&type=script&parse=COMPONENT& */ "./node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js?!./src/compoents/goods/goodsOne.jsx?taro&type=script&parse=COMPONENT&");
 /* harmony import */ var _node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_goodsOne_jsx_taro_type_script_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_goodsOne_jsx_taro_type_script_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_goodsOne_jsx_taro_type_script_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_goodsOne_jsx_taro_type_script_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
  /* harmony default export */ __webpack_exports__["default"] = (_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_goodsOne_jsx_taro_type_script_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
-/***/ "./src/pages/compoents/goods/goodsOne.jsx?taro&type=template&parse=COMPONENT&":
-/*!************************************************************************************!*\
-  !*** ./src/pages/compoents/goods/goodsOne.jsx?taro&type=template&parse=COMPONENT& ***!
-  \************************************************************************************/
+/***/ "./src/compoents/goods/goodsOne.jsx?taro&type=template&parse=COMPONENT&":
+/*!******************************************************************************!*\
+  !*** ./src/compoents/goods/goodsOne.jsx?taro&type=template&parse=COMPONENT& ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _file_loader_name_path_name_wxml_context_Users_yuancong_Desktop_yuancong1_2020_Git_flower_shop_src_node_modules_tarojs_mini_runner_dist_loaders_miniTemplateLoader_js_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_goodsOne_jsx_taro_type_template_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!file-loader?name=[path][name].wxml&context=/Users/yuancong/Desktop/我的文件/yuancong1/线上文件/2020慧为Git/慧为小程序/鲜花/flower_shop/src!../../../../node_modules/@tarojs/mini-runner/dist/loaders/miniTemplateLoader.js!../../../../node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js??ref--6-0!./goodsOne.jsx?taro&type=template&parse=COMPONENT& */ "./node_modules/file-loader/dist/cjs.js?name=[path][name].wxml&context=/Users/yuancong/Desktop/我的文件/yuancong1/线上文件/2020慧为Git/慧为小程序/鲜花/flower_shop/src!./node_modules/@tarojs/mini-runner/dist/loaders/miniTemplateLoader.js!./node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js?!./src/pages/compoents/goods/goodsOne.jsx?taro&type=template&parse=COMPONENT&");
+/* harmony import */ var _file_loader_name_path_name_wxml_context_Users_yuancong_Desktop_yuancong1_2020_Git_flower_shop_src_node_modules_tarojs_mini_runner_dist_loaders_miniTemplateLoader_js_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_goodsOne_jsx_taro_type_template_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!file-loader?name=[path][name].wxml&context=/Users/yuancong/Desktop/我的文件/yuancong1/线上文件/2020慧为Git/慧为小程序/鲜花/flower_shop/src!../../../node_modules/@tarojs/mini-runner/dist/loaders/miniTemplateLoader.js!../../../node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js??ref--6-0!./goodsOne.jsx?taro&type=template&parse=COMPONENT& */ "./node_modules/file-loader/dist/cjs.js?name=[path][name].wxml&context=/Users/yuancong/Desktop/我的文件/yuancong1/线上文件/2020慧为Git/慧为小程序/鲜花/flower_shop/src!./node_modules/@tarojs/mini-runner/dist/loaders/miniTemplateLoader.js!./node_modules/@tarojs/mini-runner/dist/loaders/wxTransformerLoader.js?!./src/compoents/goods/goodsOne.jsx?taro&type=template&parse=COMPONENT&");
 /* harmony import */ var _file_loader_name_path_name_wxml_context_Users_yuancong_Desktop_yuancong1_2020_Git_flower_shop_src_node_modules_tarojs_mini_runner_dist_loaders_miniTemplateLoader_js_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_goodsOne_jsx_taro_type_template_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_file_loader_name_path_name_wxml_context_Users_yuancong_Desktop_yuancong1_2020_Git_flower_shop_src_node_modules_tarojs_mini_runner_dist_loaders_miniTemplateLoader_js_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_goodsOne_jsx_taro_type_template_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _file_loader_name_path_name_wxml_context_Users_yuancong_Desktop_yuancong1_2020_Git_flower_shop_src_node_modules_tarojs_mini_runner_dist_loaders_miniTemplateLoader_js_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_goodsOne_jsx_taro_type_template_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _file_loader_name_path_name_wxml_context_Users_yuancong_Desktop_yuancong1_2020_Git_flower_shop_src_node_modules_tarojs_mini_runner_dist_loaders_miniTemplateLoader_js_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_goodsOne_jsx_taro_type_template_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ "./src/pages/compoents/goods/index.scss":
-/*!**********************************************!*\
-  !*** ./src/pages/compoents/goods/index.scss ***!
-  \**********************************************/
+/***/ "./src/compoents/goods/index.scss":
+/*!****************************************!*\
+  !*** ./src/compoents/goods/index.scss ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -234,4 +234,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ })
 
-},[["./src/pages/compoents/goods/goodsOne.jsx","runtime","taro","vendors"]]]);
+},[["./src/compoents/goods/goodsOne.jsx","runtime","taro","vendors"]]]);

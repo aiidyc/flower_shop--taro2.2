@@ -2,7 +2,7 @@ import {View, Text, Image} from '@tarojs/components'
 import { useState } from '@tarojs/taro'
 import { AtTabs, AtTabsPane } from 'taro-ui'
 import './index.scss'
-import GoodsOne from "../compoents/goods/goodsOne";
+import GoodsOne from './../../compoents/goods/goodsOne'
 const List = (props) => {
   const [ current, setCurrent ] = useState(0)
     return (
@@ -73,5 +73,7 @@ const List = (props) => {
     </View>
     )
 }
-
+List.config = {
+  navigationBarTitleText: '分类'
+}
 export default List

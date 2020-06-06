@@ -1,1 +1,1 @@
-{"usingComponents":{}}
+{"usingComponents":{"goods-one":"../../compoents/goods/goodsOne","at-button":"../../npm/taro-ui/dist/weapp/components/button/index"},"navigationBarTitleText":"购物车","backgroundColor":"#F3F3F3"}

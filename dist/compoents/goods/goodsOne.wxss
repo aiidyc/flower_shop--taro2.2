@@ -33,6 +33,7 @@
   font-weight: bold;
   color: #444444;
   overflow: hidden;
+  height: 29%;
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
   white-space: nowrap;
@@ -41,7 +42,7 @@
   font-size: 20rpx;
   color: #795a4d;
   text-align: left;
-  height: 56%;
+  height: 48%;
   overflow: hidden;
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;

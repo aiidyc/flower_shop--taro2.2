@@ -1,6 +1,6 @@
 import {View, Text, Image} from '@tarojs/components'
 import './index.scss'
-import NewSwiper from './../compoents/swiper/index'
+import NewSwiper from './../../compoents/swiper/index'
 import ShopList from './shopList/shopList'
 const imgs = [
   {
@@ -72,5 +72,8 @@ function Index () {
       </View>
     </View>
   )
+}
+Index.config = {
+  navigationBarTitleText: '鲜花首页',
 }
 export default Index

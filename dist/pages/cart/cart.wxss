@@ -1,0 +1,104 @@
+.newCart {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.newCart__top {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 90%;
+  overflow: auto;
+  background-color: #F3F3F3;
+}
+.cartItem {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: white;
+  min-height: 18vh;
+  border-radius: 2vh;
+  width: 95%;
+  margin-top: 0.7vh;
+  margin-bottom: 0.7vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1vw 1vw 1vw 1vw;
+}
+.cartItem__left {
+  width: 10%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.cartItem__left__img {
+  width: 40rpx;
+  height: 40rpx;
+}
+.cartItem__Right {
+  width: 90%;
+}
+.newCart__footer {
+  height: 10%;
+  width: 100%;
+  background-color: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.newCart__footer__left {
+  margin-left: 20rpx;
+  width: 50%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 36rpx;
+  color: #030303;
+}
+.newCart__footer__img {
+  width: 40rpx;
+  height: 40rpx;
+}
+.newCart__footer__right {
+  width: 50%;
+  padding: 10rpx 10rpx 10rpx 50rpx;
+}
+.newCart__footer__button {
+  margin-right: 20rpx;
+}

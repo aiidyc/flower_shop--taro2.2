@@ -1,12 +1,12 @@
 <block wx:if="{{$taroCompReady}}">
     <view class="index">
-        <new-swiper compid="{{$compid__253}}"></new-swiper>
+        <new-swiper compid="{{$compid__33}}"></new-swiper>
         <shop-list></shop-list>
         <view class="newGard">
             <view class="grid-header"><text class="grid-header__title">新品推荐</text><text class="grid-header__more">更多</text>
             </view>
             <view class="at-row at-row--wrap">
-                <view wx:key="id" bindtap="anonymousFunc0" class="at-col at-col-6 goodsItem" wx:for="{{loopArray15}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">
+                <view wx:key="id" bindtap="anonymousFunc0" class="at-col at-col-6 goodsItem" wx:for="{{loopArray4}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">
                     <image class="goodsItem_img" src="{{item.$original.url}}"></image><text class="goodsItem_title">{{item.$original.title}}</text><text class="goodsItem_subTitle">{{item.$original.subTitle}}</text><text class="goodsItem_price">{{item.$original.price}}</text>
                 </view>
             </view>

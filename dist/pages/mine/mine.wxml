@@ -1,4 +1,14 @@
 <block wx:if="{{$taroCompReady}}">
-    <view><text>我的</text>
+    <view class="mine">
+        <view class="mine__header">
+            <view class="mine__header_avatar">
+                <at-avatar compid="{{$compid__91}}"></at-avatar>
+                <view class="mine__header_avatar--text"><text style="{{anonymousState__temp}}">Yanni233</text><text style="{{anonymousState__temp2}}">181*****9902</text>
+                </view>
+            </view>
+        </view>
+        <view class="mine__content">
+            <view class="mine__content__top"></view>
+            <view class="mine__content__middle"></view>内容区</view>
     </view>
 </block>

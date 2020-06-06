@@ -1,0 +1,26 @@
+/*统一css变量
+//1定义
+%message-common {
+  padding: 10px;
+  color: #333;
+}
+//2在需要的地方引入 必须加;号
+@import "./themeStyle.scss";
+
+//3继承使用
+.message {
+  @extend %message-common;
+}
+*/
+%theme-Title {
+  font-size:35px;
+  font-weight: 500;
+  color: #444444;
+}
+%theme-SubTitle {
+  color: #737373;
+  font-size:26px;
+}
+%theme-background-color{
+  background-color: #F3F3F3;
+}

@@ -1,0 +1,16 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="AddressItem">
+        <view class="AddressItem__left"><text class="AddressItem__left--address">{{addressData.address}}</text>
+            <view><text>{{addressData.name}}</text><text style="{{anonymousState__temp}}">{{addressData.phoneNumber}}</text>
+            </view>
+        </view>
+        <view class="AddressItem__right"><text style="{{anonymousState__temp2}}">编辑</text>
+            <block>
+                <block wx:if="{{defaultAddress}}"><text>默认</text>
+                </block>
+                <block wx:else><text>设为默认</text>
+                </block>
+            </block>
+        </view>
+    </view>
+</block>

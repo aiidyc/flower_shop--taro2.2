@@ -1,14 +1,14 @@
 <block wx:if="{{$taroCompReady}}">
     <view class="goodsItem" style="{{anonymousState__temp}}">
-        <image class="goodsItem_img" src="{{item.url}}"></image>
-        <view class="goodsItem__text"><text class="goodsItem__text_title">{{item.title}}</text><text class="goodsItem__text_subTitle">{{item.subTitle}}</text>
+        <image mode="aspectFill" class="goodsItem_img" src="{{goodsData.url}}"></image>
+        <view class="goodsItem__text"><text class="goodsItem__text_title">{{goodsData.title}}</text><text class="goodsItem__text_subTitle">{{goodsData.subTitle}}</text>
             <view class="goodsItem__text_footer">
                 <view class="goodsItem__text_footer--left">
                     <block>
-                        <block wx:if="{{priceType === '1'}}"><text class="goodsItem__text_price">{{item.price}}</text>
+                        <block wx:if="{{priceType === '1'}}"><text class="goodsItem__text_price">{{goodsData.price}}</text>
                         </block>
                         <block wx:else>
-                            <view><text class="goodsItem__text_two-price1">{{item.oldPrice}}</text><text class="goodsItem__text_two-price2">{{item.price}}</text>
+                            <view><text class="goodsItem__text_two-price1">{{goodsData.oldPrice}}</text><text class="goodsItem__text_two-price2">{{goodsData.price}}</text>
                             </view>
                         </block>
                     </block>
@@ -16,10 +16,16 @@
                 <view class="goodsItem__text_footer--right">
                     <block>
                         <block wx:if="{{buttonType === '1'}}">
-                            <at-icon compid="{{$compid__63}}"></at-icon>
+                            <at-icon compid="{{$compid__174}}"></at-icon>
                         </block>
                         <block wx:else>
-                            <at-input-number compid="{{$compid__64}}"></at-input-number>
+                            <block>
+                                <block wx:if="{{buttonType === '2'}}">
+                                    <at-input-number compid="{{$compid__175}}"></at-input-number>
+                                </block>
+                                <block wx:else><text style="{{anonymousState__temp2}}">x{{goodsData.GoodsNum}}</text>
+                                </block>
+                            </block>
                         </block>
                     </block>
                 </view>

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*统一css变量
+//1定义
+%message-common {
+  padding: 10px;
+  color: #333;
+}
+//2在需要的地方引入 必须加;号
+@import "./themeStyle.scss";
+//3继承使用
+.message {
+  @extend %message-common;
+}
+*/
+.OrderItem__price__item {
+  font-size: 35rpx;
+  font-weight: 500;
+  color: #444444;
+}
+.OrderItem__price__subItem {
+  color: #737373;
+  font-size: 26rpx;
+}
+.OrderItem {
+  /*兼容rn的写法*/
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  background-color: white;
+  border-radius: 20rpx;
+}
+.OrderItem__goodsList {
+  border-bottom: 1rpx dashed #ECECEC;
+  padding-bottom: 35rpx;
+}
+.OrderItem__price {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.OrderItem__price__subItem {
+  margin-right: 10rpx;
+}
+.OrderItem__button {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}

@@ -19,6 +19,7 @@ function NewSwiper (props) {
             onClick={()=>{console.log(1)}}
           >
             <Image
+              mode={'aspectFill'}
               className='home-banner__swiper-item-img'
               src={item.url}
             />

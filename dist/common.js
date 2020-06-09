@@ -1,5 +1,16 @@
 (wx["webpackJsonp"] = wx["webpackJsonp"] || []).push([["common"],{
 
+/***/ "./src/pages/mine/myAddress/index.scss":
+/*!*********************************************!*\
+  !*** ./src/pages/mine/myAddress/index.scss ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "./src/reducers/reducersType.js":
 /*!**************************************!*\
   !*** ./src/reducers/reducersType.js ***!

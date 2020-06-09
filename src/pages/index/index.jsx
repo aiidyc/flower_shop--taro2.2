@@ -60,6 +60,7 @@ function Index () {
         {imgs.map((item, index) => (
           <View key={item.id} onClick={()=>{console.log(index)}} className='at-col at-col-6 goodsItem'>
             <Image
+              mode={'aspectFill'}
               className='goodsItem_img'
               src={item.url}
             />

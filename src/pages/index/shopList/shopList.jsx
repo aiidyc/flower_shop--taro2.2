@@ -14,6 +14,7 @@ function ShopList (props) {
           <View key={item.id} onClick={()=>{console.log(index)}} className='at-col at-col-12 shopList__item'>
               <Image
                 className='shopList__item__img'
+                mode={'aspectFill'}
                 src={item.url}
               />
             <View className='shopList__item_text'>

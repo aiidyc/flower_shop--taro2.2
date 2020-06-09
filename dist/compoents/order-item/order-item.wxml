@@ -1,0 +1,38 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="OrderItem">
+        <view class="OrderItem__goodsList">
+            <goods-one wx:key="id" wx:for="{{loopArray8}}" wx:for-item="item" wx:for-index="_anonIdx2" compid="{{item.$compid__123}}"></goods-one>
+        </view>
+        <view class="OrderItem__price"><text class="OrderItem__price__item"><text class="OrderItem__price__subItem">小计:</text>¥{{orderData.orderPrice}}</text>
+        </view>
+        <view>
+            <block>
+                <block wx:if="{{orderType === '1'}}">
+                    <view class="OrderItem__button">
+                        <view style="{{anonymousState__temp}}">
+                            <at-button compid="{{$compid__124}}">取消订单</at-button>
+                        </view>
+                        <at-button compid="{{$compid__125}}">订单支付</at-button>
+                    </view>
+                </block>
+                <block wx:else>
+                    <block>
+                        <block wx:if="{{orderType === '2'}}">
+                            <view class="OrderItem__button">
+                                <at-button compid="{{$compid__126}}">提醒发货</at-button>
+                            </view>
+                        </block>
+                        <block wx:else>
+                            <view class="OrderItem__button">
+                                <view style="{{anonymousState__temp2}}">
+                                    <at-button compid="{{$compid__127}}">查看物流</at-button>
+                                </view>
+                                <at-button compid="{{$compid__128}}">确认收货</at-button>
+                            </view>
+                        </block>
+                    </block>
+                </block>
+            </block>
+        </view>
+    </view>
+</block>

@@ -1,0 +1,18 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="checkAddressItem">
+        <view class="checkAddressItem__left"><text style="{{anonymousState__temp}}" class="checkAddressItem__left--address">{{addressData.address}}</text>
+            <view style="{{anonymousState__temp2}}"><text>{{addressData.name}}</text><text style="{{anonymousState__temp3}}">{{addressData.phoneNumber}}</text>
+            </view>
+        </view>
+        <view class="checkAddressItem__right">
+            <block>
+                <block wx:if="{{checked}}">
+                    <image style="{{anonymousState__temp4}}" mode="heightFix" src="{{CheckedImg}}"></image>
+                </block>
+                <block wx:else>
+                    <view></view>
+                </block>
+            </block>
+        </view>
+    </view>
+</block>

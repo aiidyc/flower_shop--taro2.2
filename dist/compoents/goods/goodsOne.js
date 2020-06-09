@@ -50,7 +50,7 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = GoodsOne.__proto__ || Object.getPrototypeOf(GoodsOne)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "$compid__63", "$compid__64", "item", "priceType", "buttonType"], _this.customComponents = ["AtIcon", "AtInputNumber"], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = GoodsOne.__proto__ || Object.getPrototypeOf(GoodsOne)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "$compid__174", "$compid__175", "goodsData", "priceType", "buttonType"], _this.customComponents = ["AtIcon", "AtInputNumber"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(GoodsOne, [{
@@ -69,19 +69,19 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__63"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__174"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__63 = _genCompid2[0],
-          $compid__63 = _genCompid2[1];
+          $prevCompid__174 = _genCompid2[0],
+          $compid__174 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__64"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__175"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__64 = _genCompid4[0],
-          $compid__64 = _genCompid4[1];
+          $prevCompid__175 = _genCompid4[0],
+          $compid__175 = _genCompid4[1];
 
       var props = this.__props;
 
-      var item = props.item,
+      var goodsData = props.goodsData,
           height = props.height,
           numWidth = props.numWidth,
           priceType = props.priceType,
@@ -95,32 +95,34 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
       var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ height: height });
 
       this.anonymousFunc0 = function () {
-        console.log(item);
+        console.log(goodsData);
       };
 
       this.anonymousFunc1 = function (value) {
         setCount(value);
       };
 
+      var anonymousState__temp2 = (0, _taroWeapp.internal_inline_style)({ color: '#757575' });
       buttonType === '1' && _taroWeapp.propsManager.set({
         "onClick": this.anonymousFunc0,
         "value": "add-circle",
         "size": "25",
         "color": "#5F9F92"
-      }, $compid__63, $prevCompid__63);
-      !(buttonType === '1') && _taroWeapp.propsManager.set({
+      }, $compid__174, $prevCompid__174);
+      !(buttonType === '1') && buttonType === '2' && _taroWeapp.propsManager.set({
         "min": 0,
         "max": 9999,
         "step": 1,
         "value": count,
         "width": numWidth,
         "onChange": this.anonymousFunc1
-      }, $compid__64, $prevCompid__64);
+      }, $compid__175, $prevCompid__175);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
-        $compid__63: $compid__63,
-        $compid__64: $compid__64,
-        item: item,
+        anonymousState__temp2: anonymousState__temp2,
+        $compid__174: $compid__174,
+        $compid__175: $compid__175,
+        goodsData: goodsData,
         priceType: priceType,
         buttonType: buttonType
       });
@@ -143,16 +145,17 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
 
 
 GoodsOne.defaultProps = {
-  item: {
+  goodsData: {
     url: 'https://s1.ax1x.com/2020/06/04/t0T8Rf.png',
     id: '5',
     title: '超大花束洋桔梗',
     subTitle: '洋桔梗的花语是永恒的爱，无悔，无望的爱',
     oldPrice: '¥288',
-    price: '¥188'
+    price: '¥188',
+    GoodsNum: 1
   },
   height: '120px',
-  numWidth: 50,
+  numWidth: 50, // 数字框宽度
   priceType: '1',
   buttonType: '1'
 };

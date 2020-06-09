@@ -77,7 +77,7 @@ var _App = function (_BaseComponent) {
     }
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = _App.__proto__ || Object.getPrototypeOf(_App)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
-      pages: ['pages/index/index', 'pages/list/list', 'pages/cart/cart', 'pages/mine/mine'],
+      pages: ['pages/index/index', 'pages/list/list', 'pages/cart/cart', 'pages/mine/mine', 'pages/mine/myAddress/index', 'pages/mine/myAddress/checkAddress', 'pages/order/orderTabs/orderTabs'],
       window: {
         backgroundTextStyle: 'light',
         navigationBarBackgroundColor: '#fff',

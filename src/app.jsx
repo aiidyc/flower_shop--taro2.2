@@ -23,7 +23,10 @@ class App extends Component {
       'pages/index/index',
       'pages/list/list',
       'pages/cart/cart',
-      'pages/mine/mine'
+      'pages/mine/mine',
+      'pages/mine/myAddress/index',
+      'pages/mine/myAddress/checkAddress',
+      'pages/order/orderTabs/orderTabs'
     ],
     window: {
       backgroundTextStyle: 'light',
@@ -46,12 +49,12 @@ class App extends Component {
         iconPath: "./assets/tab-bar/cate.png",
         selectedIconPath: "./assets/tab-bar/cate-active.png",
         text: "分类"
-      }, {
+      },{
         pagePath: "pages/cart/cart",
         iconPath: "./assets/tab-bar/cart.png",
         selectedIconPath: "./assets/tab-bar/cart-active.png",
         text: "购物车"
-      }, {
+      },{
         pagePath: "pages/mine/mine",
         iconPath: "./assets/tab-bar/user.png",
         selectedIconPath: "./assets/tab-bar/user-active.png",

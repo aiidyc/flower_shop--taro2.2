@@ -52,7 +52,7 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Mine.__proto__ || Object.getPrototypeOf(Mine)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '我的'
-    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "$compid__91"], _this.customComponents = ["AtAvatar"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "$compid__440", "$compid__441", "$compid__442", "$compid__443", "$compid__444", "$compid__445", "$compid__446", "$compid__447", "$compid__448"], _this.customComponents = ["AtAvatar", "AtBadge", "AtIcon", "AtList", "AtListItem"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Mine, [{
@@ -71,31 +71,145 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__91"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__440"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__91 = _genCompid2[0],
-          $compid__91 = _genCompid2[1];
+          $prevCompid__440 = _genCompid2[0],
+          $compid__440 = _genCompid2[1];
+
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__441"),
+          _genCompid4 = _slicedToArray(_genCompid3, 2),
+          $prevCompid__441 = _genCompid4[0],
+          $compid__441 = _genCompid4[1];
+
+      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__442"),
+          _genCompid6 = _slicedToArray(_genCompid5, 2),
+          $prevCompid__442 = _genCompid6[0],
+          $compid__442 = _genCompid6[1];
+
+      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__443"),
+          _genCompid8 = _slicedToArray(_genCompid7, 2),
+          $prevCompid__443 = _genCompid8[0],
+          $compid__443 = _genCompid8[1];
+
+      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__444"),
+          _genCompid10 = _slicedToArray(_genCompid9, 2),
+          $prevCompid__444 = _genCompid10[0],
+          $compid__444 = _genCompid10[1];
+
+      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__445"),
+          _genCompid12 = _slicedToArray(_genCompid11, 2),
+          $prevCompid__445 = _genCompid12[0],
+          $compid__445 = _genCompid12[1];
+
+      var _genCompid13 = (0, _taroWeapp.genCompid)(__prefix + "$compid__446"),
+          _genCompid14 = _slicedToArray(_genCompid13, 2),
+          $prevCompid__446 = _genCompid14[0],
+          $compid__446 = _genCompid14[1];
+
+      var _genCompid15 = (0, _taroWeapp.genCompid)(__prefix + "$compid__447"),
+          _genCompid16 = _slicedToArray(_genCompid15, 2),
+          $prevCompid__447 = _genCompid16[0],
+          $compid__447 = _genCompid16[1];
+
+      var _genCompid17 = (0, _taroWeapp.genCompid)(__prefix + "$compid__448"),
+          _genCompid18 = _slicedToArray(_genCompid17, 2),
+          $prevCompid__448 = _genCompid18[0],
+          $compid__448 = _genCompid18[1];
 
       var props = this.__props;
       var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ color: "#FFFFFF", fontSize: '15px' });
       var anonymousState__temp2 = (0, _taroWeapp.internal_inline_style)({ color: "#BAE2D5", fontSize: '13px' });
+
+      this.anonymousFunc0 = function () {
+        console.log('跳转到订单页面');
+        _taroWeapp2.default.navigateTo({ url: '/pages/order/orderTabs/orderTabs' });
+      };
+
+      this.anonymousFunc1 = function () {
+        _taroWeapp2.default.navigateTo({ url: '/pages/mine/myAddress/checkAddress' });
+      };
+
+      this.anonymousFunc2 = function () {
+        _taroWeapp2.default.navigateTo({ url: '/pages/mine/myAddress/index' });
+      };
+
       _taroWeapp.propsManager.set({
         "className": "mine__header_avatar--img",
         "size": "large",
         "circle": true,
         "text": '\u59AE\u59AEYan_ni'
-      }, $compid__91, $prevCompid__91);
+      }, $compid__440, $prevCompid__440);
+      _taroWeapp.propsManager.set({
+        "value": 10,
+        "maxValue": 99
+      }, $compid__441, $prevCompid__441);
+      _taroWeapp.propsManager.set({
+        "value": "credit-card",
+        "size": "35",
+        "color": "#54B7A2"
+      }, $compid__442, $prevCompid__442);
+      _taroWeapp.propsManager.set({
+        "value": 10,
+        "maxValue": 99
+      }, $compid__443, $prevCompid__443);
+      _taroWeapp.propsManager.set({
+        "value": "shopping-bag-2",
+        "size": "35",
+        "color": "#54B7A2"
+      }, $compid__444, $prevCompid__444);
+      _taroWeapp.propsManager.set({
+        "value": 10,
+        "maxValue": 99
+      }, $compid__445, $prevCompid__445);
+      _taroWeapp.propsManager.set({
+        "value": "shopping-bag",
+        "size": "35",
+        "color": "#54B7A2"
+      }, $compid__446, $prevCompid__446);
+      _taroWeapp.propsManager.set({
+        "title": '\u4E2A\u4EBA\u4FE1\u606F',
+        "arrow": "right",
+        "onClick": this.anonymousFunc1
+      }, $compid__447, $prevCompid__447);
+      _taroWeapp.propsManager.set({
+        "title": '\u5730\u5740\u7BA1\u7406',
+        "arrow": "right",
+        "onClick": this.anonymousFunc2
+      }, $compid__448, $prevCompid__448);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
         anonymousState__temp2: anonymousState__temp2,
-        $compid__91: $compid__91
+        $compid__440: $compid__440,
+        $compid__441: $compid__441,
+        $compid__442: $compid__442,
+        $compid__443: $compid__443,
+        $compid__444: $compid__444,
+        $compid__445: $compid__445,
+        $compid__446: $compid__446,
+        $compid__447: $compid__447,
+        $compid__448: $compid__448
       });
       return this.__state;
+    }
+  }, {
+    key: 'anonymousFunc0',
+    value: function anonymousFunc0(e) {
+      ;
+    }
+  }, {
+    key: 'anonymousFunc1',
+    value: function anonymousFunc1(e) {
+      ;
+    }
+  }, {
+    key: 'anonymousFunc2',
+    value: function anonymousFunc2(e) {
+      ;
     }
   }]);
 
   return Mine;
-}(_taroWeapp2.default.Component), _class.$$events = [], _class.$$componentPath = "pages/mine/mine", _temp2);
+}(_taroWeapp2.default.Component), _class.$$events = ["anonymousFunc0"], _class.$$componentPath = "pages/mine/mine", _temp2);
 
 
 Mine.config = { navigationBarTitleText: '我的' };

@@ -1,0 +1,32 @@
+.checkAddressItem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 140px;
+  border-radius: 20px;
+  background-color: white;
+}
+.checkAddressItem__left{
+  height: 100%;
+  width: 85%;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  font-size: 33px;
+  color: #2C2C2C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.checkAddressItem__left--address{
+  margin-bottom: 10px;
+}
+.checkAddressItem__right{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 100%;
+  width: 15%;
+  //background-color: skyblue;
+}
+

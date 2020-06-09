@@ -1,0 +1,18 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="myAddress">
+        <view class="addAddress"><text>+添加新地址</text>
+        </view>
+        <view class="CheckAddressItem__Box ">
+            <check-address-item></check-address-item>
+        </view>
+        <view class="CheckAddressItem__Box">
+            <check-address-item compid="{{$compid__424}}"></check-address-item>
+        </view>
+        <view class="CheckAddressItem__Box">
+            <check-address-item compid="{{$compid__425}}"></check-address-item>
+        </view>
+        <view class="CheckAddressItem__Box">
+            <check-address-item compid="{{$compid__426}}"></check-address-item>
+        </view>
+    </view>
+</block>

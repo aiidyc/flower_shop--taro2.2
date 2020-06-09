@@ -1,0 +1,35 @@
+.AddressItem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+}
+.AddressItem__left{
+  height: 100%;
+  width: 70%;
+  //background-color: red;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  font-size: 33px;
+  color: #2C2C2C;
+  display: flex;
+  flex-direction: column;
+}
+.AddressItem__left--address{
+  margin-bottom: 10px;
+}
+.AddressItem__right{
+  height: 100%;
+  width: 30%;
+  font-size: 28px;
+  color: #808080;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.AddressItemBox--active{
+  background-image: url("./../../assets/checkAddress.png");
+}

@@ -1,0 +1,34 @@
+@import "./../../themeStyle";
+.OrderItem{
+  /*兼容rn的写法*/
+  padding-left: 20px;
+  padding-right:20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+.OrderItem__goodsList{
+  border-bottom: 1px dashed #ECECEC;
+  padding-bottom: 35px;
+}
+.OrderItem__price{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.OrderItem__price__item{
+  @extend %theme-Title;
+}
+.OrderItem__price__subItem{
+  @extend %theme-SubTitle;
+  margin-right: 10px;
+}
+.OrderItem__button{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+

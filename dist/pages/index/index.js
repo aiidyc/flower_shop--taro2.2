@@ -90,7 +90,7 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '鲜花首页'
-    }, _this.$usedState = ["loopArray13", "$compid__167", "imgs"], _this.anonymousFunc0Map = {}, _this.customComponents = ["NewSwiper", "ShopList"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["loopArray5", "$compid__91", "imgs"], _this.anonymousFunc0Map = {}, _this.customComponents = ["NewSwiper", "ShopList"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Index, [{
@@ -111,17 +111,17 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__167"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__91"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__167 = _genCompid2[0],
-          $compid__167 = _genCompid2[1];
+          $prevCompid__91 = _genCompid2[0],
+          $compid__91 = _genCompid2[1];
 
-      var loopArray13 = imgs.map(function (item, index) {
+      var loopArray5 = imgs.map(function (item, index) {
         item = {
           $original: (0, _taroWeapp.internal_get_original)(item)
         };
 
-        var _$indexKey = "bbzzz" + index;
+        var _$indexKey = "ezzzz" + index;
 
         _this2.anonymousFunc0Map[_$indexKey] = function () {
           console.log(index);
@@ -135,10 +135,10 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
       _taroWeapp.propsManager.set({
         "img": imgs,
         "height": '200px'
-      }, $compid__167, $prevCompid__167);
+      }, $compid__91, $prevCompid__91);
       Object.assign(this.__state, {
-        loopArray13: loopArray13,
-        $compid__167: $compid__167,
+        loopArray5: loopArray5,
+        $compid__91: $compid__91,
         imgs: imgs
       });
       return this.__state;

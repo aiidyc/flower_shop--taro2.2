@@ -52,7 +52,7 @@ var CheckAddress = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = CheckAddress.__proto__ || Object.getPrototypeOf(CheckAddress)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '选择地址'
-    }, _this.$usedState = ["$compid__424", "$compid__425", "$compid__426"], _this.customComponents = ["CheckAddressItem"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["$compid__116", "$compid__117", "$compid__118"], _this.customComponents = ["CheckAddressItem"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(CheckAddress, [{
@@ -71,35 +71,35 @@ var CheckAddress = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__424"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__116"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__424 = _genCompid2[0],
-          $compid__424 = _genCompid2[1];
+          $prevCompid__116 = _genCompid2[0],
+          $compid__116 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__425"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__117"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__425 = _genCompid4[0],
-          $compid__425 = _genCompid4[1];
+          $prevCompid__117 = _genCompid4[0],
+          $compid__117 = _genCompid4[1];
 
-      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__426"),
+      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__118"),
           _genCompid6 = _slicedToArray(_genCompid5, 2),
-          $prevCompid__426 = _genCompid6[0],
-          $compid__426 = _genCompid6[1];
+          $prevCompid__118 = _genCompid6[0],
+          $compid__118 = _genCompid6[1];
 
       var props = this.__props;
       _taroWeapp.propsManager.set({
         "checked": false
-      }, $compid__424, $prevCompid__424);
+      }, $compid__116, $prevCompid__116);
       _taroWeapp.propsManager.set({
         "checked": false
-      }, $compid__425, $prevCompid__425);
+      }, $compid__117, $prevCompid__117);
       _taroWeapp.propsManager.set({
         "checked": false
-      }, $compid__426, $prevCompid__426);
+      }, $compid__118, $prevCompid__118);
       Object.assign(this.__state, {
-        $compid__424: $compid__424,
-        $compid__425: $compid__425,
-        $compid__426: $compid__426
+        $compid__116: $compid__116,
+        $compid__117: $compid__117,
+        $compid__118: $compid__118
       });
       return this.__state;
     }

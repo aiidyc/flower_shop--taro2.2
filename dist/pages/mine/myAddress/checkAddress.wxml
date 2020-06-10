@@ -6,13 +6,13 @@
             <check-address-item></check-address-item>
         </view>
         <view class="CheckAddressItem__Box">
-            <check-address-item compid="{{$compid__424}}"></check-address-item>
+            <check-address-item compid="{{$compid__116}}"></check-address-item>
         </view>
         <view class="CheckAddressItem__Box">
-            <check-address-item compid="{{$compid__425}}"></check-address-item>
+            <check-address-item compid="{{$compid__117}}"></check-address-item>
         </view>
         <view class="CheckAddressItem__Box">
-            <check-address-item compid="{{$compid__426}}"></check-address-item>
+            <check-address-item compid="{{$compid__118}}"></check-address-item>
         </view>
     </view>
 </block>

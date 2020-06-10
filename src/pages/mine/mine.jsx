@@ -48,11 +48,26 @@ const Mine = (props) => {
           <View className='mine__content__middle_list'>
             <AtList>
               <AtListItem title='个人信息' arrow='right' onClick={()=>{
-                Taro.navigateTo({url:'/pages/mine/myAddress/checkAddress'})
+                console.log('个人信息')
               }} />
               <AtListItem title='地址管理' arrow='right'
                           onClick={()=>{
                             Taro.navigateTo({url:'/pages/mine/myAddress/index'})
+                          }}
+              />
+              <AtListItem title='地址选择' arrow='right'
+                          onClick={()=>{
+                            Taro.navigateTo({url:'/pages/mine/myAddress/checkAddress'})
+                          }}
+              />
+              <AtListItem title='订单确认' arrow='right'
+                          onClick={()=>{
+                            Taro.navigateTo({url:'/pages/order/orderConfirm/orderConfirm'})
+                          }}
+              />
+              <AtListItem title='商品详情' arrow='right'
+                          onClick={()=>{
+                            Taro.navigateTo({url:'/pages/order/productDetails/productDetails'})
                           }}
               />
             </AtList>

@@ -66,6 +66,20 @@
 					"pathName": "pages/mine/myAddress/checkAddress",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/order/orderConfirm/orderConfirm",
+					"pathName": "pages/order/orderConfirm/orderConfirm",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/order/productDetails/productDetails",
+					"pathName": "pages/order/productDetails/productDetails",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

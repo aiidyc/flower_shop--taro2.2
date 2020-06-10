@@ -24,7 +24,7 @@ var _taroWeapp = __webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@
 
 var _taroWeapp2 = _interopRequireDefault(_taroWeapp);
 
-__webpack_require__(/*! ./index.scss */ "./src/pages/index/shopList/index.scss");
+__webpack_require__(/*! ./shopList.scss */ "./src/pages/index/shopList/shopList.scss");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -48,7 +48,7 @@ var ShopList = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ShopList.__proto__ || Object.getPrototypeOf(ShopList)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray14", "shopData"], _this.anonymousFunc0Map = {}, _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ShopList.__proto__ || Object.getPrototypeOf(ShopList)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray6", "shopData"], _this.anonymousFunc0Map = {}, _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(ShopList, [{
@@ -72,12 +72,12 @@ var ShopList = (_temp2 = _class = function (_Taro$Component) {
 
       var shopData = props.shopData;
 
-      var loopArray14 = shopData.map(function (item, index) {
+      var loopArray6 = shopData.map(function (item, index) {
         item = {
           $original: (0, _taroWeapp.internal_get_original)(item)
         };
 
-        var _$indexKey = "bczzz" + index;
+        var _$indexKey = "fzzzz" + index;
 
         _this2.anonymousFunc0Map[_$indexKey] = function () {
           console.log(index);
@@ -89,7 +89,7 @@ var ShopList = (_temp2 = _class = function (_Taro$Component) {
         };
       });
       Object.assign(this.__state, {
-        loopArray14: loopArray14,
+        loopArray6: loopArray6,
         shopData: shopData
       });
       return this.__state;
@@ -151,17 +151,6 @@ module.exports = __webpack_require__.p + "pages/index/shopList/shopList.wxml";
 
 /***/ }),
 
-/***/ "./src/pages/index/shopList/index.scss":
-/*!*********************************************!*\
-  !*** ./src/pages/index/shopList/index.scss ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "./src/pages/index/shopList/shopList.jsx":
 /*!***********************************************!*\
   !*** ./src/pages/index/shopList/shopList.jsx ***!
@@ -209,6 +198,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _file_loader_name_path_name_wxml_context_Users_yuancong_Desktop_yuancong1_2020_Git_flower_shop_src_node_modules_tarojs_mini_runner_dist_loaders_miniTemplateLoader_js_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_shopList_jsx_taro_type_template_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_file_loader_name_path_name_wxml_context_Users_yuancong_Desktop_yuancong1_2020_Git_flower_shop_src_node_modules_tarojs_mini_runner_dist_loaders_miniTemplateLoader_js_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_shopList_jsx_taro_type_template_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _file_loader_name_path_name_wxml_context_Users_yuancong_Desktop_yuancong1_2020_Git_flower_shop_src_node_modules_tarojs_mini_runner_dist_loaders_miniTemplateLoader_js_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_shopList_jsx_taro_type_template_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _file_loader_name_path_name_wxml_context_Users_yuancong_Desktop_yuancong1_2020_Git_flower_shop_src_node_modules_tarojs_mini_runner_dist_loaders_miniTemplateLoader_js_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_shopList_jsx_taro_type_template_parse_COMPONENT___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
+
+/***/ }),
+
+/***/ "./src/pages/index/shopList/shopList.scss":
+/*!************************************************!*\
+  !*** ./src/pages/index/shopList/shopList.scss ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ })
 

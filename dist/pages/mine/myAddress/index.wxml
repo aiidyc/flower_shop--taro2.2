@@ -6,7 +6,7 @@
             <address-item></address-item>
         </view>
         <view class="AddressItemBox">
-            <address-item compid="{{$compid__423}}"></address-item>
+            <address-item compid="{{$compid__115}}"></address-item>
         </view>
     </view>
 </block>

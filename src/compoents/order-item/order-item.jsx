@@ -36,14 +36,14 @@ const OrderItem = ({ orderData, orderType }) => {
              <View className='OrderItem__button'>
                <AtButton type='primary' circle={true} size={"small"} full={false} >提醒发货</AtButton>
              </View>
-         ):(
+         ):orderType==='3'?(
              <View className='OrderItem__button'>
                <View style={{marginRight:'10rpx'}}>
                  <AtButton type='primary' circle={true} size={"small"} >查看物流</AtButton>
                </View>
                <AtButton type='primary' circle={true} size={"small"} full={false} >确认收货</AtButton>
              </View>
-           )
+           ):null
        }
 
      </View>
@@ -83,6 +83,6 @@ OrderItem.defaultProps = {
       }
     ]
   },
-  orderType: '1', // 1待付款 2代发货 3待收货
+  orderType: '1', // 1待付款 2代发货 3待收货 // 4去掉按钮
 }
 export default OrderItem

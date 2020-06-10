@@ -1,6 +1,6 @@
 import {Image, Text, View} from "@tarojs/components";
 import { AtIcon, AtInputNumber } from 'taro-ui'
-import './index.scss'
+import './goodsOne.scss'
 import { useState } from '@tarojs/taro'
 
 function GoodsOne (props) {

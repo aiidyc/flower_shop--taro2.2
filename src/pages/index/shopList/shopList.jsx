@@ -1,5 +1,5 @@
 import {View, Text, Image} from '@tarojs/components'
-import './index.scss'
+import './shopList.scss'
 
 function ShopList (props) {
   const { shopData } = props

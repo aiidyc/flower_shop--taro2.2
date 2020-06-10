@@ -1,0 +1,26 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="OrderConfirm">
+        <view class="OrderConfirm--top">
+            <view class="OrderConfirm--top__address">
+                <view class="OrderConfirm--top__address--top">
+                    <view class="OrderConfirm--top__address--top__info">
+                        <image style="{{anonymousState__temp}}" src="{{coordinate}}"></image><text class="OrderConfirm--top__address--top__info__text">点击选择收货地址</text>
+                    </view>
+                    <image style="{{anonymousState__temp2}}" src="{{rightArrow}}"></image>
+                </view>
+                <view class="OrderConfirm--top__address--footer"><text style="{{anonymousState__temp3}}">送达时间</text><text style="{{anonymousState__temp4}}">选择时间</text>
+                </view>
+            </view>
+            <view class="OrderConfirm--top__orderInfo">
+                <order-item compid="{{$compid__137}}"></order-item>
+            </view>
+        </view>
+        <view class="OrderConfirm--footer">
+            <view class="OrderConfirm--footer__price"><text class="OrderConfirm--footer__price1">合计:</text><text class="OrderConfirm--footer__price2">¥188</text>
+            </view>
+            <view class="OrderConfirm--footer__button">
+                <at-button compid="{{$compid__138}}">支付</at-button>
+            </view>
+        </view>
+    </view>
+</block>

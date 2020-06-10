@@ -2,7 +2,7 @@
     <view class="mine">
         <view class="mine__header">
             <view class="mine__header_avatar">
-                <at-avatar compid="{{$compid__440}}"></at-avatar>
+                <at-avatar compid="{{$compid__160}}"></at-avatar>
                 <view class="mine__header_avatar--text"><text style="{{anonymousState__temp}}">Yanni233</text><text style="{{anonymousState__temp2}}">181*****9902</text>
                 </view>
             </view>
@@ -13,18 +13,18 @@
                 </view>
                 <view class="mine__content__top--right">
                     <view class="mine__content__top--right--item" bindtap="anonymousFunc0">
-                        <at-badge compid="{{$compid__441}}">
-                            <at-icon compid="{{$compid__442}}"></at-icon>
+                        <at-badge compid="{{$compid__161}}">
+                            <at-icon compid="{{$compid__162}}"></at-icon>
                         </at-badge><text>待付款</text>
                     </view>
                     <view class="mine__content__top--right--item">
-                        <at-badge compid="{{$compid__443}}">
-                            <at-icon compid="{{$compid__444}}"></at-icon>
+                        <at-badge compid="{{$compid__163}}">
+                            <at-icon compid="{{$compid__164}}"></at-icon>
                         </at-badge><text>待发货</text>
                     </view>
                     <view class="mine__content__top--right--item">
-                        <at-badge compid="{{$compid__445}}">
-                            <at-icon compid="{{$compid__446}}"></at-icon>
+                        <at-badge compid="{{$compid__165}}">
+                            <at-icon compid="{{$compid__166}}"></at-icon>
                         </at-badge><text>待收货</text>
                     </view>
                 </view>
@@ -32,8 +32,11 @@
             <view class="mine__content__middle">
                 <view class="mine__content__middle_list">
                     <at-list>
-                        <at-list-item compid="{{$compid__447}}"></at-list-item>
-                        <at-list-item compid="{{$compid__448}}"></at-list-item>
+                        <at-list-item compid="{{$compid__167}}"></at-list-item>
+                        <at-list-item compid="{{$compid__168}}"></at-list-item>
+                        <at-list-item compid="{{$compid__169}}"></at-list-item>
+                        <at-list-item compid="{{$compid__170}}"></at-list-item>
+                        <at-list-item compid="{{$compid__171}}"></at-list-item>
                     </at-list>
                 </view>
             </view>

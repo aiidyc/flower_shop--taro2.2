@@ -1,0 +1,128 @@
+.OrderConfirm {
+  height: 100vh;
+  width: 100vw;
+  background-color: #F3F3F3;
+}
+.OrderConfirm--top {
+  width: 100%;
+  height: 85%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: auto;
+}
+.OrderConfirm--top__address {
+  margin-top: 30rpx;
+  border-radius: 20rpx;
+  padding: 10rpx 20rpx 0 35rpx;
+  height: 260rpx;
+  background-color: white;
+  width: 95%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.OrderConfirm--top__address--top {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1rpx solid #F7F7F7;
+  height: 55%;
+}
+.OrderConfirm--top__address--top__info {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.OrderConfirm--top__address--top__info__text {
+  font-weight: 500;
+  font-size: 33rpx;
+  color: #000000;
+}
+.OrderConfirm--top__address--footer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 45%;
+}
+.OrderConfirm--top__orderInfo {
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  background-color: white;
+  width: 95%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.OrderConfirm--footer {
+  width: 100%;
+  height: 15%;
+  background-color: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.OrderConfirm--footer__price {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.OrderConfirm--footer__price1 {
+  font-size: 25rpx;
+  color: #878787;
+}
+.OrderConfirm--footer__price2 {
+  margin-left: 20rpx;
+  font-size: 33rpx;
+  font-weight: 500;
+}
+.OrderConfirm--footer__button {
+  margin-left: 40rpx;
+  width: 200rpx;
+  margin-right: 40rpx;
+}

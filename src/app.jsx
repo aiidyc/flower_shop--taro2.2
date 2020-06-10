@@ -26,7 +26,9 @@ class App extends Component {
       'pages/mine/mine',
       'pages/mine/myAddress/index',
       'pages/mine/myAddress/checkAddress',
-      'pages/order/orderTabs/orderTabs'
+      'pages/order/orderTabs/orderTabs',
+      'pages/order/orderConfirm/orderConfirm',
+      'pages/order/productDetails/productDetails'
     ],
     window: {
       backgroundTextStyle: 'light',

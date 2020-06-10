@@ -52,7 +52,7 @@ var MyAddress = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = MyAddress.__proto__ || Object.getPrototypeOf(MyAddress)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '地址管理'
-    }, _this.$usedState = ["$compid__423"], _this.customComponents = ["AddressItem"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["$compid__115"], _this.customComponents = ["AddressItem"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(MyAddress, [{
@@ -71,17 +71,17 @@ var MyAddress = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__423"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__115"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__423 = _genCompid2[0],
-          $compid__423 = _genCompid2[1];
+          $prevCompid__115 = _genCompid2[0],
+          $compid__115 = _genCompid2[1];
 
       var props = this.__props;
       _taroWeapp.propsManager.set({
         "defaultAddress": false
-      }, $compid__423, $prevCompid__423);
+      }, $compid__115, $prevCompid__115);
       Object.assign(this.__state, {
-        $compid__423: $compid__423
+        $compid__115: $compid__115
       });
       return this.__state;
     }

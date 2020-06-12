@@ -24,7 +24,7 @@ class App extends Component {
       'pages/list/list',
       'pages/cart/cart',
       'pages/mine/mine',
-      'pages/mine/myAddress/index',
+      'pages/mine/myAddress/editAddress',
       'pages/mine/myAddress/checkAddress',
       'pages/order/orderTabs/orderTabs',
       'pages/order/orderConfirm/orderConfirm',

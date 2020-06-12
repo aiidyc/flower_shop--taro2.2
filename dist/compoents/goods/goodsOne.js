@@ -50,7 +50,7 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = GoodsOne.__proto__ || Object.getPrototypeOf(GoodsOne)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "$compid__139", "$compid__140", "goodsData", "priceType", "buttonType"], _this.customComponents = ["AtIcon", "AtInputNumber"], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = GoodsOne.__proto__ || Object.getPrototypeOf(GoodsOne)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "$compid__135", "$compid__136", "goodsData", "priceType", "buttonType"], _this.customComponents = ["AtIcon", "AtInputNumber"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(GoodsOne, [{
@@ -69,15 +69,15 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__139"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__135"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__139 = _genCompid2[0],
-          $compid__139 = _genCompid2[1];
+          $prevCompid__135 = _genCompid2[0],
+          $compid__135 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__140"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__136"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__140 = _genCompid4[0],
-          $compid__140 = _genCompid4[1];
+          $prevCompid__136 = _genCompid4[0],
+          $compid__136 = _genCompid4[1];
 
       var props = this.__props;
 
@@ -108,7 +108,7 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
         "value": "add-circle",
         "size": "25",
         "color": "#5F9F92"
-      }, $compid__139, $prevCompid__139);
+      }, $compid__135, $prevCompid__135);
       !(buttonType === '1') && buttonType === '2' && _taroWeapp.propsManager.set({
         "min": 0,
         "max": 9999,
@@ -116,12 +116,12 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
         "value": count,
         "width": numWidth,
         "onChange": this.anonymousFunc1
-      }, $compid__140, $prevCompid__140);
+      }, $compid__136, $prevCompid__136);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
         anonymousState__temp2: anonymousState__temp2,
-        $compid__139: $compid__139,
-        $compid__140: $compid__140,
+        $compid__135: $compid__135,
+        $compid__136: $compid__136,
         goodsData: goodsData,
         priceType: priceType,
         buttonType: buttonType

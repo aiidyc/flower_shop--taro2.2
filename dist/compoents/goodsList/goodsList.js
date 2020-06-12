@@ -48,7 +48,7 @@ var GoodsList = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = GoodsList.__proto__ || Object.getPrototypeOf(GoodsList)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray86", "goodsData"], _this.anonymousFunc0Map = {}, _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = GoodsList.__proto__ || Object.getPrototypeOf(GoodsList)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray11", "goodsData"], _this.anonymousFunc0Map = {}, _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(GoodsList, [{
@@ -72,7 +72,7 @@ var GoodsList = (_temp2 = _class = function (_Taro$Component) {
 
       var goodsData = props.goodsData;
 
-      var loopArray86 = goodsData.map(function (item, index) {
+      var loopArray11 = goodsData.map(function (item, index) {
         item = {
           $original: (0, _taroWeapp.internal_get_original)(item)
         };
@@ -82,7 +82,7 @@ var GoodsList = (_temp2 = _class = function (_Taro$Component) {
         };
         var indexType = index % 2 !== 0;
 
-        var _$indexKey = "idzzz" + index;
+        var _$indexKey = "bezzz" + index;
 
         _this2.anonymousFunc0Map[_$indexKey] = function () {
           console.log(index);
@@ -98,7 +98,7 @@ var GoodsList = (_temp2 = _class = function (_Taro$Component) {
         };
       });
       Object.assign(this.__state, {
-        loopArray86: loopArray86,
+        loopArray11: loopArray11,
         goodsData: goodsData
       });
       return this.__state;

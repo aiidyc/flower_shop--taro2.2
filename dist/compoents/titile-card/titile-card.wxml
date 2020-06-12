@@ -1,4 +1,0 @@
-<block wx:if="{{$taroCompReady}}">
-    <view class="TitleCard" style="{{anonymousState__temp}}"><text class="TitleCard__leftTitle">{{leftTitle}}<text class="TitleCard__leftTitle__Sub"></text></text><text class="TitleCard__rightTitle">{{rightTitle}}</text>
-    </view>
-</block>

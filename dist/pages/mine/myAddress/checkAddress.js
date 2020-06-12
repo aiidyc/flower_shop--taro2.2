@@ -57,7 +57,7 @@ var CheckAddress = (_temp2 = _class = function (_Taro$Component) {
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = CheckAddress.__proto__ || Object.getPrototypeOf(CheckAddress)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '选择地址'
       // 获取全局状态变量和方法 放入props
-    }, _this.$usedState = ["loopArray121", "allAddress"], _this.anonymousFunc0Map = {}, _this.customComponents = ["CheckAddressItem"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["loopArray8", "allAddress"], _this.anonymousFunc0Map = {}, _this.customComponents = ["CheckAddressItem"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(CheckAddress, [{
@@ -85,12 +85,12 @@ var CheckAddress = (_temp2 = _class = function (_Taro$Component) {
           checkAddress = props.checkAddress;
 
       var checkedIndex = checkedAddress.index;
-      var loopArray121 = allAddress.map(function (item, index) {
+      var loopArray8 = allAddress.map(function (item, index) {
         item = {
           $original: (0, _taroWeapp.internal_get_original)(item)
         };
 
-        var _$indexKey = "bdgzz" + index;
+        var _$indexKey = "bazzz" + index;
 
         _this2.anonymousFunc0Map[_$indexKey] = function () {
           console.log(item.$original, index);
@@ -103,24 +103,24 @@ var CheckAddress = (_temp2 = _class = function (_Taro$Component) {
 
         var $loopState__temp2 = index === checkedIndex;
 
-        var _genCompid = (0, _taroWeapp.genCompid)(__prefix + 'bdhzzzzzzz' + index, true),
+        var _genCompid = (0, _taroWeapp.genCompid)(__prefix + 'bbzzzzzzzz' + index, true),
             _genCompid2 = _slicedToArray(_genCompid, 2),
-            $prevCompid__1775 = _genCompid2[0],
-            $compid__1775 = _genCompid2[1];
+            $prevCompid__111 = _genCompid2[0],
+            $compid__111 = _genCompid2[1];
 
         _taroWeapp.propsManager.set({
           "addressData": item.$original,
           "checked": $loopState__temp2
-        }, $compid__1775, $prevCompid__1775);
+        }, $compid__111, $prevCompid__111);
         return {
           _$indexKey: _$indexKey,
           $loopState__temp2: $loopState__temp2,
-          $compid__1775: $compid__1775,
+          $compid__111: $compid__111,
           $original: item.$original
         };
       });
       Object.assign(this.__state, {
-        loopArray121: loopArray121,
+        loopArray8: loopArray8,
         allAddress: allAddress
       });
       return this.__state;

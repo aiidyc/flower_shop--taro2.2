@@ -15,7 +15,7 @@ const CheckAddress = (props) => {
      </View>
      {
        allAddress.map((item, index)=>(
-         <View className='CheckAddressItem__Box' onClick={()=>{
+         <View className='CheckAddressItem__Box' taroKey={item.id} key={item.id} onClick={()=>{
            console.log(item, index)
            const checkData = {
              index: index,
@@ -23,7 +23,7 @@ const CheckAddress = (props) => {
            }
            checkAddress(checkData)
          }}>
-           <CheckAddressItem key={item.id} addressData={item} checked={index===checkedIndex}/>
+           <CheckAddressItem  addressData={item} checked={index===checkedIndex}/>
          </View>
        ))
      }

@@ -48,7 +48,7 @@ var NewSwiper = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = NewSwiper.__proto__ || Object.getPrototypeOf(NewSwiper)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "loopArray7", "img"], _this.anonymousFunc0Map = {}, _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = NewSwiper.__proto__ || Object.getPrototypeOf(NewSwiper)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "loopArray10", "img"], _this.anonymousFunc0Map = {}, _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(NewSwiper, [{
@@ -74,12 +74,12 @@ var NewSwiper = (_temp2 = _class = function (_Taro$Component) {
           height = props.height;
 
       var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ height: height });
-      var loopArray7 = img.map(function (item, __index0) {
+      var loopArray10 = img.map(function (item, __index0) {
         item = {
           $original: (0, _taroWeapp.internal_get_original)(item)
         };
 
-        var _$indexKey = "gzzzz" + __index0;
+        var _$indexKey = "bdzzz" + __index0;
 
         _this2.anonymousFunc0Map[_$indexKey] = function () {
           console.log(1);
@@ -92,7 +92,7 @@ var NewSwiper = (_temp2 = _class = function (_Taro$Component) {
       });
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
-        loopArray7: loopArray7,
+        loopArray10: loopArray10,
         img: img
       });
       return this.__state;

@@ -2,7 +2,7 @@
     <view class="ProduceDetails">
         <view class="ProduceDetails__header">
             <view class="ProduceDetails__header__swiper">
-                <new-swiper compid="{{$compid__487}}"></new-swiper>
+                <new-swiper compid="{{$compid__132}}"></new-swiper>
             </view>
             <view class="ProduceDetails__header__content">
                 <view class="ProduceDetails__header__content--priceCard">
@@ -31,10 +31,10 @@
             </view>
             <view class="ProduceDetails__footer--right">
                 <view class="ProduceDetails__footer--right--btn1 ProduceDetails__footer--right--btn">
-                    <at-button compid="{{$compid__488}}">加入购物车</at-button>
+                    <at-button compid="{{$compid__133}}">加入购物车</at-button>
                 </view>
                 <view class="ProduceDetails__footer--right--btn2 ProduceDetails__footer--right--btn">
-                    <at-button compid="{{$compid__489}}">立即购买</at-button>
+                    <at-button compid="{{$compid__134}}">立即购买</at-button>
                 </view>
             </view>
         </view>

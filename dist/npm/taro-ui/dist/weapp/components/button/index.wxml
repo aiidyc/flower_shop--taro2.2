@@ -14,7 +14,7 @@
         <block>
             <block wx:if="{{loading}}">
                 <view class="at-button__icon">
-                    <at-loading compid="{{$compid__147}}"></at-loading>
+                    <at-loading compid="{{$compid__143}}"></at-loading>
                 </view>
             </block>
         </block>

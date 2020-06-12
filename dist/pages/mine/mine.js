@@ -64,7 +64,7 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Mine.__proto__ || Object.getPrototypeOf(Mine)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '我的'
-    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "anonymousState__temp5", "anonymousState__temp6", "anonymousState__temp7", "anonymousState__temp8", "$compid__977", "$compid__978", "$compid__979", "$compid__980", "$compid__981", "$compid__982", "$compid__983", "$compid__984", "$compid__985", "daifukuan", "daifahuo", "daishouhuo"], _this.customComponents = ["AtAvatar", "AtBadge", "AtList", "AtListItem"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "anonymousState__temp5", "anonymousState__temp6", "anonymousState__temp7", "anonymousState__temp8", "$compid__153", "$compid__154", "$compid__155", "$compid__156", "$compid__157", "$compid__158", "$compid__159", "$compid__160", "$compid__161", "daifukuan", "daifahuo", "daishouhuo"], _this.customComponents = ["AtAvatar", "AtBadge", "AtList", "AtListItem"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Mine, [{
@@ -83,50 +83,50 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__977"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__153"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__977 = _genCompid2[0],
-          $compid__977 = _genCompid2[1];
+          $prevCompid__153 = _genCompid2[0],
+          $compid__153 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__978"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__154"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__978 = _genCompid4[0],
-          $compid__978 = _genCompid4[1];
+          $prevCompid__154 = _genCompid4[0],
+          $compid__154 = _genCompid4[1];
 
-      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__979"),
+      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__155"),
           _genCompid6 = _slicedToArray(_genCompid5, 2),
-          $prevCompid__979 = _genCompid6[0],
-          $compid__979 = _genCompid6[1];
+          $prevCompid__155 = _genCompid6[0],
+          $compid__155 = _genCompid6[1];
 
-      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__980"),
+      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__156"),
           _genCompid8 = _slicedToArray(_genCompid7, 2),
-          $prevCompid__980 = _genCompid8[0],
-          $compid__980 = _genCompid8[1];
+          $prevCompid__156 = _genCompid8[0],
+          $compid__156 = _genCompid8[1];
 
-      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__981"),
+      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__157"),
           _genCompid10 = _slicedToArray(_genCompid9, 2),
-          $prevCompid__981 = _genCompid10[0],
-          $compid__981 = _genCompid10[1];
+          $prevCompid__157 = _genCompid10[0],
+          $compid__157 = _genCompid10[1];
 
-      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__982"),
+      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__158"),
           _genCompid12 = _slicedToArray(_genCompid11, 2),
-          $prevCompid__982 = _genCompid12[0],
-          $compid__982 = _genCompid12[1];
+          $prevCompid__158 = _genCompid12[0],
+          $compid__158 = _genCompid12[1];
 
-      var _genCompid13 = (0, _taroWeapp.genCompid)(__prefix + "$compid__983"),
+      var _genCompid13 = (0, _taroWeapp.genCompid)(__prefix + "$compid__159"),
           _genCompid14 = _slicedToArray(_genCompid13, 2),
-          $prevCompid__983 = _genCompid14[0],
-          $compid__983 = _genCompid14[1];
+          $prevCompid__159 = _genCompid14[0],
+          $compid__159 = _genCompid14[1];
 
-      var _genCompid15 = (0, _taroWeapp.genCompid)(__prefix + "$compid__984"),
+      var _genCompid15 = (0, _taroWeapp.genCompid)(__prefix + "$compid__160"),
           _genCompid16 = _slicedToArray(_genCompid15, 2),
-          $prevCompid__984 = _genCompid16[0],
-          $compid__984 = _genCompid16[1];
+          $prevCompid__160 = _genCompid16[0],
+          $compid__160 = _genCompid16[1];
 
-      var _genCompid17 = (0, _taroWeapp.genCompid)(__prefix + "$compid__985"),
+      var _genCompid17 = (0, _taroWeapp.genCompid)(__prefix + "$compid__161"),
           _genCompid18 = _slicedToArray(_genCompid17, 2),
-          $prevCompid__985 = _genCompid18[0],
-          $compid__985 = _genCompid18[1];
+          $prevCompid__161 = _genCompid18[0],
+          $compid__161 = _genCompid18[1];
 
       var props = this.__props;
       var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ color: "#FFFFFF", fontSize: '15px' });
@@ -165,7 +165,7 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
       };
 
       this.anonymousFunc5 = function () {
-        _taroWeapp2.default.navigateTo({ url: '/pages/mine/myAddress/index' });
+        _taroWeapp2.default.navigateTo({ url: '/pages/mine/myAddress/editAddress' });
       };
 
       this.anonymousFunc6 = function () {
@@ -185,44 +185,44 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
         "size": "large",
         "circle": true,
         "text": '\u59AE\u59AEYan_ni'
-      }, $compid__977, $prevCompid__977);
+      }, $compid__153, $prevCompid__153);
       _taroWeapp.propsManager.set({
         "value": 10,
         "maxValue": 99
-      }, $compid__978, $prevCompid__978);
+      }, $compid__154, $prevCompid__154);
       _taroWeapp.propsManager.set({
         "value": 10,
         "maxValue": 99
-      }, $compid__979, $prevCompid__979);
+      }, $compid__155, $prevCompid__155);
       _taroWeapp.propsManager.set({
         "value": 10,
         "maxValue": 99
-      }, $compid__980, $prevCompid__980);
+      }, $compid__156, $prevCompid__156);
       _taroWeapp.propsManager.set({
         "title": '\u4E2A\u4EBA\u4FE1\u606F',
         "arrow": "right",
         "onClick": this.anonymousFunc4
-      }, $compid__981, $prevCompid__981);
+      }, $compid__157, $prevCompid__157);
       _taroWeapp.propsManager.set({
         "title": '\u5730\u5740\u7BA1\u7406',
         "arrow": "right",
         "onClick": this.anonymousFunc5
-      }, $compid__982, $prevCompid__982);
+      }, $compid__158, $prevCompid__158);
       _taroWeapp.propsManager.set({
         "title": '\u5730\u5740\u9009\u62E9',
         "arrow": "right",
         "onClick": this.anonymousFunc6
-      }, $compid__983, $prevCompid__983);
+      }, $compid__159, $prevCompid__159);
       _taroWeapp.propsManager.set({
         "title": '\u8BA2\u5355\u786E\u8BA4',
         "arrow": "right",
         "onClick": this.anonymousFunc7
-      }, $compid__984, $prevCompid__984);
+      }, $compid__160, $prevCompid__160);
       _taroWeapp.propsManager.set({
         "title": '\u5546\u54C1\u8BE6\u60C5',
         "arrow": "right",
         "onClick": this.anonymousFunc8
-      }, $compid__985, $prevCompid__985);
+      }, $compid__161, $prevCompid__161);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
         anonymousState__temp2: anonymousState__temp2,
@@ -232,15 +232,15 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
         anonymousState__temp6: anonymousState__temp6,
         anonymousState__temp7: anonymousState__temp7,
         anonymousState__temp8: anonymousState__temp8,
-        $compid__977: $compid__977,
-        $compid__978: $compid__978,
-        $compid__979: $compid__979,
-        $compid__980: $compid__980,
-        $compid__981: $compid__981,
-        $compid__982: $compid__982,
-        $compid__983: $compid__983,
-        $compid__984: $compid__984,
-        $compid__985: $compid__985,
+        $compid__153: $compid__153,
+        $compid__154: $compid__154,
+        $compid__155: $compid__155,
+        $compid__156: $compid__156,
+        $compid__157: $compid__157,
+        $compid__158: $compid__158,
+        $compid__159: $compid__159,
+        $compid__160: $compid__160,
+        $compid__161: $compid__161,
         daifukuan: _daifukuan2.default,
         daifahuo: _daifahuo2.default,
         daishouhuo: _daishouhuo2.default

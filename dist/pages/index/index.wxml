@@ -1,6 +1,6 @@
 <block wx:if="{{$taroCompReady}}">
     <view class="index">
-        <new-swiper compid="{{$compid__1662}}"></new-swiper>
+        <new-swiper compid="{{$compid__72}}"></new-swiper>
         <shop-list></shop-list>
         <view class="newGard">
             <view class="grid-header"><text class="grid-header__title">新品推荐</text><text class="grid-header__more">更多</text>

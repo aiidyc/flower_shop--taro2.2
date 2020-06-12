@@ -61,7 +61,7 @@ const Mine = (props) => {
               }} />
               <AtListItem title='地址管理' arrow='right'
                           onClick={()=>{
-                            Taro.navigateTo({url:'/pages/mine/myAddress/index'})
+                            Taro.navigateTo({url:'/pages/mine/myAddress/editAddress'})
                           }}
               />
               <AtListItem title='地址选择' arrow='right'

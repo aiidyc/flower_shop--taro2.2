@@ -90,7 +90,7 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '鲜花首页'
-    }, _this.$usedState = ["$compid__1662"], _this.customComponents = ["NewSwiper", "ShopList", "GoodsList"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["$compid__72"], _this.customComponents = ["NewSwiper", "ShopList", "GoodsList"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Index, [{
@@ -109,17 +109,17 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__1662"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__72"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__1662 = _genCompid2[0],
-          $compid__1662 = _genCompid2[1];
+          $prevCompid__72 = _genCompid2[0],
+          $compid__72 = _genCompid2[1];
 
       _taroWeapp.propsManager.set({
         "img": imgs,
         "height": '35%'
-      }, $compid__1662, $prevCompid__1662);
+      }, $compid__72, $prevCompid__72);
       Object.assign(this.__state, {
-        $compid__1662: $compid__1662
+        $compid__72: $compid__72
       });
       return this.__state;
     }

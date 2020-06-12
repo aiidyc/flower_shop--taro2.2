@@ -60,7 +60,7 @@ var OrderConfirm = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = OrderConfirm.__proto__ || Object.getPrototypeOf(OrderConfirm)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '确认订单'
-    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "$compid__137", "$compid__138", "coordinate", "rightArrow"], _this.customComponents = ["OrderItem", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "$compid__130", "$compid__131", "coordinate", "rightArrow"], _this.customComponents = ["OrderItem", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(OrderConfirm, [{
@@ -79,15 +79,15 @@ var OrderConfirm = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__137"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__130"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__137 = _genCompid2[0],
-          $compid__137 = _genCompid2[1];
+          $prevCompid__130 = _genCompid2[0],
+          $compid__130 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__138"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__131"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__138 = _genCompid4[0],
-          $compid__138 = _genCompid4[1];
+          $prevCompid__131 = _genCompid4[0],
+          $compid__131 = _genCompid4[1];
 
       var props = this.__props;
       var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ width: '22px', height: '22px', marginRight: '10px' });
@@ -96,19 +96,19 @@ var OrderConfirm = (_temp2 = _class = function (_Taro$Component) {
       var anonymousState__temp4 = (0, _taroWeapp.internal_inline_style)({ color: '#D7B285', marginRight: '5px', fontSize: '33rpx' });
       _taroWeapp.propsManager.set({
         "orderType": '4'
-      }, $compid__137, $prevCompid__137);
+      }, $compid__130, $prevCompid__130);
       _taroWeapp.propsManager.set({
         "size": "normal",
         "type": "primary",
         "circle": true
-      }, $compid__138, $prevCompid__138);
+      }, $compid__131, $prevCompid__131);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
         anonymousState__temp2: anonymousState__temp2,
         anonymousState__temp3: anonymousState__temp3,
         anonymousState__temp4: anonymousState__temp4,
-        $compid__137: $compid__137,
-        $compid__138: $compid__138,
+        $compid__130: $compid__130,
+        $compid__131: $compid__131,
         coordinate: _coordinate2.default,
         rightArrow: _rightArrow2.default
       });

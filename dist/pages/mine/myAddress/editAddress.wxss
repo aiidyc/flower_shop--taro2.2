@@ -13,10 +13,10 @@
           align-items: center;
   overflow: auto;
 }
-
 .addAddress {
   width: 95%;
   height: 100rpx;
+  min-height: 100rpx;
   background-color: #F0F0F0;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -40,7 +40,6 @@
   font-weight: 500;
   font-size: 33rpx;
 }
-
 .AddressItemBox {
   width: 95%;
   border-radius: 20rpx;
@@ -53,11 +52,3 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
-.CheckAddressItem__Box {
-  width: 95%;
-  margin-bottom: 20rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-

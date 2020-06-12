@@ -1,0 +1,40 @@
+.goodsCard{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.goodsItem{
+  height: 461px;
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.goodsItem_img{
+  width: 100%;
+  height: 310px;
+  border-radius: 12px;
+}
+.goodsItem_title{
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #444444;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.goodsItem_subTitle{
+  font-size: 25px;
+  color: #795a4d;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.goodsItem_price{
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+}

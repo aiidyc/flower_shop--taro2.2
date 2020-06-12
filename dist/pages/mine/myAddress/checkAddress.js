@@ -26,7 +26,11 @@ var _taroWeapp = __webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@
 
 var _taroWeapp2 = _interopRequireDefault(_taroWeapp);
 
-__webpack_require__(/*! ./index.scss */ "./src/pages/mine/myAddress/index.scss");
+var _redux = __webpack_require__(/*! @tarojs/redux */ "./node_modules/@tarojs/redux/index.js");
+
+__webpack_require__(/*! ./checkAddress.scss */ "./src/pages/mine/myAddress/checkAddress.scss");
+
+var _reducersType = __webpack_require__(/*! ../../../reducers/reducersType */ "./src/reducers/reducersType.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -52,7 +56,8 @@ var CheckAddress = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = CheckAddress.__proto__ || Object.getPrototypeOf(CheckAddress)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '选择地址'
-    }, _this.$usedState = ["$compid__116", "$compid__117", "$compid__118"], _this.customComponents = ["CheckAddressItem"], _temp), _possibleConstructorReturn(_this, _ret);
+      // 获取全局状态变量和方法 放入props
+    }, _this.$usedState = ["loopArray121", "allAddress"], _this.anonymousFunc0Map = {}, _this.customComponents = ["CheckAddressItem"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(CheckAddress, [{
@@ -65,54 +70,97 @@ var CheckAddress = (_temp2 = _class = function (_Taro$Component) {
   }, {
     key: '_createData',
     value: function _createData() {
+      var _this2 = this;
+
       this.__state = arguments[0] || this.state || {};
       this.__props = arguments[1] || this.props || {};
       var __isRunloopRef = arguments[2];
       var __prefix = this.$prefix;
       ;
-
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__116"),
-          _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__116 = _genCompid2[0],
-          $compid__116 = _genCompid2[1];
-
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__117"),
-          _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__117 = _genCompid4[0],
-          $compid__117 = _genCompid4[1];
-
-      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__118"),
-          _genCompid6 = _slicedToArray(_genCompid5, 2),
-          $prevCompid__118 = _genCompid6[0],
-          $compid__118 = _genCompid6[1];
-
       var props = this.__props;
-      _taroWeapp.propsManager.set({
-        "checked": false
-      }, $compid__116, $prevCompid__116);
-      _taroWeapp.propsManager.set({
-        "checked": false
-      }, $compid__117, $prevCompid__117);
-      _taroWeapp.propsManager.set({
-        "checked": false
-      }, $compid__118, $prevCompid__118);
+
+      var _props$cart = props.cart,
+          allAddress = _props$cart.allAddress,
+          checkedAddress = _props$cart.checkedAddress,
+          checkAddress = props.checkAddress;
+
+      var checkedIndex = checkedAddress.index;
+      var loopArray121 = allAddress.map(function (item, index) {
+        item = {
+          $original: (0, _taroWeapp.internal_get_original)(item)
+        };
+
+        var _$indexKey = "bdgzz" + index;
+
+        _this2.anonymousFunc0Map[_$indexKey] = function () {
+          console.log(item.$original, index);
+          var checkData = {
+            index: index,
+            data: item.$original
+          };
+          checkAddress(checkData);
+        };
+
+        var $loopState__temp2 = index === checkedIndex;
+
+        var _genCompid = (0, _taroWeapp.genCompid)(__prefix + 'bdhzzzzzzz' + index, true),
+            _genCompid2 = _slicedToArray(_genCompid, 2),
+            $prevCompid__1775 = _genCompid2[0],
+            $compid__1775 = _genCompid2[1];
+
+        _taroWeapp.propsManager.set({
+          "addressData": item.$original,
+          "checked": $loopState__temp2
+        }, $compid__1775, $prevCompid__1775);
+        return {
+          _$indexKey: _$indexKey,
+          $loopState__temp2: $loopState__temp2,
+          $compid__1775: $compid__1775,
+          $original: item.$original
+        };
+      });
       Object.assign(this.__state, {
-        $compid__116: $compid__116,
-        $compid__117: $compid__117,
-        $compid__118: $compid__118
+        loopArray121: loopArray121,
+        allAddress: allAddress
       });
       return this.__state;
+    }
+  }, {
+    key: 'anonymousFunc0',
+    value: function anonymousFunc0(_$indexKey) {
+      var _anonymousFunc0Map;
+
+      ;
+
+      for (var _len2 = arguments.length, e = Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
+        e[_key2 - 1] = arguments[_key2];
+      }
+
+      return this.anonymousFunc0Map[_$indexKey] && (_anonymousFunc0Map = this.anonymousFunc0Map)[_$indexKey].apply(_anonymousFunc0Map, e);
     }
   }]);
 
   return CheckAddress;
-}(_taroWeapp2.default.Component), _class.$$events = [], _class.$$componentPath = "pages/mine/myAddress/checkAddress", _temp2);
+}(_taroWeapp2.default.Component), _class.$$events = ["anonymousFunc0"], _class.$$componentPath = "pages/mine/myAddress/checkAddress", _temp2);
 
 
-CheckAddress.config = { navigationBarTitleText: '选择地址' };
-exports.default = CheckAddress;
+CheckAddress.config = { navigationBarTitleText: '选择地址' };var stateP = function stateP(state) {
+  return {
+    // cart:{cart对象} 赋值给props
+    cart: state.cart
+  };
+};
+var dispatchP = function dispatchP(dispatch) {
+  return {
+    checkAddress: function checkAddress(item) {
+      dispatch({ type: _reducersType.ADDRESS.CHECK, data: item });
+    }
+  };
+};
+var CheckAddress__Connected = (0, _redux.connect)(stateP, dispatchP)(CheckAddress);
+exports.default = CheckAddress__Connected;
 
-Component(__webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@tarojs/taro-weapp/index.js").default.createComponent(CheckAddress, true));
+Component(__webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@tarojs/taro-weapp/index.js").default.createComponent(CheckAddress__Connected, true));
 
 /***/ }),
 
@@ -174,6 +222,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _file_loader_name_path_name_wxml_context_Users_yuancong_Desktop_yuancong1_2020_Git_flower_shop_src_node_modules_tarojs_mini_runner_dist_loaders_miniTemplateLoader_js_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_checkAddress_jsx_taro_type_template_parse_PAGE___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_file_loader_name_path_name_wxml_context_Users_yuancong_Desktop_yuancong1_2020_Git_flower_shop_src_node_modules_tarojs_mini_runner_dist_loaders_miniTemplateLoader_js_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_checkAddress_jsx_taro_type_template_parse_PAGE___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _file_loader_name_path_name_wxml_context_Users_yuancong_Desktop_yuancong1_2020_Git_flower_shop_src_node_modules_tarojs_mini_runner_dist_loaders_miniTemplateLoader_js_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_checkAddress_jsx_taro_type_template_parse_PAGE___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _file_loader_name_path_name_wxml_context_Users_yuancong_Desktop_yuancong1_2020_Git_flower_shop_src_node_modules_tarojs_mini_runner_dist_loaders_miniTemplateLoader_js_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_checkAddress_jsx_taro_type_template_parse_PAGE___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
+
+/***/ }),
+
+/***/ "./src/pages/mine/myAddress/checkAddress.scss":
+/*!****************************************************!*\
+  !*** ./src/pages/mine/myAddress/checkAddress.scss ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ })
 

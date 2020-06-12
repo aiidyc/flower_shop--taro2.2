@@ -11,6 +11,7 @@
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: auto;
 }
 
 .addAddress {

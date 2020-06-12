@@ -3,7 +3,7 @@ import './checkAddress-item.scss'
 import CheckedImg from './../../assets/checkAddress.png'
 
 function CheckAddressItem (props) {
-  const { checked,addressData } = props
+  const { checked, addressData } = props
   return(
     <View className='checkAddressItem'>
       <View className='checkAddressItem__left'>
@@ -24,10 +24,10 @@ function CheckAddressItem (props) {
 
 CheckAddressItem.defaultProps = {
   addressData: {
-    phoneNumber:15203596284,
+    phoneNumber:'15203596284',
     name: '张永强',
     address: '成都市武侯区艺墅·花乡1522'
   },
-  checked: true,
+  checked: false,
 }
 export default CheckAddressItem

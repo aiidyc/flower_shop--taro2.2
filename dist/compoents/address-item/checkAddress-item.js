@@ -98,11 +98,11 @@ var CheckAddressItem = (_temp2 = _class = function (_Taro$Component) {
 
 CheckAddressItem.defaultProps = {
   addressData: {
-    phoneNumber: 15203596284,
+    phoneNumber: '15203596284',
     name: '张永强',
     address: '成都市武侯区艺墅·花乡1522'
   },
-  checked: true
+  checked: false
 };
 exports.default = CheckAddressItem;
 

@@ -1,4 +1,17 @@
 .orderItemBox {
   width: 95%;
   margin: 20rpx auto;
+  background-color: #F3F3F3;
+}
+.orderTab {
+  background-color: #F3F3F3;
+  padding-top: 10rpx;
+  height: 90vh;
+  width: 100vw;
+  overflow: auto;
+  padding-bottom: 80rpx;
+}
+.at-button {
+  color: #40B08F !important;
+  border: 1rpx solid #BFE2D7 !important;
 }

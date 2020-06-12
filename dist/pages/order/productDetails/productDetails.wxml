@@ -2,7 +2,7 @@
     <view class="ProduceDetails">
         <view class="ProduceDetails__header">
             <view class="ProduceDetails__header__swiper">
-                <new-swiper compid="{{$compid__348}}"></new-swiper>
+                <new-swiper compid="{{$compid__487}}"></new-swiper>
             </view>
             <view class="ProduceDetails__header__content">
                 <view class="ProduceDetails__header__content--priceCard">
@@ -15,7 +15,9 @@
                     <view class="ProduceDetails__header__content--priceCard-item2"><text class="priceCard-item2--title">成都鲜花同城冰淇淋小花束</text><text class="priceCard-item2--subTitle">成都鲜花同城冰淇淋小花束套装送爱人</text>
                     </view>
                 </view>
-                <view class="ProduceDetails__header__content--productInfo"></view>
+                <view class="ProduceDetails__header__content--productInfo">
+                    <goods-details></goods-details>
+                </view>
             </view>
         </view>
         <view class="ProduceDetails__footer">
@@ -28,11 +30,11 @@
                 </view>
             </view>
             <view class="ProduceDetails__footer--right">
-                <view class="ProduceDetails__footer--right--btn1">
-                    <button>加入购物车</button>
+                <view class="ProduceDetails__footer--right--btn1 ProduceDetails__footer--right--btn">
+                    <at-button compid="{{$compid__488}}">加入购物车</at-button>
                 </view>
-                <view class="ProduceDetails__footer--right--btn2">
-                    <button>立即购买</button>
+                <view class="ProduceDetails__footer--right--btn2 ProduceDetails__footer--right--btn">
+                    <at-button compid="{{$compid__489}}">立即购买</at-button>
                 </view>
             </view>
         </view>

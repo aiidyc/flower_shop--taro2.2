@@ -1,23 +1,30 @@
-import Taro, { useState } from '@tarojs/taro'
+import Taro, { useState, useEffect } from '@tarojs/taro'
 import { View, Text } from '@tarojs/components'
 import { AtTabs, AtTabsPane } from 'taro-ui'
 import OrderItem from './../../../compoents/order-item/order-item'
 import './orderTabs.scss'
-const OrderTabs = (props) => {
+
+function OrderTabs(props) {
   const [current, setCurrent] = useState(0)
   const tabList = [{ title: '待付款' }, { title: '待发货' }, { title: '待收货' }]
+
+  useEffect(()=>{
+    const newCurrent = +this.$router.params.current||0
+    setCurrent(newCurrent)
+  },[])
+
   return (
     <View className='OrderTabs'>
       <AtTabs current={current} tabList={tabList} onClick={(index)=>{setCurrent(index)}}>
         <AtTabsPane current={current} index={0} >
-          <View style='background-color:#F3F3F3;padding-top:10rpx' >
+          <View className='orderTab'>
             <View className='orderItemBox'>
               <OrderItem orderType={'1'}/>
             </View>
           </View>
         </AtTabsPane>
-        <AtTabsPane current={current} index={1}>
-          <View style='background-color: #F3F3F3;padding-top:10rpx'>
+        <AtTabsPane  current={current} index={1}>
+          <View className='orderTab' >
             <View className='orderItemBox'>
               <OrderItem orderType={'2'}/>
             </View>
@@ -57,7 +64,7 @@ const OrderTabs = (props) => {
           </View>
         </AtTabsPane>
         <AtTabsPane current={current} index={2}>
-          <View style='background-color: #F3F3F3;padding-top:10rpx'>
+          <View className='orderTab' >
             <View className='orderItemBox'>
               <OrderItem orderType={'3'}/>
             </View>

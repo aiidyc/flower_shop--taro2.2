@@ -1,8 +1,11 @@
 import Taro from '@tarojs/taro'
 
-import { View, Text } from '@tarojs/components'
-import { AtAvatar, AtIcon, AtBadge, AtList, AtListItem } from 'taro-ui'
+import { View, Text, Image } from '@tarojs/components'
+import { AtAvatar, AtBadge, AtList, AtListItem } from 'taro-ui'
 import './mine.scss'
+import daifukuan from './../../assets/daifukuan.png'
+import daifahuo from './../../assets/daifahuo.png'
+import daishouhuo from '../../assets/daishouhuo.png'
 
 const Mine = (props) => {
     return (
@@ -18,29 +21,35 @@ const Mine = (props) => {
       </View>
       <View className='mine__content'>
         <View className='mine__content__top'>
-          <View className='mine__content__top--left'>
+          <View className='mine__content__top--left' onClick={()=>{Taro.navigateTo({url:'/pages/order/orderTabs/orderTabs'})
+          }}>
             <Text>我的订单</Text>
           </View>
           <View className='mine__content__top--right'>
-            <View className='mine__content__top--right--item' onClick={()=>{console.log('跳转到订单页面')
-              Taro.navigateTo({url:'/pages/order/orderTabs/orderTabs'})
+            <View className='mine__content__top--right--item' onClick={()=>{console.log('跳转到待收货')
+              Taro.navigateTo({url:'/pages/order/orderTabs/orderTabs?current=0'})
             }}>
               <AtBadge value={10} maxValue={99}>
-              <AtIcon value='credit-card' size='35' color='#54B7A2'></AtIcon>
+                <Image src={daifukuan} style={{width:'60rpx',height:'60rpx'}}/>
+              {/*<AtIcon value='credit-card' size='35' color='#54B7A2'></AtIcon>*/}
               </AtBadge>
-              <Text>待付款</Text>
+              <Text style={{marginTop:'5px'}}>待付款</Text>
             </View>
-            <View className='mine__content__top--right--item'>
+            <View className='mine__content__top--right--item'onClick={()=>{console.log('跳转到待发货')
+              Taro.navigateTo({url:'/pages/order/orderTabs/orderTabs?current=1'})
+            }} >
               <AtBadge value={10} maxValue={99}>
-              <AtIcon value='shopping-bag-2' size='35' color='#54B7A2'></AtIcon>
+                <Image src={daifahuo} style={{width:'60rpx',height:'60rpx'}}/>
               </AtBadge>
-              <Text>待发货</Text>
+              <Text style={{marginTop:'5px'}}>待发货</Text>
             </View>
-            <View className='mine__content__top--right--item'>
+            <View className='mine__content__top--right--item' onClick={()=>{console.log('跳转到待收货')
+              Taro.navigateTo({url:'/pages/order/orderTabs/orderTabs?current=2'})
+            }}>
               <AtBadge value={10} maxValue={99}>
-              <AtIcon value='shopping-bag' size='35' color='#54B7A2'></AtIcon>
+                <Image src={daishouhuo} style={{width:'60rpx',height:'60rpx'}}/>
               </AtBadge>
-              <Text>待收货</Text>
+              <Text style={{marginTop:'5px'}}>待收货</Text>
             </View>
           </View>
         </View>

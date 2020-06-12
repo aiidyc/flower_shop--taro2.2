@@ -6,7 +6,7 @@
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 25rpx 20rpx 5rpx;
+  padding: 25rpx 40rpx 5rpx;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
@@ -36,7 +36,7 @@
       -ms-flex-direction: row;
           flex-direction: row;
   margin: 10rpx 0;
-  padding: 20rpx 20rpx;
+  padding: 20rpx 35rpx;
 }
 .shopList__item__img {
   height: 100%;

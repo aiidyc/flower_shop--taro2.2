@@ -1,7 +1,10 @@
 import Taro from '@tarojs/taro'
-
 import { View, Text, Image, Button } from '@tarojs/components'
+import { AtButton } from 'taro-ui'
+
 import NewSwiper from './../../../compoents/swiper/index'
+import GoodsDetails from './../../../compoents/goodsDetails/goodsDetails'
+
 import './productDetails.scss'
 import home from './../../../assets/tab-bar/home.png'
 import cart from './../../../assets/tab-bar/cart.png'
@@ -74,7 +77,7 @@ const ProduceDetails = (props) => {
             </View>
           </View>
           <View className="ProduceDetails__header__content--productInfo">
-
+            <GoodsDetails/>
           </View>
         </View>
       </View>
@@ -90,11 +93,11 @@ const ProduceDetails = (props) => {
           </View>
         </View>
         <View className="ProduceDetails__footer--right">
-          <View className='ProduceDetails__footer--right--btn1'>
-            <Button>加入购物车</Button>
+          <View className="ProduceDetails__footer--right--btn1 ProduceDetails__footer--right--btn">
+            <AtButton circle={true} style={{color:'#737373'}}>加入购物车</AtButton>
           </View>
-          <View className="ProduceDetails__footer--right--btn2">
-            <Button>立即购买</Button>
+          <View className="ProduceDetails__footer--right--btn2 ProduceDetails__footer--right--btn">
+          <AtButton type='primary' circle={true}>立即购买</AtButton>
           </View>
         </View>
       </View>

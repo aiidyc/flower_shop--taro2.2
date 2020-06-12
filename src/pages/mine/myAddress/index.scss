@@ -5,10 +5,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: auto;
 }
 .addAddress{
   width: 95%;
   height: 100px;
+  min-height: 100px;
   background-color: #F0F0F0;
   display: flex;
   flex-direction: row;
@@ -32,11 +34,6 @@
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: white;
-  margin-bottom: 20px;
-  box-sizing: border-box;
-}
-.CheckAddressItem__Box{
-  width: 95%;
   margin-bottom: 20px;
   box-sizing: border-box;
 }

@@ -1,0 +1,10 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="at-article">
+        <view class="at-article__content">
+            <view class="at-article__section">
+                <view class="at-article__p">这是文本段落。这是文本段落。这是文本段落。这是文本段落。这是文本段落。这是文本段落。这是文本段落。这是文本落。这是文本段落。1234567890123456789012345678901234567890 ABCDEFGHIJKLMNOPQRSTUVWXYZ</view>
+                <image class="at-article__img" src="http://storage.360buyimg.com/mtd/home/32443566_635798770100444_2113947400891531264_n1533825816008.jpg" mode="widthFix"></image>
+            </view>
+        </view>
+    </view>
+</block>

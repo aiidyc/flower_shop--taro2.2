@@ -10,6 +10,7 @@
           justify-content: center;
 }
 .home-banner__swiper-item-img {
+  display: inherit;
   width: 100%;
   height: 100%;
   overflow: hidden;

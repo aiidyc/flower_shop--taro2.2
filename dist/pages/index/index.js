@@ -37,6 +37,12 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var imgs = [{
+  url: 'https://s1.ax1x.com/2020/06/04/t0wNtI.jpg',
+  id: '2',
+  title: '夏日福利【巴黎午后】旋转吧银河',
+  subTitle: '献给你爱的那个她',
+  price: '¥188'
+}, {
   url: 'https://s1.ax1x.com/2020/06/04/t0T8Rf.png',
   id: '5',
   title: '夏日福利【巴黎午后】旋转吧银河',
@@ -51,12 +57,6 @@ var imgs = [{
 }, {
   url: 'https://s1.ax1x.com/2020/06/04/t0ou40.png',
   id: '1',
-  title: '夏日福利【巴黎午后】旋转吧银河',
-  subTitle: '献给你爱的那个她',
-  price: '¥188'
-}, {
-  url: 'https://s1.ax1x.com/2020/06/04/t0wNtI.jpg',
-  id: '2',
   title: '夏日福利【巴黎午后】旋转吧银河',
   subTitle: '献给你爱的那个她',
   price: '¥188'
@@ -90,7 +90,7 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '鲜花首页'
-    }, _this.$usedState = ["loopArray5", "$compid__91", "imgs"], _this.anonymousFunc0Map = {}, _this.customComponents = ["NewSwiper", "ShopList"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["$compid__1662"], _this.customComponents = ["NewSwiper", "ShopList", "GoodsList"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Index, [{
@@ -103,63 +103,30 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
   }, {
     key: '_createData',
     value: function _createData() {
-      var _this2 = this;
-
       this.__state = arguments[0] || this.state || {};
       this.__props = arguments[1] || this.props || {};
       var __isRunloopRef = arguments[2];
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__91"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__1662"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__91 = _genCompid2[0],
-          $compid__91 = _genCompid2[1];
+          $prevCompid__1662 = _genCompid2[0],
+          $compid__1662 = _genCompid2[1];
 
-      var loopArray5 = imgs.map(function (item, index) {
-        item = {
-          $original: (0, _taroWeapp.internal_get_original)(item)
-        };
-
-        var _$indexKey = "ezzzz" + index;
-
-        _this2.anonymousFunc0Map[_$indexKey] = function () {
-          console.log(index);
-        };
-
-        return {
-          _$indexKey: _$indexKey,
-          $original: item.$original
-        };
-      });
       _taroWeapp.propsManager.set({
         "img": imgs,
-        "height": '200px'
-      }, $compid__91, $prevCompid__91);
+        "height": '35%'
+      }, $compid__1662, $prevCompid__1662);
       Object.assign(this.__state, {
-        loopArray5: loopArray5,
-        $compid__91: $compid__91,
-        imgs: imgs
+        $compid__1662: $compid__1662
       });
       return this.__state;
-    }
-  }, {
-    key: 'anonymousFunc0',
-    value: function anonymousFunc0(_$indexKey) {
-      var _anonymousFunc0Map;
-
-      ;
-
-      for (var _len2 = arguments.length, e = Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
-        e[_key2 - 1] = arguments[_key2];
-      }
-
-      return this.anonymousFunc0Map[_$indexKey] && (_anonymousFunc0Map = this.anonymousFunc0Map)[_$indexKey].apply(_anonymousFunc0Map, e);
     }
   }]);
 
   return Index;
-}(_taroWeapp2.default.Component), _class.$$events = ["anonymousFunc0"], _class.$$componentPath = "pages/index/index", _temp2);
+}(_taroWeapp2.default.Component), _class.$$events = [], _class.$$componentPath = "pages/index/index", _temp2);
 
 
 Index.config = { navigationBarTitleText: '鲜花首页' };

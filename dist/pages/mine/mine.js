@@ -28,6 +28,18 @@ var _taroWeapp2 = _interopRequireDefault(_taroWeapp);
 
 __webpack_require__(/*! ./mine.scss */ "./src/pages/mine/mine.scss");
 
+var _daifukuan = __webpack_require__(/*! ./../../assets/daifukuan.png */ "./src/assets/daifukuan.png");
+
+var _daifukuan2 = _interopRequireDefault(_daifukuan);
+
+var _daifahuo = __webpack_require__(/*! ./../../assets/daifahuo.png */ "./src/assets/daifahuo.png");
+
+var _daifahuo2 = _interopRequireDefault(_daifahuo);
+
+var _daishouhuo = __webpack_require__(/*! ../../assets/daishouhuo.png */ "./src/assets/daishouhuo.png");
+
+var _daishouhuo2 = _interopRequireDefault(_daishouhuo);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -52,7 +64,7 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Mine.__proto__ || Object.getPrototypeOf(Mine)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '我的'
-    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "$compid__160", "$compid__161", "$compid__162", "$compid__163", "$compid__164", "$compid__165", "$compid__166", "$compid__167", "$compid__168", "$compid__169", "$compid__170", "$compid__171"], _this.customComponents = ["AtAvatar", "AtBadge", "AtIcon", "AtList", "AtListItem"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "anonymousState__temp5", "anonymousState__temp6", "anonymousState__temp7", "anonymousState__temp8", "$compid__977", "$compid__978", "$compid__979", "$compid__980", "$compid__981", "$compid__982", "$compid__983", "$compid__984", "$compid__985", "daifukuan", "daifahuo", "daishouhuo"], _this.customComponents = ["AtAvatar", "AtBadge", "AtList", "AtListItem"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Mine, [{
@@ -71,92 +83,100 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__160"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__977"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__160 = _genCompid2[0],
-          $compid__160 = _genCompid2[1];
+          $prevCompid__977 = _genCompid2[0],
+          $compid__977 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__161"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__978"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__161 = _genCompid4[0],
-          $compid__161 = _genCompid4[1];
+          $prevCompid__978 = _genCompid4[0],
+          $compid__978 = _genCompid4[1];
 
-      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__162"),
+      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__979"),
           _genCompid6 = _slicedToArray(_genCompid5, 2),
-          $prevCompid__162 = _genCompid6[0],
-          $compid__162 = _genCompid6[1];
+          $prevCompid__979 = _genCompid6[0],
+          $compid__979 = _genCompid6[1];
 
-      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__163"),
+      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__980"),
           _genCompid8 = _slicedToArray(_genCompid7, 2),
-          $prevCompid__163 = _genCompid8[0],
-          $compid__163 = _genCompid8[1];
+          $prevCompid__980 = _genCompid8[0],
+          $compid__980 = _genCompid8[1];
 
-      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__164"),
+      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__981"),
           _genCompid10 = _slicedToArray(_genCompid9, 2),
-          $prevCompid__164 = _genCompid10[0],
-          $compid__164 = _genCompid10[1];
+          $prevCompid__981 = _genCompid10[0],
+          $compid__981 = _genCompid10[1];
 
-      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__165"),
+      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__982"),
           _genCompid12 = _slicedToArray(_genCompid11, 2),
-          $prevCompid__165 = _genCompid12[0],
-          $compid__165 = _genCompid12[1];
+          $prevCompid__982 = _genCompid12[0],
+          $compid__982 = _genCompid12[1];
 
-      var _genCompid13 = (0, _taroWeapp.genCompid)(__prefix + "$compid__166"),
+      var _genCompid13 = (0, _taroWeapp.genCompid)(__prefix + "$compid__983"),
           _genCompid14 = _slicedToArray(_genCompid13, 2),
-          $prevCompid__166 = _genCompid14[0],
-          $compid__166 = _genCompid14[1];
+          $prevCompid__983 = _genCompid14[0],
+          $compid__983 = _genCompid14[1];
 
-      var _genCompid15 = (0, _taroWeapp.genCompid)(__prefix + "$compid__167"),
+      var _genCompid15 = (0, _taroWeapp.genCompid)(__prefix + "$compid__984"),
           _genCompid16 = _slicedToArray(_genCompid15, 2),
-          $prevCompid__167 = _genCompid16[0],
-          $compid__167 = _genCompid16[1];
+          $prevCompid__984 = _genCompid16[0],
+          $compid__984 = _genCompid16[1];
 
-      var _genCompid17 = (0, _taroWeapp.genCompid)(__prefix + "$compid__168"),
+      var _genCompid17 = (0, _taroWeapp.genCompid)(__prefix + "$compid__985"),
           _genCompid18 = _slicedToArray(_genCompid17, 2),
-          $prevCompid__168 = _genCompid18[0],
-          $compid__168 = _genCompid18[1];
-
-      var _genCompid19 = (0, _taroWeapp.genCompid)(__prefix + "$compid__169"),
-          _genCompid20 = _slicedToArray(_genCompid19, 2),
-          $prevCompid__169 = _genCompid20[0],
-          $compid__169 = _genCompid20[1];
-
-      var _genCompid21 = (0, _taroWeapp.genCompid)(__prefix + "$compid__170"),
-          _genCompid22 = _slicedToArray(_genCompid21, 2),
-          $prevCompid__170 = _genCompid22[0],
-          $compid__170 = _genCompid22[1];
-
-      var _genCompid23 = (0, _taroWeapp.genCompid)(__prefix + "$compid__171"),
-          _genCompid24 = _slicedToArray(_genCompid23, 2),
-          $prevCompid__171 = _genCompid24[0],
-          $compid__171 = _genCompid24[1];
+          $prevCompid__985 = _genCompid18[0],
+          $compid__985 = _genCompid18[1];
 
       var props = this.__props;
       var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ color: "#FFFFFF", fontSize: '15px' });
       var anonymousState__temp2 = (0, _taroWeapp.internal_inline_style)({ color: "#BAE2D5", fontSize: '13px' });
 
       this.anonymousFunc0 = function () {
-        console.log('跳转到订单页面');
         _taroWeapp2.default.navigateTo({ url: '/pages/order/orderTabs/orderTabs' });
       };
 
       this.anonymousFunc1 = function () {
+        console.log('跳转到待收货');
+        _taroWeapp2.default.navigateTo({ url: '/pages/order/orderTabs/orderTabs?current=0' });
+      };
+
+      var anonymousState__temp3 = (0, _taroWeapp.internal_inline_style)({ width: '60rpx', height: '60rpx' });
+      var anonymousState__temp4 = (0, _taroWeapp.internal_inline_style)({ marginTop: '5px' });
+
+      this.anonymousFunc2 = function () {
+        console.log('跳转到待发货');
+        _taroWeapp2.default.navigateTo({ url: '/pages/order/orderTabs/orderTabs?current=1' });
+      };
+
+      var anonymousState__temp5 = (0, _taroWeapp.internal_inline_style)({ width: '60rpx', height: '60rpx' });
+      var anonymousState__temp6 = (0, _taroWeapp.internal_inline_style)({ marginTop: '5px' });
+
+      this.anonymousFunc3 = function () {
+        console.log('跳转到待收货');
+        _taroWeapp2.default.navigateTo({ url: '/pages/order/orderTabs/orderTabs?current=2' });
+      };
+
+      var anonymousState__temp7 = (0, _taroWeapp.internal_inline_style)({ width: '60rpx', height: '60rpx' });
+      var anonymousState__temp8 = (0, _taroWeapp.internal_inline_style)({ marginTop: '5px' });
+
+      this.anonymousFunc4 = function () {
         console.log('个人信息');
       };
 
-      this.anonymousFunc2 = function () {
+      this.anonymousFunc5 = function () {
         _taroWeapp2.default.navigateTo({ url: '/pages/mine/myAddress/index' });
       };
 
-      this.anonymousFunc3 = function () {
+      this.anonymousFunc6 = function () {
         _taroWeapp2.default.navigateTo({ url: '/pages/mine/myAddress/checkAddress' });
       };
 
-      this.anonymousFunc4 = function () {
+      this.anonymousFunc7 = function () {
         _taroWeapp2.default.navigateTo({ url: '/pages/order/orderConfirm/orderConfirm' });
       };
 
-      this.anonymousFunc5 = function () {
+      this.anonymousFunc8 = function () {
         _taroWeapp2.default.navigateTo({ url: '/pages/order/productDetails/productDetails' });
       };
 
@@ -165,74 +185,65 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
         "size": "large",
         "circle": true,
         "text": '\u59AE\u59AEYan_ni'
-      }, $compid__160, $prevCompid__160);
+      }, $compid__977, $prevCompid__977);
       _taroWeapp.propsManager.set({
         "value": 10,
         "maxValue": 99
-      }, $compid__161, $prevCompid__161);
-      _taroWeapp.propsManager.set({
-        "value": "credit-card",
-        "size": "35",
-        "color": "#54B7A2"
-      }, $compid__162, $prevCompid__162);
+      }, $compid__978, $prevCompid__978);
       _taroWeapp.propsManager.set({
         "value": 10,
         "maxValue": 99
-      }, $compid__163, $prevCompid__163);
-      _taroWeapp.propsManager.set({
-        "value": "shopping-bag-2",
-        "size": "35",
-        "color": "#54B7A2"
-      }, $compid__164, $prevCompid__164);
+      }, $compid__979, $prevCompid__979);
       _taroWeapp.propsManager.set({
         "value": 10,
         "maxValue": 99
-      }, $compid__165, $prevCompid__165);
-      _taroWeapp.propsManager.set({
-        "value": "shopping-bag",
-        "size": "35",
-        "color": "#54B7A2"
-      }, $compid__166, $prevCompid__166);
+      }, $compid__980, $prevCompid__980);
       _taroWeapp.propsManager.set({
         "title": '\u4E2A\u4EBA\u4FE1\u606F',
         "arrow": "right",
-        "onClick": this.anonymousFunc1
-      }, $compid__167, $prevCompid__167);
+        "onClick": this.anonymousFunc4
+      }, $compid__981, $prevCompid__981);
       _taroWeapp.propsManager.set({
         "title": '\u5730\u5740\u7BA1\u7406',
         "arrow": "right",
-        "onClick": this.anonymousFunc2
-      }, $compid__168, $prevCompid__168);
+        "onClick": this.anonymousFunc5
+      }, $compid__982, $prevCompid__982);
       _taroWeapp.propsManager.set({
         "title": '\u5730\u5740\u9009\u62E9',
         "arrow": "right",
-        "onClick": this.anonymousFunc3
-      }, $compid__169, $prevCompid__169);
+        "onClick": this.anonymousFunc6
+      }, $compid__983, $prevCompid__983);
       _taroWeapp.propsManager.set({
         "title": '\u8BA2\u5355\u786E\u8BA4',
         "arrow": "right",
-        "onClick": this.anonymousFunc4
-      }, $compid__170, $prevCompid__170);
+        "onClick": this.anonymousFunc7
+      }, $compid__984, $prevCompid__984);
       _taroWeapp.propsManager.set({
         "title": '\u5546\u54C1\u8BE6\u60C5',
         "arrow": "right",
-        "onClick": this.anonymousFunc5
-      }, $compid__171, $prevCompid__171);
+        "onClick": this.anonymousFunc8
+      }, $compid__985, $prevCompid__985);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
         anonymousState__temp2: anonymousState__temp2,
-        $compid__160: $compid__160,
-        $compid__161: $compid__161,
-        $compid__162: $compid__162,
-        $compid__163: $compid__163,
-        $compid__164: $compid__164,
-        $compid__165: $compid__165,
-        $compid__166: $compid__166,
-        $compid__167: $compid__167,
-        $compid__168: $compid__168,
-        $compid__169: $compid__169,
-        $compid__170: $compid__170,
-        $compid__171: $compid__171
+        anonymousState__temp3: anonymousState__temp3,
+        anonymousState__temp4: anonymousState__temp4,
+        anonymousState__temp5: anonymousState__temp5,
+        anonymousState__temp6: anonymousState__temp6,
+        anonymousState__temp7: anonymousState__temp7,
+        anonymousState__temp8: anonymousState__temp8,
+        $compid__977: $compid__977,
+        $compid__978: $compid__978,
+        $compid__979: $compid__979,
+        $compid__980: $compid__980,
+        $compid__981: $compid__981,
+        $compid__982: $compid__982,
+        $compid__983: $compid__983,
+        $compid__984: $compid__984,
+        $compid__985: $compid__985,
+        daifukuan: _daifukuan2.default,
+        daifahuo: _daifahuo2.default,
+        daishouhuo: _daishouhuo2.default
       });
       return this.__state;
     }
@@ -266,10 +277,25 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
     value: function anonymousFunc5(e) {
       ;
     }
+  }, {
+    key: 'anonymousFunc6',
+    value: function anonymousFunc6(e) {
+      ;
+    }
+  }, {
+    key: 'anonymousFunc7',
+    value: function anonymousFunc7(e) {
+      ;
+    }
+  }, {
+    key: 'anonymousFunc8',
+    value: function anonymousFunc8(e) {
+      ;
+    }
   }]);
 
   return Mine;
-}(_taroWeapp2.default.Component), _class.$$events = ["anonymousFunc0"], _class.$$componentPath = "pages/mine/mine", _temp2);
+}(_taroWeapp2.default.Component), _class.$$events = ["anonymousFunc0", "anonymousFunc1", "anonymousFunc2", "anonymousFunc3"], _class.$$componentPath = "pages/mine/mine", _temp2);
 
 
 Mine.config = { navigationBarTitleText: '我的' };
@@ -287,6 +313,39 @@ Component(__webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@tarojs/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "pages/mine/mine.wxml";
+
+/***/ }),
+
+/***/ "./src/assets/daifahuo.png":
+/*!*********************************!*\
+  !*** ./src/assets/daifahuo.png ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAAzCAYAAAAzSpBQAAAABHNCSVQICAgIfAhkiAAAB7JJREFUaEPtmn1sW9UVwH/n2U6ga9LQtbT7oCsfEmgfrGx0UJFoDG0TqpAq2NQ/GjtAkbJN2sZYC+tsR/WKHdDGRlUYWzOgSuIAKqqGRqdNm5i0gDQ21ha6Qsc+O9IP1jVp0qRtGtvvTPe9OH5ObCeOK5JKuVKk+L1zz72/e+67955zrpAtyWgEaEYBYdnY8/fqH9V/I07bW2lMbDsfzRp10Bn+KSp3YUn1+VBakQ7RQZRHCSY2V6THGafOaAtCGLioUmXnrb5qL/ANQolnK9EpJCPvgFzmUXICdSbne1tEbZAlnkb3EIxfX0knhM5wD2J92FGiegJ82xD7YCVKp1U3ozdgyUbnuzNjq7xNKHHNtHSNVhKS0ZyVlONYci+NDz5XidJp1U1GNwCPuHUNnJ4m1Dp/Wrrm4CoZtnLrzlmuvBGb++bKG69pSnd+92uI9YTZep0FBXqoCqxgbaxvmhqZPZbriqzBpg2RS3Mwehbkaar832ZtbKRcyNkDZ3qejPwV5Oo8CNWziARQfkgovqkcwNkF99QDNVRX/QtYNBHCWJEqbGI0JeJTgZw9cO3ha/HZ1Sw8vZ/e2ucR6kEuKQAxDKRR3UAo0VYKcnbAtUfqsdgJ2NjyVe6M76Yj/HEsy3T+o8CCCRCqg4icQ/WbxQ7YMw/3YvM8+hcdRKxRH1KPMHJyFeuf6HGAkpEbQX4Cjo+5sIClhoC9pPxruDvW730/83DtkQ8hehDLqhk9Vw4h2kBj6+t5IJ3hLyDWY6hehsi8gtPVspezrvW/2XcXDly2x8nI7SA/Bsxg5B+szVT1aT3rWvcb8QsPLgvZFQmh8h3QK0Au9liyj2uOL+X6ttSFC5eD/CU2KxFZ7Nn8nyWYWHfhwxmizsiTiNwzBqeaoi5QNzvhkC+R0TcL7mFVKeXtee8Si9lj75+LXkmavUCt80z1FMrXZyEc/aj6ECkcx1FSoP1YmZU0PnxyDDAZPQR8xDMgidkIN5WTlbHOPwklrvLA7QLuGLWcWSuTMw+3s3kBI4v3gVw+NapRKds+RObMddy91d24OyIvI1LvekyO0btnHs45hYSD2NKKhTfEWIq1BzRMsDU5JjRr4ZwVb9OtWL5lKFZJCwo2KocIxn+TJzer4cqakwWE5+BmKig7Z7kSI3Bep2VH7FKq0jXUDhxm9WPnKh34CfV3xOrwn1nCCEe55/uDk+qvGM74Xj62gDQAH0Rx9xjRAWx9kKbWynIMitDVEgM7BCxFpRd0MSK92PbjNLU+VBSyIriOyLewiIO8r3ADBpBXaUrcOukoFxJItqwE/TWqFxV0RlXPAMdAGwi1HpugYtpw7ZE1WPws360ogqB6gFDiE2UBmiku6b8jowffkpX1JASWE4ydqnyf64regeqTBSNRbpBmNDzgaUrZQ2iKiUMz1S05gFA3gam4/mFCca+DOs3jVzIyAhIYa9ikdEX2gLwF/Ad0FbA6z+U3nbLkPhrjT01qwc7IHkQ+lZPT004oXXgFW/4MrEL0iyi1iOeTUN1FKPHl6R+/uiLNqDwKuAEZk5yE34G/Ja/TmcwS/PpCfjBVXyeYuK4kXNemT6O+n4+lrU3CUeRN1N84sV5qFyLXep4fRu3PjH1/k35zmMyqvYG6wecdJX21u0E+n7MaL4N/fcEOa/qzWLoVxA3aKCeolluY3/+3ooB9CzaCWaTGymHU/7mC8nZqIT5+MZY3Vx0AuY/3DzzjyPfWvATWTSW8AmfKuQFQVUEk44Sw3d/nEGlD/YXviNiZGiz7D0j2uoeeRakq6nS6SgXE5xm8feBfW9zaqW5EPuB5bzJArveNWU0l64mbB91CZ+QQIl4PNlfXBXLvpqgew9YoVlV3icZ/hUjOgSwuONofj363jVYI7ChaTdLmE7nN08FU3nqQfWHcOUu7jD/3WyA39fI0a8YzssMo28H/eMHGLeZjp17NWQ6TcnKtXrykAb/Hcn8Ef7AE3O+dw0MO4gwyuh54KynDiG4QtjcHmLf4LwgLUMk15ArXIORuFal2QyAXZcrrRboB0UdA3JC3agaVQQQDUKzMR7yXe7QHDdxSUFhTdViyG3DvqghDZFSdfEG2iDGG+bPaCcbD7vUoc+x5JnwztjU+4bAC0Qc8Qc93UX0JArG8DkjmElDTcC5xaO6RwCT5NL0KkXsB9x4MDKG8Af67JgKOWy1Vj6C6EbFM1scttiq+zFGCD7/m8k9WkpF0/kev/wP+BHIApQdLb8CE4rLbhWu1QZD7CcW3T6aeZHQfsMIjNwT6D5RXQPaC3ojIapQ6xBM+F16gMX57Kf2Tw7WH1+OzflAgwzKA6AjqjfSONqW6n1Dik5OCGYEdseUE0makxyUcnZSxuQOWtapX3SlOH1/EV9pSlcGZ2iaAo/KjKZ0t0bcIJj42JbCsUGf0atDXCh7lJirqI+W/cny6qlB7k1suW6s9fD+WtJToQD/CGzTGby4LLCucbLkJ9EVUqwt7BZiVsZeMr547v/fOVNqYOpzR1hG9HEs3ozQ4tw6cfRCzeQ6DvSUv1DaV1sfLxGIWV6S3YNGE6kIQ46TWOisjbCMYT5Sjtjw4r+b2zcvQ4Rr04iNTmSLldMqR3RlbyrmzS6i2jrL2IbOIlV3+D+3s7rsAd1IAAAAAAElFTkSuQmCC"
+
+/***/ }),
+
+/***/ "./src/assets/daifukuan.png":
+/*!**********************************!*\
+  !*** ./src/assets/daifukuan.png ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAA1RJREFUaEPtWj1vE0EQfXN2EF1c0iXp6AgdXZyK0kGiAWIR90iEDsVGMsJBdCS/IJbsQInzC+L8AkwHVVxSgGTaxHjQ3vp8ex8+n1ebPSHdFknh3Zn3Zt7O7u0uIet20ixh5boC0B6AMsBDELVxVTxGrTlKC4/SdjTazwPPtAPCTqxtxjGqrf20fu0RSQLPAEj8URsBjEeotnppyNw8kdN6BRPai0R+Bj4GgvubC7+P3dZ2dkQEeMYOpHRKPhAv6mHw/AdAD0wjEF7K/lM2hfEGnnwYLiJjLiMLwQsoEQJnIO7h2fu2C1TKbwjQqscDjLeotpo3S+T0YBNMz8GudPzI+9KI8c8S/NWtXmxV6tbbgLDp8eYhdg83zBPxwENUG1oPymYa8TARxjc4k6O54FWUrn3na0BeKSZ9MNef3myBuRxlz3fAENG/G9E8k6w47n9lJOMnCAM4/N3V/jKNIcpuScnKAER+9ZpghAIN8PTdhWdWupZRPgFoM96fGuIY0LNB037CariaLkPE65so0WlVK4xrohiQO8GK48tgpJfxmkRsGTtK34WBUKsfD7B7eJ/QrfcAqrghDMsjgCNtVjTBR4Z5/uaVbKVEg18JIpdy0k4HiokJRDVNvAbQbQC/wfhlCm6CnRIIxVhfxOsArSkl+oLQbUjKfgC2UW31LQDVd9FpiIX2ixL8/5ZIGYRzpcbkRPRlYWJkp5FnxEQczdnIM2IulmYsZZ6Rz6/XMS5W4KgfWzrc3AVcHFbIxvzD3oJ4erAHdo4ArOpATxzDGNkhon5jJG2ddBlaIxL56tNFPGecNSKdRh+ELXWT556Q6DbiBwA9VLYolqQVJZLqQGEuz259H6CPORFdJSDPyJzQ5dLS1tR0YFha4DYcR54u6rS/eAziF9lPdh3wSWOsrSMzTc8OOMxRkUdHltYRAduTlzkKviWrRCSZJkjsWmnNKB/rREyhz/x7JCcSikCeEVOSMGUnz4ipSJqyk2fEVCRN2ZEnMifBa4VOYwDCPf+CxJQ3C3b8K+wzQqdxNHttsPjy0QK6tC4UsDSpycvQleuB8f1PWjza/ZgBIjAuUG2V5fW0JCNeHFS07WYxUDyFGheb4gVF8MGAvKqec9eeBdIEn6F7zn95AkeXXEdHZQAAAABJRU5ErkJggg=="
+
+/***/ }),
+
+/***/ "./src/assets/daishouhuo.png":
+/*!***********************************!*\
+  !*** ./src/assets/daishouhuo.png ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAYAAABznEEcAAAABHNCSVQICAgIfAhkiAAABY9JREFUaEPtmltsFGUUx39ntlAQRC4iGgU1EK9vQPTBF6lEX0RMDCDpbBMSQ0AJYAQDnUELna2JMZCQeHvABHYKBALhTWMEQgw+YJAXY9RIikKpYChI6Y1055jZW2fbvbR7oWvCJH3ZOZf//zvzne9851TI97Tai1FvLSqLQPoRHswrX9aXegWkA/WOEW7Zns+05HzpWgdBXkaYhpYV3SiNaR9KG7U9C1i+qzebcnYS7rbt4G0GmThKj5UTV9qZWvMES5p6hjoZTiJqv4boVyAzMoRVrwNe5VAOgzYZoXbIr2cxnYUjIGH9gcjcQUG9COxlwLtMjTHUaOU46YBCzesI80GmxB0J/4C3gvqWk0HHmZHYZ9chHEGYmhS6iReLIHq0cmgLWa75FuHxtJRygrDzUm4SrdY3qLwSiEIMjT1VyE1l34c2ILIuQKIHvHmEWzpSvw1GItr4EMh5JGMzu+hA3vRWWQL+JyTjwTgDMinhS3tRPicceW84Cdf+BOUdhAlJ4W409ipwqeJA8zno7+9kwqQjwIuBL6QXM3JPlkhYvYgkCcRfn0UH3hxTAr5zn0TtxAWIcRCYnsRzC9U1hCOtif3uP1GrHuELkMlpIS+2EdFTVUHirV2duNbfILMCeH7DdOL7NUHCtX8Gng2E6zoae27MCaQi4ZNotdbj8TEiqTR/g5DUsbL5nBBtnA/G8XRaVW4DJ8D7oSpIIN34fyIC3mf+Tg8s9mHMyHJhv70fj5XVAXjUKPqY/u9UwbXaQB4btXo1KHjaR8hYJbj2mNaopa1FHPq7mSTUuw5yr3+ilGa8otr+UZCopRIwh5DAv4gYmzCb3YrCKMV41O5GSB50d0mUspQl6t6NRIkLmFd979YZGKG3MfRX6iOH88pWZST8ikHkSOKs0msQCmPu+Donkaojsc8KY8hO4P5AKXEGM/L8/4OEa1somwJXYVDtxWAX9RGr+klE7QMIdcADabCqfYhEMZ3V1b8nXPsUysLBAysOuRNlD2Hn/YL5Y8z3hGv77R+/k5K6fPmYu/DYSoPzaUECvkDZSLhbn+Hh2t9Z1DQwIseHmqZze6AdUvf3pJZqF4YuHdpHqvznFG3cCcYK0FucH/c0TU35u4LxFGqcHkYAVTyZS4PTNqKFSAmVHIloYwMiu0HuS9ocYHz3lFyNXrKm0LjmNeqdmUgR1XLpJKyVCP4VMdUh9MvhGGakZthqZk+hPQgXMCOB+/yo4lCmPeFax1AWI6lmVhzELUzHv4ckntwp9DtMZ8koYWeKlxyJlDnXPgt+ozfjuYrpzCJXCsVrxWxZXxKBPNnpT2BO3LjnXQRjIw1O4QZyq9WGDrmbq3Yg8Zth8Sm0EMuyRWIwIlcyTt2hAIpJoXechO/QtbuGrHz6ECgqhY4Jifh3anUiMi3gv/gUOmYkDi0L0f/kKYRHQU9jRirXiM66J6J2R3q0q94lVDfQ8FHhjZ1txU421Yy4FCm04rneR60LicVKdjOVNX4HsCdjSqo0E3Y+KNZHRfVat0xDQ+1pvP4wVIx1QtQ+jkHdYAHgHcVseaOiYIo17m57AfRY+iao/IWhy/yu+GZEdkB6wNKJsJt6Z2zHXNmIunY3pBpn8QZgO2HnEeHL1eOYNLMXJBTQuwT+xFS+Ryb8SKhveG1U7GqORu82HiGdjeo8MPZkqKr2o7TQENmRnBTZa4EmJHBdTGhcRVWQ9ARpNBDKIRtDGYj3XCVYdMajcI6wEy99gtPTDYjhZD+4yoGnnDb0l2AlnDmMd60tKI3J+qecXstkS7tQ+YmwE5ikBiORcnPAmo2HjbI0PjtWbiGaHreWCc3IzKh4iI4DLgMxxNhOfbM/Rc14cv+rkC+298M51HgzUc83dOcfz1DQm8RqOljVdCMXgP8AFkags5rGCzIAAAAASUVORK5CYII="
 
 /***/ }),
 

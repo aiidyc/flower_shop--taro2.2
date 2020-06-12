@@ -50,7 +50,7 @@ var OrderItem = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = OrderItem.__proto__ || Object.getPrototypeOf(OrderItem)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "loopArray8", "$compid__142", "$compid__143", "$compid__144", "$compid__145", "$compid__146", "orderList", "orderType", "orderData"], _this.customComponents = ["GoodsOne", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = OrderItem.__proto__ || Object.getPrototypeOf(OrderItem)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "loopArray31", "$compid__693", "$compid__694", "$compid__695", "$compid__696", "$compid__697", "orderList", "orderType", "orderData"], _this.customComponents = ["GoodsOne", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(OrderItem, [{
@@ -69,30 +69,30 @@ var OrderItem = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__142"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__693"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__142 = _genCompid2[0],
-          $compid__142 = _genCompid2[1];
+          $prevCompid__693 = _genCompid2[0],
+          $compid__693 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__143"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__694"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__143 = _genCompid4[0],
-          $compid__143 = _genCompid4[1];
+          $prevCompid__694 = _genCompid4[0],
+          $compid__694 = _genCompid4[1];
 
-      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__144"),
+      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__695"),
           _genCompid6 = _slicedToArray(_genCompid5, 2),
-          $prevCompid__144 = _genCompid6[0],
-          $compid__144 = _genCompid6[1];
+          $prevCompid__695 = _genCompid6[0],
+          $compid__695 = _genCompid6[1];
 
-      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__145"),
+      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__696"),
           _genCompid8 = _slicedToArray(_genCompid7, 2),
-          $prevCompid__145 = _genCompid8[0],
-          $compid__145 = _genCompid8[1];
+          $prevCompid__696 = _genCompid8[0],
+          $compid__696 = _genCompid8[1];
 
-      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__146"),
+      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__697"),
           _genCompid10 = _slicedToArray(_genCompid9, 2),
-          $prevCompid__146 = _genCompid10[0],
-          $compid__146 = _genCompid10[1];
+          $prevCompid__697 = _genCompid10[0],
+          $compid__697 = _genCompid10[1];
 
       var _props = this.__props,
           orderData = _props.orderData,
@@ -102,62 +102,49 @@ var OrderItem = (_temp2 = _class = function (_Taro$Component) {
       var orderList = orderData.orderList;
       var anonymousState__temp = orderType === '1' ? (0, _taroWeapp.internal_inline_style)({ marginRight: '10rpx' }) : null;
       var anonymousState__temp2 = orderType === '3' ? (0, _taroWeapp.internal_inline_style)({ marginRight: '10rpx' }) : null;
-      var loopArray8 = orderList.map(function (item, _anonIdx) {
+      var loopArray31 = orderList.map(function (item, _anonIdx) {
         item = {
           $original: (0, _taroWeapp.internal_get_original)(item)
         };
 
-        var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "hzzzzzzzzz" + _anonIdx, true),
+        var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "cizzzzzzzz" + _anonIdx, true),
             _genCompid12 = _slicedToArray(_genCompid11, 2),
-            $prevCompid__141 = _genCompid12[0],
-            $compid__141 = _genCompid12[1];
+            $prevCompid__692 = _genCompid12[0],
+            $compid__692 = _genCompid12[1];
 
         _taroWeapp.propsManager.set({
           "goodsData": item.$original,
           "buttonType": '3'
-        }, $compid__141, $prevCompid__141);
+        }, $compid__692, $prevCompid__692);
         return {
-          $compid__141: $compid__141,
+          $compid__692: $compid__692,
           $original: item.$original
         };
       });
       orderType === '1' && _taroWeapp.propsManager.set({
-        "type": "primary",
-        "circle": true,
-        "size": "small"
-      }, $compid__142, $prevCompid__142);
+        "circle": true
+      }, $compid__693, $prevCompid__693);
       orderType === '1' && _taroWeapp.propsManager.set({
-        "type": "primary",
-        "circle": true,
-        "size": "small",
-        "full": false
-      }, $compid__143, $prevCompid__143);
+        "circle": true
+      }, $compid__694, $prevCompid__694);
       !(orderType === '1') && orderType === '2' && _taroWeapp.propsManager.set({
-        "type": "primary",
-        "circle": true,
-        "size": "small",
-        "full": false
-      }, $compid__144, $prevCompid__144);
+        "circle": true
+      }, $compid__695, $prevCompid__695);
       !(orderType === '1') && !(orderType === '2') && orderType === '3' && _taroWeapp.propsManager.set({
-        "type": "primary",
-        "circle": true,
-        "size": "small"
-      }, $compid__145, $prevCompid__145);
+        "circle": true
+      }, $compid__696, $prevCompid__696);
       !(orderType === '1') && !(orderType === '2') && orderType === '3' && _taroWeapp.propsManager.set({
-        "type": "primary",
-        "circle": true,
-        "size": "small",
-        "full": false
-      }, $compid__146, $prevCompid__146);
+        "circle": true
+      }, $compid__697, $prevCompid__697);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
         anonymousState__temp2: anonymousState__temp2,
-        loopArray8: loopArray8,
-        $compid__142: $compid__142,
-        $compid__143: $compid__143,
-        $compid__144: $compid__144,
-        $compid__145: $compid__145,
-        $compid__146: $compid__146,
+        loopArray31: loopArray31,
+        $compid__693: $compid__693,
+        $compid__694: $compid__694,
+        $compid__695: $compid__695,
+        $compid__696: $compid__696,
+        $compid__697: $compid__697,
         orderList: orderList,
         orderType: orderType,
         orderData: orderData

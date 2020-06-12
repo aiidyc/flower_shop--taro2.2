@@ -27,21 +27,21 @@ const OrderItem = ({ orderData, orderType }) => {
          orderType==='1'?(
            <View className='OrderItem__button'>
            <View style={{marginRight:'10rpx'}}>
-             <AtButton type='primary' circle={true} size={"small"} >取消订单</AtButton>
+             <AtButton circle={true} >取消订单</AtButton>
            </View>
-             <AtButton type='primary' circle={true} size={"small"} full={false} >订单支付</AtButton>
+             <AtButton circle={true} >订单支付</AtButton>
            </View>
            ):orderType==='2'?
            (
              <View className='OrderItem__button'>
-               <AtButton type='primary' circle={true} size={"small"} full={false} >提醒发货</AtButton>
+               <AtButton  circle={true} >提醒发货</AtButton>
              </View>
          ):orderType==='3'?(
              <View className='OrderItem__button'>
                <View style={{marginRight:'10rpx'}}>
-                 <AtButton type='primary' circle={true} size={"small"} >查看物流</AtButton>
+                 <AtButton  circle={true} >查看物流</AtButton>
                </View>
-               <AtButton type='primary' circle={true} size={"small"} full={false} >确认收货</AtButton>
+               <AtButton circle={true}  >确认收货</AtButton>
              </View>
            ):null
        }

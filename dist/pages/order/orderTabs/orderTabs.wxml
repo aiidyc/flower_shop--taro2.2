@@ -1,57 +1,57 @@
 <block wx:if="{{$taroCompReady}}">
     <view class="OrderTabs">
-        <at-tabs compid="{{$compid__119}}">
-            <at-tabs-pane compid="{{$compid__120}}">
-                <view style="background-color:#F3F3F3;padding-top:10rpx">
+        <at-tabs compid="{{$compid__1580}}">
+            <at-tabs-pane compid="{{$compid__1581}}">
+                <view class="orderTab">
                     <view class="orderItemBox">
-                        <order-item compid="{{$compid__121}}"></order-item>
+                        <order-item compid="{{$compid__1582}}"></order-item>
                     </view>
                 </view>
             </at-tabs-pane>
-            <at-tabs-pane compid="{{$compid__122}}">
-                <view style="background-color: #F3F3F3;padding-top:10rpx">
+            <at-tabs-pane compid="{{$compid__1583}}">
+                <view class="orderTab">
                     <view class="orderItemBox">
-                        <order-item compid="{{$compid__123}}"></order-item>
+                        <order-item compid="{{$compid__1584}}"></order-item>
                     </view>
                     <view class="orderItemBox">
-                        <order-item compid="{{$compid__124}}"></order-item>
+                        <order-item compid="{{$compid__1585}}"></order-item>
                     </view>
                     <view class="orderItemBox">
-                        <order-item compid="{{$compid__125}}"></order-item>
+                        <order-item compid="{{$compid__1586}}"></order-item>
                     </view>
                     <view class="orderItemBox">
-                        <order-item compid="{{$compid__126}}"></order-item>
+                        <order-item compid="{{$compid__1587}}"></order-item>
                     </view>
                     <view class="orderItemBox">
-                        <order-item compid="{{$compid__127}}"></order-item>
+                        <order-item compid="{{$compid__1588}}"></order-item>
                     </view>
                     <view class="orderItemBox">
-                        <order-item compid="{{$compid__128}}"></order-item>
+                        <order-item compid="{{$compid__1589}}"></order-item>
                     </view>
                     <view class="orderItemBox">
-                        <order-item compid="{{$compid__129}}"></order-item>
+                        <order-item compid="{{$compid__1590}}"></order-item>
                     </view>
                     <view class="orderItemBox">
-                        <order-item compid="{{$compid__130}}"></order-item>
+                        <order-item compid="{{$compid__1591}}"></order-item>
                     </view>
                     <view class="orderItemBox">
-                        <order-item compid="{{$compid__131}}"></order-item>
+                        <order-item compid="{{$compid__1592}}"></order-item>
                     </view>
                     <view class="orderItemBox">
-                        <order-item compid="{{$compid__132}}"></order-item>
+                        <order-item compid="{{$compid__1593}}"></order-item>
                     </view>
                     <view class="orderItemBox">
-                        <order-item compid="{{$compid__133}}"></order-item>
+                        <order-item compid="{{$compid__1594}}"></order-item>
                     </view>
                     <view class="orderItemBox">
-                        <order-item compid="{{$compid__134}}"></order-item>
+                        <order-item compid="{{$compid__1595}}"></order-item>
                     </view>
                 </view>
             </at-tabs-pane>
-            <at-tabs-pane compid="{{$compid__135}}">
-                <view style="background-color: #F3F3F3;padding-top:10rpx">
+            <at-tabs-pane compid="{{$compid__1596}}">
+                <view class="orderTab">
                     <view class="orderItemBox">
-                        <order-item compid="{{$compid__136}}"></order-item>
+                        <order-item compid="{{$compid__1597}}"></order-item>
                     </view>
                 </view>
             </at-tabs-pane>

@@ -1,18 +1,9 @@
 <block wx:if="{{$taroCompReady}}">
-    <view class="myAddress">
+    <view class="checkMyAddress">
         <view class="addAddress"><text>+添加新地址</text>
         </view>
-        <view class="CheckAddressItem__Box ">
-            <check-address-item></check-address-item>
-        </view>
-        <view class="CheckAddressItem__Box">
-            <check-address-item compid="{{$compid__116}}"></check-address-item>
-        </view>
-        <view class="CheckAddressItem__Box">
-            <check-address-item compid="{{$compid__117}}"></check-address-item>
-        </view>
-        <view class="CheckAddressItem__Box">
-            <check-address-item compid="{{$compid__118}}"></check-address-item>
+        <view class="CheckAddressItem__Box" bindtap="anonymousFunc0" wx:for="{{loopArray121}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">
+            <check-address-item wx:key="id" compid="{{item.$compid__1775}}"></check-address-item>
         </view>
     </view>
 </block>

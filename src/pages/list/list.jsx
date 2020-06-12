@@ -1,16 +1,16 @@
 import {View, Text, Image} from '@tarojs/components'
 import { useState } from '@tarojs/taro'
 import { AtTabs, AtTabsPane } from 'taro-ui'
-import './index.scss'
+import './list.scss'
 import GoodsOne from './../../compoents/goods/goodsOne'
 const List = (props) => {
   const [ current, setCurrent ] = useState(0)
     return (
-    <View>
+    <View className='list'>
       <AtTabs
         current={current}
         scroll
-        height='900px'
+        height='100%'
         tabDirection='vertical'
         tabList={[
           { title: '标签页1' },

@@ -1,3 +1,17 @@
+@charset "UTF-8";
+/*统一css变量
+//1定义
+%message-common {
+  padding: 10px;
+  color: #333;
+}
+//2在需要的地方引入 必须加;号
+@import "./themeStyle.scss";
+//3继承使用
+.message {
+  @extend %message-common;
+}
+*/
 .ProduceDetails {
   width: 100vw;
   height: 100vh;
@@ -7,7 +21,7 @@
   width: 100%;
   height: 90%;
   overflow: auto;
-  background-color: #FDF7F7;
+  background-color: white;
 }
 .ProduceDetails__header__swiper {
   width: 100%;
@@ -16,7 +30,6 @@
 .ProduceDetails__header__content {
   width: 100%;
   height: 50%;
-  background-color: #FDF7F7;
 }
 .ProduceDetails__header__content--priceCard {
   height: 200rpx;
@@ -27,6 +40,7 @@
           box-shadow: 0 -1rpx 4rpx #999999;
   padding-left: 60rpx;
   padding-right: 30rpx;
+  border-bottom: 1rpx solid #F7F7F7;
 }
 .ProduceDetails__header__content--priceCard-item1 {
   height: 45%;
@@ -92,6 +106,9 @@
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .ProduceDetails__footer--left {
   width: 35%;
@@ -129,5 +146,28 @@
 }
 .ProduceDetails__footer--right {
   width: 65%;
-  background-color: red;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.ProduceDetails__footer--right--btn {
+  width: 45%;
+  height: 80%;
+}
+.at-button {
+  color: #40B08F;
+  border: 1rpx solid #BFE2D7;
+}
+.at-button--primary {
+  color: white;
+  border: 1rpx solid #54B7A2;
 }

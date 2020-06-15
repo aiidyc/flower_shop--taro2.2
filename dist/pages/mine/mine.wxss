@@ -156,3 +156,6 @@
 .at-badge__num {
   background: #D3AA79;
 }
+.at-list__item {
+  padding: 29rpx 24rpx;
+}

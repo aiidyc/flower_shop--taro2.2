@@ -1,0 +1,7 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="TitleCard" style="{{anonymousState__temp}}">
+        <view class="TitleCard__leftTitle"><text>{{leftText}}</text>
+            <view class="TitleCard__leftTitle__bgc"></view>
+        </view><text class="TitleCard__rightTitle">{{rightText}}</text>
+    </view>
+</block>

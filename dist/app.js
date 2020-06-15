@@ -77,7 +77,7 @@ var _App = function (_BaseComponent) {
     }
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = _App.__proto__ || Object.getPrototypeOf(_App)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
-      pages: ['pages/index/index', 'pages/list/list', 'pages/cart/cart', 'pages/mine/mine', 'pages/mine/myAddress/editAddress', 'pages/mine/myAddress/checkAddress', 'pages/order/orderTabs/orderTabs', 'pages/order/orderConfirm/orderConfirm', 'pages/order/productDetails/productDetails'],
+      pages: ['pages/index/index', 'pages/list/list', 'pages/cart/cart', 'pages/mine/mine', 'pages/mine/myAddress/setAddress', 'pages/mine/myAddress/checkAddress', 'pages/mine/myAddress/editAddress/editAddress', 'pages/order/orderTabs/orderTabs', 'pages/order/orderConfirm/orderConfirm', 'pages/order/productDetails/productDetails'],
       window: {
         backgroundTextStyle: 'light',
         navigationBarBackgroundColor: '#fff',
@@ -85,8 +85,8 @@ var _App = function (_BaseComponent) {
         navigationBarTextStyle: 'black'
       },
       tabBar: {
-        color: "#666",
-        selectedColor: "#54B7A2",
+        color: "#54B7A2",
+        selectedColor: "#289777",
         backgroundColor: "#fafafa",
         borderStyle: 'black',
         list: [{
@@ -1408,9 +1408,24 @@ function counter() {
       newState.selectFlag = !newState.selectFlag;
       return newState;
     case _reducersType.ADDRESS.CHECK:
+      // 选择地址
       var addressState = JSON.parse(JSON.stringify(state));
       addressState.checkedAddress = action.data;
       return addressState;
+    case _reducersType.ADDRESS.EDIT:
+      // 修改地址
+      var editState = JSON.parse(JSON.stringify(state));
+      var index = action.index,
+          data = action.data;
+
+      if (!index) {
+        // 添加地址
+        editState.allAddress.push(data);
+      } else {
+        // 修改地址
+        editState.allAddress[index] = data;
+      }
+      return editState;
     default:
       return state;
   }

@@ -1,4 +1,5 @@
-import {View, Text, Image} from '@tarojs/components'
+import { View } from '@tarojs/components'
+
 import './index.scss'
 import NewSwiper from './../../compoents/swiper/index'
 import ShopList from './shopList/shopList'
@@ -52,15 +53,10 @@ function Index () {
   return (
     <View className='index'>
       <NewSwiper img={imgs} height={'35%'}/>
-      {/*<TitleCard/>*/}
+      <TitleCard leftText={'限时抢购'} paddingTop={'12px'} height={'20px'} />
       <ShopList/>
-      <View className='newGard'>
-      <View className='grid-header'>
-        <Text className='grid-header__title'>新品推荐</Text>
-        <Text className='grid-header__more'>更多</Text>
-      </View>
+      <TitleCard leftText={'新品推荐'} paddingBottom={'3px'}/>
       <GoodsList/>
-      </View>
     </View>
   )
 }

@@ -90,7 +90,7 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '鲜花首页'
-    }, _this.$usedState = ["$compid__72"], _this.customComponents = ["NewSwiper", "ShopList", "GoodsList"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["$compid__1718", "$compid__1719", "$compid__1720"], _this.customComponents = ["NewSwiper", "TitleCard", "ShopList", "GoodsList"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Index, [{
@@ -109,17 +109,38 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__72"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__1718"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__72 = _genCompid2[0],
-          $compid__72 = _genCompid2[1];
+          $prevCompid__1718 = _genCompid2[0],
+          $compid__1718 = _genCompid2[1];
+
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1719"),
+          _genCompid4 = _slicedToArray(_genCompid3, 2),
+          $prevCompid__1719 = _genCompid4[0],
+          $compid__1719 = _genCompid4[1];
+
+      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1720"),
+          _genCompid6 = _slicedToArray(_genCompid5, 2),
+          $prevCompid__1720 = _genCompid6[0],
+          $compid__1720 = _genCompid6[1];
 
       _taroWeapp.propsManager.set({
         "img": imgs,
         "height": '35%'
-      }, $compid__72, $prevCompid__72);
+      }, $compid__1718, $prevCompid__1718);
+      _taroWeapp.propsManager.set({
+        "leftText": '限时抢购',
+        "paddingTop": '12px',
+        "height": '20px'
+      }, $compid__1719, $prevCompid__1719);
+      _taroWeapp.propsManager.set({
+        "leftText": '新品推荐',
+        "paddingBottom": '3px'
+      }, $compid__1720, $prevCompid__1720);
       Object.assign(this.__state, {
-        $compid__72: $compid__72
+        $compid__1718: $compid__1718,
+        $compid__1719: $compid__1719,
+        $compid__1720: $compid__1720
       });
       return this.__state;
     }

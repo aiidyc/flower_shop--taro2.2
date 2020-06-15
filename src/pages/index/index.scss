@@ -3,25 +3,4 @@
   width: 100vw;
   height: 100vh;
 }
-/*商品推荐*/
-.grid-header{
-  display: flex;
-  height: 50px;
-  flex-direction:row;
-  padding: 10px 40px;
-  align-items: center;
-  justify-content: space-between;
-}
-.grid-header__title {
-  color: #444444;
-  margin-left: 5px;
-  font-size: 35px;
-  font-weight: 500;
-
-}
-.grid-header__more{
-  margin-right: 20px;
-  color: #5A5A5A;
-  font-size: 27px;
-}
 

@@ -1,6 +1,5 @@
 .TitleCard{
-  width: 100vw;
-  height: 40px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -10,26 +9,23 @@
     color: #444444;
     font-size: 35px;
     font-weight: 500;
-    margin-left: 25px;
+    margin-left: 40px;
     position: relative;
+    width: 20%;
     z-index: 999;
-    vertical-align:bottom;
-    &__Sub{
-      background-color: #9ECCB5;
-      height: 35%;
+    &__bgc{
+      z-index: -1;
+      height: 27%;
       width: 90%;
+      background-color: #9ECCB5;
       position: absolute;
       right: 0;
-      bottom: 0;
-      z-index: 1;
+      bottom: 10px;
     }
-  }
-  &__leftImg{
-    margin-left: 25px;
   }
   &__rightTitle{
     color: #5A5A5A;
     font-size: 27px;
-    margin-right: 40px;
+    margin-right:55px;
   }
 }

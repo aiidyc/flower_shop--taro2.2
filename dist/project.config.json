@@ -55,8 +55,8 @@
 				},
 				{
 					"id": 3,
-					"name": "pages/mine/myAddress/editAddress",
-					"pathName": "pages/mine/myAddress/editAddress",
+					"name": "pages/mine/myAddress/editAddress/editAddress",
+					"pathName": "pages/mine/myAddress/editAddress/editAddress",
 					"query": "",
 					"scene": null
 				},
@@ -85,6 +85,13 @@
 					"id": -1,
 					"name": "pages/index/index",
 					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mine/myAddress/setAddress",
+					"pathName": "pages/mine/myAddress/setAddress",
 					"query": "",
 					"scene": null
 				}

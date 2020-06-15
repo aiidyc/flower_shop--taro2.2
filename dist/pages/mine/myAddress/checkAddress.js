@@ -57,7 +57,7 @@ var CheckAddress = (_temp2 = _class = function (_Taro$Component) {
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = CheckAddress.__proto__ || Object.getPrototypeOf(CheckAddress)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '选择地址'
       // 获取全局状态变量和方法 放入props
-    }, _this.$usedState = ["loopArray8", "allAddress"], _this.anonymousFunc0Map = {}, _this.customComponents = ["CheckAddressItem"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["loopArray82", "allAddress"], _this.anonymousFunc1Map = {}, _this.customComponents = ["CheckAddressItem"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(CheckAddress, [{
@@ -85,50 +85,61 @@ var CheckAddress = (_temp2 = _class = function (_Taro$Component) {
           checkAddress = props.checkAddress;
 
       var checkedIndex = checkedAddress.index;
-      var loopArray8 = allAddress.map(function (item, index) {
+
+      this.anonymousFunc0 = function () {
+        _taroWeapp2.default.navigateTo({ url: '/pages/mine/myAddress/editAddress/editAddress' });
+      };
+
+      var loopArray82 = allAddress.map(function (item, index) {
         item = {
           $original: (0, _taroWeapp.internal_get_original)(item)
         };
 
-        var _$indexKey = "bazzz" + index;
+        var _$indexKey = "beazz" + index;
 
-        _this2.anonymousFunc0Map[_$indexKey] = function () {
+        _this2.anonymousFunc1Map[_$indexKey] = function () {
           console.log(item.$original, index);
           var checkData = {
             index: index,
             data: item.$original
           };
           checkAddress(checkData);
+          _taroWeapp2.default.navigateTo({ url: '/pages/order/orderConfirm/orderConfirm?index=' + index });
         };
 
         var $loopState__temp2 = index === checkedIndex;
 
-        var _genCompid = (0, _taroWeapp.genCompid)(__prefix + 'bbzzzzzzzz' + index, true),
+        var _genCompid = (0, _taroWeapp.genCompid)(__prefix + 'bebzzzzzzz' + index, true),
             _genCompid2 = _slicedToArray(_genCompid, 2),
-            $prevCompid__111 = _genCompid2[0],
-            $compid__111 = _genCompid2[1];
+            $prevCompid__1574 = _genCompid2[0],
+            $compid__1574 = _genCompid2[1];
 
         _taroWeapp.propsManager.set({
           "addressData": item.$original,
           "checked": $loopState__temp2
-        }, $compid__111, $prevCompid__111);
+        }, $compid__1574, $prevCompid__1574);
         return {
           _$indexKey: _$indexKey,
           $loopState__temp2: $loopState__temp2,
-          $compid__111: $compid__111,
+          $compid__1574: $compid__1574,
           $original: item.$original
         };
       });
       Object.assign(this.__state, {
-        loopArray8: loopArray8,
+        loopArray82: loopArray82,
         allAddress: allAddress
       });
       return this.__state;
     }
   }, {
     key: 'anonymousFunc0',
-    value: function anonymousFunc0(_$indexKey) {
-      var _anonymousFunc0Map;
+    value: function anonymousFunc0(e) {
+      ;
+    }
+  }, {
+    key: 'anonymousFunc1',
+    value: function anonymousFunc1(_$indexKey) {
+      var _anonymousFunc1Map;
 
       ;
 
@@ -136,12 +147,12 @@ var CheckAddress = (_temp2 = _class = function (_Taro$Component) {
         e[_key2 - 1] = arguments[_key2];
       }
 
-      return this.anonymousFunc0Map[_$indexKey] && (_anonymousFunc0Map = this.anonymousFunc0Map)[_$indexKey].apply(_anonymousFunc0Map, e);
+      return this.anonymousFunc1Map[_$indexKey] && (_anonymousFunc1Map = this.anonymousFunc1Map)[_$indexKey].apply(_anonymousFunc1Map, e);
     }
   }]);
 
   return CheckAddress;
-}(_taroWeapp2.default.Component), _class.$$events = ["anonymousFunc0"], _class.$$componentPath = "pages/mine/myAddress/checkAddress", _temp2);
+}(_taroWeapp2.default.Component), _class.$$events = ["anonymousFunc0", "anonymousFunc1"], _class.$$componentPath = "pages/mine/myAddress/checkAddress", _temp2);
 
 
 CheckAddress.config = { navigationBarTitleText: '选择地址' };var stateP = function stateP(state) {

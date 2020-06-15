@@ -1,0 +1,9 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="myAddress">
+        <view class="addAddress" bindtap="anonymousFunc0"><text>+添加新地址</text>
+        </view>
+        <view class="AddressItemBox" wx:key="id" bindtap="anonymousFunc1" wx:for="{{loopArray71}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">
+            <address-item compid="{{item.$compid__1535}}"></address-item>
+        </view>
+    </view>
+</block>

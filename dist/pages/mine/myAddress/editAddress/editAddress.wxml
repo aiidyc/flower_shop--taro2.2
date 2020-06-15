@@ -1,0 +1,10 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="editAddress">
+        <at-input compid="{{$compid__1528}}"></at-input>
+        <at-input compid="{{$compid__1529}}"></at-input>
+        <at-input compid="{{$compid__1530}}"></at-input>
+        <at-switch compid="{{$compid__1531}}"></at-switch>
+        <at-button compid="{{$compid__1532}}">保存</at-button>
+        <at-button compid="{{$compid__1533}}">删除</at-button>
+    </view>
+</block>

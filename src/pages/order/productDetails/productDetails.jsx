@@ -78,6 +78,9 @@ const ProduceDetails = (props) => {
           </View>
           <View className="ProduceDetails__header__content--productInfo">
             <GoodsDetails/>
+            <GoodsDetails/>
+            <GoodsDetails/>
+            <GoodsDetails/>
           </View>
         </View>
       </View>

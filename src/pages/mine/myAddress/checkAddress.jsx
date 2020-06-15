@@ -1,3 +1,4 @@
+import Taro from "@tarojs/taro";
 import { View, Text } from '@tarojs/components'
 import { connect } from '@tarojs/redux'
 
@@ -10,7 +11,9 @@ const CheckAddress = (props) => {
   const checkedIndex = checkedAddress.index
   return (
    <View className='checkMyAddress'>
-     <View className='addAddress'>
+     <View className='addAddress' onClick={()=>{
+       Taro.navigateTo({url:'/pages/mine/myAddress/editAddress/editAddress'})
+     }}>
        <Text>+添加新地址</Text>
      </View>
      {
@@ -22,6 +25,7 @@ const CheckAddress = (props) => {
              data: item
            }
            checkAddress(checkData)
+           Taro.navigateTo({url:'/pages/order/orderConfirm/orderConfirm?index='+index})
          }}>
            <CheckAddressItem  addressData={item} checked={index===checkedIndex}/>
          </View>

@@ -1,0 +1,38 @@
+.TitleCard {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.TitleCard__leftTitle {
+  color: #444444;
+  font-size: 35rpx;
+  font-weight: 500;
+  margin-left: 40rpx;
+  position: relative;
+  width: 20%;
+  z-index: 999;
+}
+.TitleCard__leftTitle__bgc {
+  z-index: -1;
+  height: 27%;
+  width: 90%;
+  background-color: #9ECCB5;
+  position: absolute;
+  right: 0;
+  bottom: 10rpx;
+}
+.TitleCard__rightTitle {
+  color: #5A5A5A;
+  font-size: 27rpx;
+  margin-right: 55rpx;
+}

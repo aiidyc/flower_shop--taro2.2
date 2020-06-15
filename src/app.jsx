@@ -24,8 +24,9 @@ class App extends Component {
       'pages/list/list',
       'pages/cart/cart',
       'pages/mine/mine',
-      'pages/mine/myAddress/editAddress',
+      'pages/mine/myAddress/setAddress',
       'pages/mine/myAddress/checkAddress',
+      'pages/mine/myAddress/editAddress/editAddress',
       'pages/order/orderTabs/orderTabs',
       'pages/order/orderConfirm/orderConfirm',
       'pages/order/productDetails/productDetails'
@@ -37,8 +38,8 @@ class App extends Component {
       navigationBarTextStyle: 'black'
     },
     tabBar: {
-      color: "#666",
-      selectedColor: "#54B7A2",
+      color: "#54B7A2",
+      selectedColor: "#289777",
       backgroundColor: "#fafafa",
       borderStyle: 'black',
       list: [{

@@ -33,7 +33,7 @@ function GoodsOne (props) {
               buttonType === '2'?
               (
                 <AtInputNumber
-                  min={0}
+                  min={1}
                   max={9999}
                   step={1}
                   value={count}

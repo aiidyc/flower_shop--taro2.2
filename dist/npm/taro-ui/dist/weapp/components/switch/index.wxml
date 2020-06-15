@@ -1,0 +1,9 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="{{rootCls}}" style="{{anonymousState__temp}}">
+        <view class="at-switch__title">{{title}}</view>
+        <view class="{{containerCls}}">
+            <view class="at-switch__mask"></view>
+            <switch class="at-switch__switch" checked="{{checked}}" color="{{color}}" bindchange="handleChange"></switch>
+        </view>
+    </view>
+</block>

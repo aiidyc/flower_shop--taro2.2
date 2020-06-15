@@ -1,23 +1,24 @@
-import {View, Text, Image} from '@tarojs/components'
+import {View, Text } from '@tarojs/components'
 import './titile-card.scss'
-import xinpintuijian from './../../assets/xinpintuijian.png'
 
 function TitleCard (props) {
-  const { rightTitle, leftTitle, height, titleType } = props
-  const Img = titleType === '1' ? xinpintuijian : ''
+  const { rightText, leftText, height, paddingTop, paddingBottom } = props
   return (
-    <View className='TitleCard' style={{ height: height }}>
-      <Text className='TitleCard__leftTitle'>{leftTitle}<Text className='TitleCard__leftTitle__Sub'></Text></Text>
-      {/*<Image className='TitleCard__leftImg' style={{width:'92px',height:'20px'}} src={Img}/>*/}
-      <Text className='TitleCard__rightTitle'>{rightTitle}</Text>
+    <View className='TitleCard' style={{ height: height, paddingTop: paddingTop,paddingBottom:paddingBottom}}>
+      <View className='TitleCard__leftTitle'>
+        <Text>{leftText}</Text>
+        <View className='TitleCard__leftTitle__bgc'></View>
+      </View>
+      <Text className='TitleCard__rightTitle'>{rightText}</Text>
     </View>
   )
 }
 
 TitleCard.defaultProps = {
-  leftTitle: '新品推荐',
-  rightTitle: '更多',
-  height:'40px',
-  titleType: '1'
+  leftText: '新品推荐',
+  rightText: '更多',
+  height:'30px',
+  paddingTop:'0px',
+  paddingBottom:'0px'
 }
 export default TitleCard

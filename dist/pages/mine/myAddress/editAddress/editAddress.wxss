@@ -1,0 +1,12 @@
+.editAddress {
+  height: 100vh;
+  width: 100vw;
+}
+.at-button {
+  margin-top: 20rpx;
+  width: 90%;
+}
+.at-button--primary {
+  margin-top: 40rpx;
+  width: 90%;
+}

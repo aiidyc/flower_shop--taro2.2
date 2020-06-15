@@ -58,9 +58,22 @@ export default function counter (state = INITIAL_STATE, action) {
       newState.selectFlag = !newState.selectFlag
       return newState
     case ADDRESS.CHECK:
+      // 选择地址
       const addressState = JSON.parse(JSON.stringify(state))
       addressState.checkedAddress = action.data
       return addressState
+    case ADDRESS.EDIT:
+      // 修改地址
+      const editState = JSON.parse(JSON.stringify(state))
+      const { index, data } = action
+      if(!index){
+        // 添加地址
+        editState.allAddress.push(data)
+      }else {
+        // 修改地址
+        editState.allAddress[index] = data
+      }
+      return editState
      default:
        return state
   }

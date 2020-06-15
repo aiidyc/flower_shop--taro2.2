@@ -12,11 +12,11 @@ const Mine = (props) => {
     <View className='mine'>
       <View className='mine__header'>
         <View className='mine__header_avatar'>
-          <AtAvatar  className='mine__header_avatar--img' size={"large"} circle={true} text='妮妮Yan_ni'></AtAvatar>
-          <View className='mine__header_avatar--text'>
-            <Text style={{color:"#FFFFFF",fontSize:'15px'}}>Yanni233</Text>
-            <Text style={{color:"#BAE2D5",fontSize:'13px'}}>181*****9902</Text>
-          </View>
+          {/*<AtAvatar  className='mine__header_avatar--img' size={"large"} circle={true} text='妮妮Yan_ni'></AtAvatar>*/}
+          {/*<View className='mine__header_avatar--text'>*/}
+            {/*<Text style={{color:"#FFFFFF",fontSize:'15px'}}>Yanni233</Text>*/}
+            {/*<Text style={{color:"#BAE2D5",fontSize:'13px'}}>181*****9902</Text>*/}
+          {/*</View>*/}
         </View>
       </View>
       <View className='mine__content'>
@@ -41,7 +41,7 @@ const Mine = (props) => {
               <AtBadge value={10} maxValue={99}>
                 <Image src={daifahuo} style={{width:'60rpx',height:'60rpx'}}/>
               </AtBadge>
-              <Text style={{marginTop:'5px'}}>待发货</Text>
+              <Text style={{marginTop:'4px'}}>待发货</Text>
             </View>
             <View className='mine__content__top--right--item' onClick={()=>{console.log('跳转到待收货')
               Taro.navigateTo({url:'/pages/order/orderTabs/orderTabs?current=2'})
@@ -61,7 +61,7 @@ const Mine = (props) => {
               }} />
               <AtListItem title='地址管理' arrow='right'
                           onClick={()=>{
-                            Taro.navigateTo({url:'/pages/mine/myAddress/editAddress'})
+                            Taro.navigateTo({url:'/pages/mine/myAddress/setAddress'})
                           }}
               />
               <AtListItem title='地址选择' arrow='right'

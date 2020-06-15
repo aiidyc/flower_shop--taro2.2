@@ -1,36 +1,7 @@
-@charset "UTF-8";
 .index {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100vw;
   height: 100vh;
-}
-/*商品推荐*/
-.grid-header {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 50rpx;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  padding: 10rpx 40rpx;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.grid-header__title {
-  color: #444444;
-  margin-left: 5rpx;
-  font-size: 35rpx;
-  font-weight: 500;
-}
-.grid-header__more {
-  margin-right: 20rpx;
-  color: #5A5A5A;
-  font-size: 27rpx;
 }

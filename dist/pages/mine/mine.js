@@ -64,7 +64,7 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Mine.__proto__ || Object.getPrototypeOf(Mine)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '我的'
-    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "anonymousState__temp5", "anonymousState__temp6", "anonymousState__temp7", "anonymousState__temp8", "$compid__153", "$compid__154", "$compid__155", "$compid__156", "$compid__157", "$compid__158", "$compid__159", "$compid__160", "$compid__161", "daifukuan", "daifahuo", "daishouhuo"], _this.customComponents = ["AtAvatar", "AtBadge", "AtList", "AtListItem"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "anonymousState__temp5", "anonymousState__temp6", "$compid__1583", "$compid__1584", "$compid__1585", "$compid__1586", "$compid__1587", "$compid__1588", "$compid__1589", "$compid__1590", "daifukuan", "daifahuo", "daishouhuo"], _this.customComponents = ["AtBadge", "AtList", "AtListItem"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Mine, [{
@@ -83,54 +83,47 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__153"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__1583"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__153 = _genCompid2[0],
-          $compid__153 = _genCompid2[1];
+          $prevCompid__1583 = _genCompid2[0],
+          $compid__1583 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__154"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1584"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__154 = _genCompid4[0],
-          $compid__154 = _genCompid4[1];
+          $prevCompid__1584 = _genCompid4[0],
+          $compid__1584 = _genCompid4[1];
 
-      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__155"),
+      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1585"),
           _genCompid6 = _slicedToArray(_genCompid5, 2),
-          $prevCompid__155 = _genCompid6[0],
-          $compid__155 = _genCompid6[1];
+          $prevCompid__1585 = _genCompid6[0],
+          $compid__1585 = _genCompid6[1];
 
-      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__156"),
+      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1586"),
           _genCompid8 = _slicedToArray(_genCompid7, 2),
-          $prevCompid__156 = _genCompid8[0],
-          $compid__156 = _genCompid8[1];
+          $prevCompid__1586 = _genCompid8[0],
+          $compid__1586 = _genCompid8[1];
 
-      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__157"),
+      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1587"),
           _genCompid10 = _slicedToArray(_genCompid9, 2),
-          $prevCompid__157 = _genCompid10[0],
-          $compid__157 = _genCompid10[1];
+          $prevCompid__1587 = _genCompid10[0],
+          $compid__1587 = _genCompid10[1];
 
-      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__158"),
+      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1588"),
           _genCompid12 = _slicedToArray(_genCompid11, 2),
-          $prevCompid__158 = _genCompid12[0],
-          $compid__158 = _genCompid12[1];
+          $prevCompid__1588 = _genCompid12[0],
+          $compid__1588 = _genCompid12[1];
 
-      var _genCompid13 = (0, _taroWeapp.genCompid)(__prefix + "$compid__159"),
+      var _genCompid13 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1589"),
           _genCompid14 = _slicedToArray(_genCompid13, 2),
-          $prevCompid__159 = _genCompid14[0],
-          $compid__159 = _genCompid14[1];
+          $prevCompid__1589 = _genCompid14[0],
+          $compid__1589 = _genCompid14[1];
 
-      var _genCompid15 = (0, _taroWeapp.genCompid)(__prefix + "$compid__160"),
+      var _genCompid15 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1590"),
           _genCompid16 = _slicedToArray(_genCompid15, 2),
-          $prevCompid__160 = _genCompid16[0],
-          $compid__160 = _genCompid16[1];
-
-      var _genCompid17 = (0, _taroWeapp.genCompid)(__prefix + "$compid__161"),
-          _genCompid18 = _slicedToArray(_genCompid17, 2),
-          $prevCompid__161 = _genCompid18[0],
-          $compid__161 = _genCompid18[1];
+          $prevCompid__1590 = _genCompid16[0],
+          $compid__1590 = _genCompid16[1];
 
       var props = this.__props;
-      var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ color: "#FFFFFF", fontSize: '15px' });
-      var anonymousState__temp2 = (0, _taroWeapp.internal_inline_style)({ color: "#BAE2D5", fontSize: '13px' });
 
       this.anonymousFunc0 = function () {
         _taroWeapp2.default.navigateTo({ url: '/pages/order/orderTabs/orderTabs' });
@@ -141,31 +134,31 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
         _taroWeapp2.default.navigateTo({ url: '/pages/order/orderTabs/orderTabs?current=0' });
       };
 
-      var anonymousState__temp3 = (0, _taroWeapp.internal_inline_style)({ width: '60rpx', height: '60rpx' });
-      var anonymousState__temp4 = (0, _taroWeapp.internal_inline_style)({ marginTop: '5px' });
+      var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ width: '60rpx', height: '60rpx' });
+      var anonymousState__temp2 = (0, _taroWeapp.internal_inline_style)({ marginTop: '5px' });
 
       this.anonymousFunc2 = function () {
         console.log('跳转到待发货');
         _taroWeapp2.default.navigateTo({ url: '/pages/order/orderTabs/orderTabs?current=1' });
       };
 
-      var anonymousState__temp5 = (0, _taroWeapp.internal_inline_style)({ width: '60rpx', height: '60rpx' });
-      var anonymousState__temp6 = (0, _taroWeapp.internal_inline_style)({ marginTop: '5px' });
+      var anonymousState__temp3 = (0, _taroWeapp.internal_inline_style)({ width: '60rpx', height: '60rpx' });
+      var anonymousState__temp4 = (0, _taroWeapp.internal_inline_style)({ marginTop: '4px' });
 
       this.anonymousFunc3 = function () {
         console.log('跳转到待收货');
         _taroWeapp2.default.navigateTo({ url: '/pages/order/orderTabs/orderTabs?current=2' });
       };
 
-      var anonymousState__temp7 = (0, _taroWeapp.internal_inline_style)({ width: '60rpx', height: '60rpx' });
-      var anonymousState__temp8 = (0, _taroWeapp.internal_inline_style)({ marginTop: '5px' });
+      var anonymousState__temp5 = (0, _taroWeapp.internal_inline_style)({ width: '60rpx', height: '60rpx' });
+      var anonymousState__temp6 = (0, _taroWeapp.internal_inline_style)({ marginTop: '5px' });
 
       this.anonymousFunc4 = function () {
         console.log('个人信息');
       };
 
       this.anonymousFunc5 = function () {
-        _taroWeapp2.default.navigateTo({ url: '/pages/mine/myAddress/editAddress' });
+        _taroWeapp2.default.navigateTo({ url: '/pages/mine/myAddress/setAddress' });
       };
 
       this.anonymousFunc6 = function () {
@@ -181,48 +174,42 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
       };
 
       _taroWeapp.propsManager.set({
-        "className": "mine__header_avatar--img",
-        "size": "large",
-        "circle": true,
-        "text": '\u59AE\u59AEYan_ni'
-      }, $compid__153, $prevCompid__153);
+        "value": 10,
+        "maxValue": 99
+      }, $compid__1583, $prevCompid__1583);
       _taroWeapp.propsManager.set({
         "value": 10,
         "maxValue": 99
-      }, $compid__154, $prevCompid__154);
+      }, $compid__1584, $prevCompid__1584);
       _taroWeapp.propsManager.set({
         "value": 10,
         "maxValue": 99
-      }, $compid__155, $prevCompid__155);
-      _taroWeapp.propsManager.set({
-        "value": 10,
-        "maxValue": 99
-      }, $compid__156, $prevCompid__156);
+      }, $compid__1585, $prevCompid__1585);
       _taroWeapp.propsManager.set({
         "title": '\u4E2A\u4EBA\u4FE1\u606F',
         "arrow": "right",
         "onClick": this.anonymousFunc4
-      }, $compid__157, $prevCompid__157);
+      }, $compid__1586, $prevCompid__1586);
       _taroWeapp.propsManager.set({
         "title": '\u5730\u5740\u7BA1\u7406',
         "arrow": "right",
         "onClick": this.anonymousFunc5
-      }, $compid__158, $prevCompid__158);
+      }, $compid__1587, $prevCompid__1587);
       _taroWeapp.propsManager.set({
         "title": '\u5730\u5740\u9009\u62E9',
         "arrow": "right",
         "onClick": this.anonymousFunc6
-      }, $compid__159, $prevCompid__159);
+      }, $compid__1588, $prevCompid__1588);
       _taroWeapp.propsManager.set({
         "title": '\u8BA2\u5355\u786E\u8BA4',
         "arrow": "right",
         "onClick": this.anonymousFunc7
-      }, $compid__160, $prevCompid__160);
+      }, $compid__1589, $prevCompid__1589);
       _taroWeapp.propsManager.set({
         "title": '\u5546\u54C1\u8BE6\u60C5',
         "arrow": "right",
         "onClick": this.anonymousFunc8
-      }, $compid__161, $prevCompid__161);
+      }, $compid__1590, $prevCompid__1590);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
         anonymousState__temp2: anonymousState__temp2,
@@ -230,17 +217,14 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
         anonymousState__temp4: anonymousState__temp4,
         anonymousState__temp5: anonymousState__temp5,
         anonymousState__temp6: anonymousState__temp6,
-        anonymousState__temp7: anonymousState__temp7,
-        anonymousState__temp8: anonymousState__temp8,
-        $compid__153: $compid__153,
-        $compid__154: $compid__154,
-        $compid__155: $compid__155,
-        $compid__156: $compid__156,
-        $compid__157: $compid__157,
-        $compid__158: $compid__158,
-        $compid__159: $compid__159,
-        $compid__160: $compid__160,
-        $compid__161: $compid__161,
+        $compid__1583: $compid__1583,
+        $compid__1584: $compid__1584,
+        $compid__1585: $compid__1585,
+        $compid__1586: $compid__1586,
+        $compid__1587: $compid__1587,
+        $compid__1588: $compid__1588,
+        $compid__1589: $compid__1589,
+        $compid__1590: $compid__1590,
         daifukuan: _daifukuan2.default,
         daifahuo: _daifahuo2.default,
         daishouhuo: _daishouhuo2.default

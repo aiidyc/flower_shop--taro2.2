@@ -4,23 +4,25 @@ import {ADDRESS} from "../../../reducers/reducersType";
 
 import { View, Text } from '@tarojs/components'
 import AddressItem from './../../../compoents/address-item/address-item'
-import './editAddress.scss'
+import './setAddress.scss'
 
 
 const MyAddress = (props) => {
   const {cart: { allAddress, checkedAddress },checkAddressFun} = props
-  const getAddress = (item, index) => {
-    console.log(item, index)
-  }
+
   return (
    <View className='myAddress'>
-     <View className='addAddress'>
+     <View className='addAddress' onClick={()=>{
+       Taro.navigateTo({url:'/pages/mine/myAddress/editAddress/editAddress'})
+     }}>
        <Text>+添加新地址</Text>
      </View>
      {
        allAddress.map((item,index)=>{
          return (
-           <View className='AddressItemBox'key={item.id}  taroKey={item.id} onClick={getAddress(item, index)}>
+           <View className='AddressItemBox'key={item.id}  taroKey={item.id} onClick={()=>{
+             Taro.navigateTo({url:'/pages/mine/myAddress/editAddress/editAddress?index='+index})
+           }}>
              <AddressItem addressData={item} defaultAddress={item.default}/>
            </View>
          )

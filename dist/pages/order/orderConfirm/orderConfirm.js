@@ -26,6 +26,8 @@ var _taroWeapp = __webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@
 
 var _taroWeapp2 = _interopRequireDefault(_taroWeapp);
 
+var _redux = __webpack_require__(/*! @tarojs/redux */ "./node_modules/@tarojs/redux/index.js");
+
 var _rightArrow = __webpack_require__(/*! ./../../../assets/right-arrow.png */ "./src/assets/right-arrow.png");
 
 var _rightArrow2 = _interopRequireDefault(_rightArrow);
@@ -60,70 +62,122 @@ var OrderConfirm = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = OrderConfirm.__proto__ || Object.getPrototypeOf(OrderConfirm)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '确认订单'
-    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "$compid__130", "$compid__131", "coordinate", "rightArrow"], _this.customComponents = ["OrderItem", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "$compid__1571", "$compid__1572", "coordinate", "rightArrow", "addressText", "time"], _this.customComponents = ["OrderItem", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(OrderConfirm, [{
-    key: '_constructor',
+    key: "_constructor",
     value: function _constructor(props) {
-      _get(OrderConfirm.prototype.__proto__ || Object.getPrototypeOf(OrderConfirm.prototype), '_constructor', this).call(this, props);
+      _get(OrderConfirm.prototype.__proto__ || Object.getPrototypeOf(OrderConfirm.prototype), "_constructor", this).call(this, props);
 
       this.$$refs = new _taroWeapp2.default.RefsArray();
     }
   }, {
-    key: '_createData',
+    key: "_createData",
     value: function _createData() {
+      var _this2 = this;
+
       this.__state = arguments[0] || this.state || {};
       this.__props = arguments[1] || this.props || {};
       var __isRunloopRef = arguments[2];
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__130"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__1571"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__130 = _genCompid2[0],
-          $compid__130 = _genCompid2[1];
+          $prevCompid__1571 = _genCompid2[0],
+          $compid__1571 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__131"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1572"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__131 = _genCompid4[0],
-          $compid__131 = _genCompid4[1];
+          $prevCompid__1572 = _genCompid4[0],
+          $compid__1572 = _genCompid4[1];
 
       var props = this.__props;
+
+      var allAddress = props.cart.allAddress;
+
+      var _useState = (0, _taroWeapp.useState)('选择时间'),
+          _useState2 = _slicedToArray(_useState, 2),
+          time = _useState2[0],
+          setTime = _useState2[1];
+
+      var _useState3 = (0, _taroWeapp.useState)('点击选择收货地址'),
+          _useState4 = _slicedToArray(_useState3, 2),
+          addressText = _useState4[0],
+          setAddressText = _useState4[1];
+
+      (0, _taroWeapp.useEffect)(function () {
+        // 初始化地址
+        var index = _this2.$router.params.index;
+        if (!index) {
+          return;
+        }var currentAddress = allAddress[index];
+        console.log(currentAddress);
+      }, []);
+
+      this.anonymousFunc0 = function () {
+        _taroWeapp2.default.navigateTo({ url: '/pages/mine/myAddress/checkAddress' });
+      };
+
       var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ width: '22px', height: '22px', marginRight: '10px' });
       var anonymousState__temp2 = (0, _taroWeapp.internal_inline_style)({ width: '22px', height: '22px' });
       var anonymousState__temp3 = (0, _taroWeapp.internal_inline_style)({ color: '#626262', fontSize: '33rpx' });
+
+      this.anonymousFunc1 = function (e) {
+        setTime(e.target.value);
+      };
+
       var anonymousState__temp4 = (0, _taroWeapp.internal_inline_style)({ color: '#D7B285', marginRight: '5px', fontSize: '33rpx' });
       _taroWeapp.propsManager.set({
         "orderType": '4'
-      }, $compid__130, $prevCompid__130);
+      }, $compid__1571, $prevCompid__1571);
       _taroWeapp.propsManager.set({
         "size": "normal",
         "type": "primary",
         "circle": true
-      }, $compid__131, $prevCompid__131);
+      }, $compid__1572, $prevCompid__1572);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
         anonymousState__temp2: anonymousState__temp2,
         anonymousState__temp3: anonymousState__temp3,
         anonymousState__temp4: anonymousState__temp4,
-        $compid__130: $compid__130,
-        $compid__131: $compid__131,
+        $compid__1571: $compid__1571,
+        $compid__1572: $compid__1572,
         coordinate: _coordinate2.default,
-        rightArrow: _rightArrow2.default
+        rightArrow: _rightArrow2.default,
+        addressText: addressText,
+        time: time
       });
       return this.__state;
+    }
+  }, {
+    key: "anonymousFunc0",
+    value: function anonymousFunc0(e) {
+      ;
+    }
+  }, {
+    key: "anonymousFunc1",
+    value: function anonymousFunc1(e) {
+      ;
     }
   }]);
 
   return OrderConfirm;
-}(_taroWeapp2.default.Component), _class.$$events = [], _class.$$componentPath = "pages/order/orderConfirm/orderConfirm", _temp2);
+}(_taroWeapp2.default.Component), _class.$$events = ["anonymousFunc0", "anonymousFunc1"], _class.$$componentPath = "pages/order/orderConfirm/orderConfirm", _temp2);
 
 
 OrderConfirm.config = { navigationBarTitleText: '确认订单' };
-exports.default = OrderConfirm;
+var stateP = function stateP(state) {
+  return {
+    // cart:{cart对象} 赋值给props
+    cart: state.cart
+  };
+};
+var OrderConfirm__Connected = (0, _redux.connect)(stateP, null)(OrderConfirm);
+exports.default = OrderConfirm__Connected;
 
-Component(__webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@tarojs/taro-weapp/index.js").default.createComponent(OrderConfirm, true));
+Component(__webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@tarojs/taro-weapp/index.js").default.createComponent(OrderConfirm__Connected, true));
 
 /***/ }),
 

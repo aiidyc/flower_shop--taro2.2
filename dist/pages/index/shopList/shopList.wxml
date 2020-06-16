@@ -1,7 +1,7 @@
 <block wx:if="{{$taroCompReady}}">
     <view>
         <view class="at-row at-row--wrap">
-            <view wx:key="id" bindtap="anonymousFunc0" class="at-col at-col-12 shopList__item" wx:for="{{loopArray84}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">
+            <view wx:key="id" class="at-col at-col-12 shopList__item" bindtap="anonymousFunc0" wx:for="{{loopArray9}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">
                 <image class="shopList__item__img" mode="aspectFill" src="{{item.$original.url}}"></image>
                 <view class="shopList__item_text"><text class="shopList__item__text_title">{{item.$original.title}}</text><text class="shopList__item__text_subTitle">{{item.$original.subTitle}}</text>
                     <view class="shopList__item_text__price"><text class="shopList__item_text__price--old">¥288</text><text class="shopList__item_text__price--new">¥188</text>

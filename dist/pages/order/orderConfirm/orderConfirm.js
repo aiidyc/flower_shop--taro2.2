@@ -62,7 +62,7 @@ var OrderConfirm = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = OrderConfirm.__proto__ || Object.getPrototypeOf(OrderConfirm)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '确认订单'
-    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "$compid__1571", "$compid__1572", "coordinate", "rightArrow", "addressText", "time"], _this.customComponents = ["OrderItem", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "$compid__134", "$compid__135", "coordinate", "addressText", "rightArrow", "time"], _this.customComponents = ["OrderItem", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(OrderConfirm, [{
@@ -83,15 +83,15 @@ var OrderConfirm = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__1571"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__134"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__1571 = _genCompid2[0],
-          $compid__1571 = _genCompid2[1];
+          $prevCompid__134 = _genCompid2[0],
+          $compid__134 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1572"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__135"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__1572 = _genCompid4[0],
-          $compid__1572 = _genCompid4[1];
+          $prevCompid__135 = _genCompid4[0],
+          $compid__135 = _genCompid4[1];
 
       var props = this.__props;
 
@@ -102,7 +102,11 @@ var OrderConfirm = (_temp2 = _class = function (_Taro$Component) {
           time = _useState2[0],
           setTime = _useState2[1];
 
-      var _useState3 = (0, _taroWeapp.useState)('点击选择收货地址'),
+      var _useState3 = (0, _taroWeapp.useState)({
+        name: '点击选择收货地址',
+        phoneNumber: '',
+        address: ''
+      }),
           _useState4 = _slicedToArray(_useState3, 2),
           addressText = _useState4[0],
           setAddressText = _useState4[1];
@@ -114,13 +118,14 @@ var OrderConfirm = (_temp2 = _class = function (_Taro$Component) {
           return;
         }var currentAddress = allAddress[index];
         console.log(currentAddress);
+        setAddressText(currentAddress);
       }, []);
 
       this.anonymousFunc0 = function () {
         _taroWeapp2.default.navigateTo({ url: '/pages/mine/myAddress/checkAddress' });
       };
 
-      var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ width: '22px', height: '22px', marginRight: '10px' });
+      var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ width: '22px', height: '22px' });
       var anonymousState__temp2 = (0, _taroWeapp.internal_inline_style)({ width: '22px', height: '22px' });
       var anonymousState__temp3 = (0, _taroWeapp.internal_inline_style)({ color: '#626262', fontSize: '33rpx' });
 
@@ -131,22 +136,22 @@ var OrderConfirm = (_temp2 = _class = function (_Taro$Component) {
       var anonymousState__temp4 = (0, _taroWeapp.internal_inline_style)({ color: '#D7B285', marginRight: '5px', fontSize: '33rpx' });
       _taroWeapp.propsManager.set({
         "orderType": '4'
-      }, $compid__1571, $prevCompid__1571);
+      }, $compid__134, $prevCompid__134);
       _taroWeapp.propsManager.set({
         "size": "normal",
         "type": "primary",
         "circle": true
-      }, $compid__1572, $prevCompid__1572);
+      }, $compid__135, $prevCompid__135);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
         anonymousState__temp2: anonymousState__temp2,
         anonymousState__temp3: anonymousState__temp3,
         anonymousState__temp4: anonymousState__temp4,
-        $compid__1571: $compid__1571,
-        $compid__1572: $compid__1572,
+        $compid__134: $compid__134,
+        $compid__135: $compid__135,
         coordinate: _coordinate2.default,
-        rightArrow: _rightArrow2.default,
         addressText: addressText,
+        rightArrow: _rightArrow2.default,
         time: time
       });
       return this.__state;

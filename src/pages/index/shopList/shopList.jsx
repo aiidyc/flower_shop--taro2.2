@@ -1,5 +1,6 @@
 import {View, Text, Image} from '@tarojs/components'
 import './shopList.scss'
+import Taro from "@tarojs/taro";
 
 function ShopList (props) {
   const { shopData } = props
@@ -11,7 +12,9 @@ function ShopList (props) {
       {/*</View>*/}
       <View className='at-row at-row--wrap'>
         {shopData.map((item, index) => (
-          <View key={item.id} onClick={()=>{console.log(index)}} className='at-col at-col-12 shopList__item'>
+          <View key={item.id} className='at-col at-col-12 shopList__item' onClick={()=>{
+            Taro.navigateTo({ url: '/pages/order/productDetails/productDetails?pid=' + item.id })
+          }}>
               <Image
                 className='shopList__item__img'
                 mode={'aspectFill'}

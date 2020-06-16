@@ -57,7 +57,7 @@ var CheckAddress = (_temp2 = _class = function (_Taro$Component) {
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = CheckAddress.__proto__ || Object.getPrototypeOf(CheckAddress)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '选择地址'
       // 获取全局状态变量和方法 放入props
-    }, _this.$usedState = ["loopArray82", "allAddress"], _this.anonymousFunc1Map = {}, _this.customComponents = ["CheckAddressItem"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["loopArray8", "allAddress"], _this.anonymousFunc1Map = {}, _this.customComponents = ["CheckAddressItem"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(CheckAddress, [{
@@ -90,12 +90,12 @@ var CheckAddress = (_temp2 = _class = function (_Taro$Component) {
         _taroWeapp2.default.navigateTo({ url: '/pages/mine/myAddress/editAddress/editAddress' });
       };
 
-      var loopArray82 = allAddress.map(function (item, index) {
+      var loopArray8 = allAddress.map(function (item, index) {
         item = {
           $original: (0, _taroWeapp.internal_get_original)(item)
         };
 
-        var _$indexKey = "beazz" + index;
+        var _$indexKey = "bazzz" + index;
 
         _this2.anonymousFunc1Map[_$indexKey] = function () {
           console.log(item.$original, index);
@@ -104,29 +104,30 @@ var CheckAddress = (_temp2 = _class = function (_Taro$Component) {
             data: item.$original
           };
           checkAddress(checkData);
-          _taroWeapp2.default.navigateTo({ url: '/pages/order/orderConfirm/orderConfirm?index=' + index });
+          _taroWeapp2.default.redirectTo({ url: '/pages/order/orderConfirm/orderConfirm?index=' + index });
+          // Taro.navigateBack({ index: index })
         };
 
         var $loopState__temp2 = index === checkedIndex;
 
-        var _genCompid = (0, _taroWeapp.genCompid)(__prefix + 'bebzzzzzzz' + index, true),
+        var _genCompid = (0, _taroWeapp.genCompid)(__prefix + 'bbzzzzzzzz' + index, true),
             _genCompid2 = _slicedToArray(_genCompid, 2),
-            $prevCompid__1574 = _genCompid2[0],
-            $compid__1574 = _genCompid2[1];
+            $prevCompid__109 = _genCompid2[0],
+            $compid__109 = _genCompid2[1];
 
         _taroWeapp.propsManager.set({
           "addressData": item.$original,
           "checked": $loopState__temp2
-        }, $compid__1574, $prevCompid__1574);
+        }, $compid__109, $prevCompid__109);
         return {
           _$indexKey: _$indexKey,
           $loopState__temp2: $loopState__temp2,
-          $compid__1574: $compid__1574,
+          $compid__109: $compid__109,
           $original: item.$original
         };
       });
       Object.assign(this.__state, {
-        loopArray82: loopArray82,
+        loopArray8: loopArray8,
         allAddress: allAddress
       });
       return this.__state;

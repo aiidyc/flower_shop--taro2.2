@@ -6,17 +6,19 @@ import './mine.scss'
 import daifukuan from './../../assets/daifukuan.png'
 import daifahuo from './../../assets/daifahuo.png'
 import daishouhuo from '../../assets/daishouhuo.png'
+import mineBgc from '../../assets/mineBgc.png'
 
 const Mine = (props) => {
     return (
     <View className='mine'>
       <View className='mine__header'>
+        <Image mode={'aspectFill'} src={mineBgc} className='mine__header__bgc'/>
         <View className='mine__header_avatar'>
-          {/*<AtAvatar  className='mine__header_avatar--img' size={"large"} circle={true} text='妮妮Yan_ni'></AtAvatar>*/}
-          {/*<View className='mine__header_avatar--text'>*/}
-            {/*<Text style={{color:"#FFFFFF",fontSize:'15px'}}>Yanni233</Text>*/}
-            {/*<Text style={{color:"#BAE2D5",fontSize:'13px'}}>181*****9902</Text>*/}
-          {/*</View>*/}
+          <AtAvatar  className='mine__header_avatar--img' size={"large"} circle={true} text='妮妮Yan_ni'></AtAvatar>
+          <View className='mine__header_avatar--text'>
+            <Text style={{color:"#FFFFFF",fontSize:'15px'}}>Yanni233</Text>
+            <Text style={{color:"#BAE2D5",fontSize:'13px'}}>181*****9902</Text>
+          </View>
         </View>
       </View>
       <View className='mine__content'>

@@ -3,25 +3,37 @@
         <view class="OrderConfirm--top">
             <view class="OrderConfirm--top__address">
                 <view class="OrderConfirm--top__address--top" bindtap="anonymousFunc0">
-                    <view class="OrderConfirm--top__address--top__info">
-                        <image style="{{anonymousState__temp}}" src="{{coordinate}}"></image><text class="OrderConfirm--top__address--top__info__text">{{addressText}}</text>
+                    <view class="OrderConfirm--top__address--top__item1">
+                        <image style="{{anonymousState__temp}}" src="{{coordinate}}"></image>
                     </view>
-                    <image style="{{anonymousState__temp2}}" src="{{rightArrow}}"></image>
+                    <block>
+                        <block wx:if="{{addressText.name === '点击选择收货地址'}}">
+                            <view class="OrderConfirm--top__address--top__item2"><text class="OrderConfirm--top__address--top__item2-text0">{{addressText.name}}</text>
+                            </view>
+                        </block>
+                        <block wx:else>
+                            <view class="OrderConfirm--top__address--top__item2"><text class="OrderConfirm--top__address--top__item2-text1">{{addressText.name}}：{{addressText.phoneNumber}}</text><text class="OrderConfirm--top__address--top__item2-text2"> {{addressText.address}}</text>
+                            </view>
+                        </block>
+                    </block>
+                    <view class="OrderConfirm--top__address--top__item3">
+                        <image style="{{anonymousState__temp2}}" src="{{rightArrow}}"></image>
+                    </view>
                 </view>
                 <view class="OrderConfirm--top__address--footer"><text style="{{anonymousState__temp3}}">送达时间</text>
-                    <picker mode="date" bindchange="anonymousFunc1"><text style="{{anonymousState__temp4}}">{{time}}</text>
+                    <picker mode="date" start="2020-06-15" bindchange="anonymousFunc1"><text style="{{anonymousState__temp4}}">{{time}}</text>
                     </picker>
                 </view>
             </view>
             <view class="OrderConfirm--top__orderInfo">
-                <order-item compid="{{$compid__1571}}"></order-item>
+                <order-item compid="{{$compid__134}}"></order-item>
             </view>
         </view>
         <view class="OrderConfirm--footer">
             <view class="OrderConfirm--footer__price"><text class="OrderConfirm--footer__price1">合计:</text><text class="OrderConfirm--footer__price2">¥188</text>
             </view>
             <view class="OrderConfirm--footer__button">
-                <at-button compid="{{$compid__1572}}">支付</at-button>
+                <at-button compid="{{$compid__135}}">支付</at-button>
             </view>
         </view>
     </view>

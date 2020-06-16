@@ -1,6 +1,7 @@
 import {Image, Text, View} from "@tarojs/components";
 import { AtIcon, AtInputNumber } from 'taro-ui'
 import './goodsOne.scss'
+import addCartIcon from './../../assets/addCart.png'
 import { useState } from '@tarojs/taro'
 
 function GoodsOne (props) {
@@ -29,7 +30,10 @@ function GoodsOne (props) {
           </View>
           <View className='goodsItem__text_footer--right'>
             {buttonType === '1' ?
-              (<AtIcon onClick={()=>{console.log(goodsData)}} value='add-circle' size='25' color='#5F9F92'></AtIcon>):
+              (
+                <Image src={addCartIcon} style={{width:'25px',height:'25px'}}/>
+                // <AtIcon onClick={()=>{console.log(goodsData)}} value='add-circle' size='25' color='#5F9F92'></AtIcon>
+              ):
               buttonType === '2'?
               (
                 <AtInputNumber

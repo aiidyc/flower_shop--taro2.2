@@ -27,20 +27,59 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  //padding-bottom: 30px;
   border-bottom: 1px solid #F7F7F7;
   height: 55%;
+  &__item1{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+  }
+  &__item2{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &-text0{
+      font-weight: 500;
+        font-size: 33px;
+        color: #000000;
+    }
+    &-text1{
+      width: 100%;
+      overflow: hidden;
+      text-overflow:ellipsis;
+      white-space: nowrap;
+      font-size: 33px;
+      color: #222222;
+    }
+    &-text2{
+      width: 100%;
+      overflow: hidden;
+      text-overflow:ellipsis;
+      white-space: nowrap;
+      font-size: 33px;
+      color: #222222;
+    }
+
+  }
+  &__item3{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
 }
-.OrderConfirm--top__address--top__info{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.OrderConfirm--top__address--top__info__text{
-  font-weight: 500;
-  font-size: 33px;
-  color: #000000;
-}
+
+//.OrderConfirm--top__address--top__info__text{
+//
+//}
+
 .OrderConfirm--top__address--footer{
   display: flex;
   flex-direction: row;

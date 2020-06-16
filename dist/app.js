@@ -85,7 +85,8 @@ var _App = function (_BaseComponent) {
         navigationBarTextStyle: 'black'
       },
       tabBar: {
-        color: "#54B7A2",
+        // custom:true,
+        color: "#cccccc",
         selectedColor: "#289777",
         backgroundColor: "#fafafa",
         borderStyle: 'black',
@@ -1413,17 +1414,39 @@ function counter() {
       addressState.checkedAddress = action.data;
       return addressState;
     case _reducersType.ADDRESS.EDIT:
-      // 修改地址
       var editState = JSON.parse(JSON.stringify(state));
       var index = action.index,
           data = action.data;
+      // 添加地址
 
       if (!index) {
-        // 添加地址
-        editState.allAddress.push(data);
+        // 添加--用户未设置默认地址
+        if (!data.default) {
+          editState.allAddress.push(data);
+          // 添加--用户设置了默认地址
+        } else {
+          var newArr = [];
+          newArr.push(data);
+          editState.allAddress.forEach(function (newItem, newIndex) {
+            newArr.push(_extends({}, newItem, { default: false }));
+          });
+          editState.allAddress = newArr;
+        }
       } else {
-        // 修改地址
-        editState.allAddress[index] = data;
+        // 修改地址--用户未设置默认地址
+        if (!data.default) {
+          editState.allAddress[index] = data;
+        } else {
+          // 修改地址--用户设置了默认地址
+          var _newArr = [];
+          _newArr.push(data);
+          editState.allAddress.forEach(function (newItem, newIndex) {
+            if (newIndex !== +index) {
+              _newArr.push(_extends({}, newItem, { default: false }));
+            }
+          });
+          editState.allAddress = _newArr;
+        }
       }
       return editState;
     default:

@@ -1,3 +1,5 @@
+import Taro from '@tarojs/taro'
+
 import {View, Text, Image} from '@tarojs/components'
 import './goodsList.scss'
 
@@ -12,7 +14,9 @@ function GoodsList (props) {
         }
         const indexType = index % 2 !== 0
         return (
-          <View key={item.id} onClick={()=>{console.log(index)}} style={indexType?style:null} className='goodsItem '>
+          <View key={item.id} style={indexType?style:null} className='goodsItem ' onClick={()=>{
+            Taro.navigateTo({ url: '/pages/order/productDetails/productDetails?pid=' + item.id })
+          }}>
             <Image
               mode={'aspectFill'}
               className='goodsItem_img'

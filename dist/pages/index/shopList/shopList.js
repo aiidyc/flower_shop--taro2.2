@@ -20,11 +20,11 @@ var _get = function get(object, property, receiver) { if (object === null) objec
 
 var _class, _temp2;
 
+__webpack_require__(/*! ./shopList.scss */ "./src/pages/index/shopList/shopList.scss");
+
 var _taroWeapp = __webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@tarojs/taro-weapp/index.js");
 
 var _taroWeapp2 = _interopRequireDefault(_taroWeapp);
-
-__webpack_require__(/*! ./shopList.scss */ "./src/pages/index/shopList/shopList.scss");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -48,7 +48,7 @@ var ShopList = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ShopList.__proto__ || Object.getPrototypeOf(ShopList)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray84", "shopData"], _this.anonymousFunc0Map = {}, _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ShopList.__proto__ || Object.getPrototypeOf(ShopList)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray9", "shopData"], _this.anonymousFunc0Map = {}, _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(ShopList, [{
@@ -72,15 +72,15 @@ var ShopList = (_temp2 = _class = function (_Taro$Component) {
 
       var shopData = props.shopData;
 
-      var loopArray84 = shopData.map(function (item, index) {
+      var loopArray9 = shopData.map(function (item, index) {
         item = {
           $original: (0, _taroWeapp.internal_get_original)(item)
         };
 
-        var _$indexKey = "bedzz" + index;
+        var _$indexKey = "bczzz" + index;
 
         _this2.anonymousFunc0Map[_$indexKey] = function () {
-          console.log(index);
+          _taroWeapp2.default.navigateTo({ url: '/pages/order/productDetails/productDetails?pid=' + item.$original.id });
         };
 
         return {
@@ -89,7 +89,7 @@ var ShopList = (_temp2 = _class = function (_Taro$Component) {
         };
       });
       Object.assign(this.__state, {
-        loopArray84: loopArray84,
+        loopArray9: loopArray9,
         shopData: shopData
       });
       return this.__state;

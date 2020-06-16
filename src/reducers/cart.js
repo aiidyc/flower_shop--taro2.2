@@ -63,15 +63,37 @@ export default function counter (state = INITIAL_STATE, action) {
       addressState.checkedAddress = action.data
       return addressState
     case ADDRESS.EDIT:
-      // 修改地址
-      const editState = JSON.parse(JSON.stringify(state))
+      let editState = JSON.parse(JSON.stringify(state))
       const { index, data } = action
+      // 添加地址
       if(!index){
-        // 添加地址
-        editState.allAddress.push(data)
+        // 添加--用户未设置默认地址
+        if(!data.default){
+          editState.allAddress.push(data)
+        // 添加--用户设置了默认地址
+        }else {
+          const newArr = []
+          newArr.push(data)
+          editState.allAddress.forEach((newItem, newIndex) => {
+              newArr.push({ ...newItem, default: false })
+          })
+          editState.allAddress = newArr
+        }
       }else {
-        // 修改地址
-        editState.allAddress[index] = data
+        // 修改地址--用户未设置默认地址
+        if(!data.default){
+          editState.allAddress[index] = data
+        }else {
+        // 修改地址--用户设置了默认地址
+          const newArr = []
+          newArr.push(data)
+          editState.allAddress.forEach((newItem, newIndex) => {
+            if(newIndex!==+index){
+              newArr.push({ ...newItem, default: false })
+            }
+          })
+          editState.allAddress = newArr
+        }
       }
       return editState
      default:

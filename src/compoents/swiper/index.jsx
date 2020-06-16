@@ -1,12 +1,12 @@
 import { Swiper, SwiperItem, Image } from '@tarojs/components'
 import './index.scss'
+import Taro from "@tarojs/taro";
 
 function NewSwiper (props) {
   const { img, height } = props
   return (
       <Swiper
         style={{height: height}}
-        indicatorColor='#999'
         indicatorActiveColor='#333'
         vertical={false}
         circular
@@ -16,7 +16,9 @@ function NewSwiper (props) {
           <SwiperItem
             key={item.id}
             className='home-banner__swiper-item'
-            onClick={()=>{console.log(1)}}
+            onClick={()=>{
+              Taro.navigateTo({ url: '/pages/order/productDetails/productDetails?pid=' + item.id })
+            }}
           >
             <Image
               mode={'aspectFill'}

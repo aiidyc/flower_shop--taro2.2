@@ -1,7 +1,7 @@
 <block wx:if="{{$taroCompReady}}">
     <view class="list">
-        <at-tabs compid="{{$compid__73}}">
-            <at-tabs-pane compid="{{$compid__74}}">
+        <at-tabs compid="{{$compid__82}}">
+            <at-tabs-pane compid="{{$compid__83}}">
                 <view style="font-size:18px;text-align:center;height:200px;">
                     <goods-one></goods-one>
                     <goods-one></goods-one>
@@ -20,30 +20,30 @@
                     <goods-one></goods-one>
                 </view>
             </at-tabs-pane>
-            <at-tabs-pane compid="{{$compid__75}}">
+            <at-tabs-pane compid="{{$compid__84}}">
                 <view style="font-size:18px;text-align:center;height:200px;">
-                    <goods-one compid="{{$compid__76}}"></goods-one>
-                    <goods-one compid="{{$compid__77}}"></goods-one>
-                    <goods-one compid="{{$compid__78}}"></goods-one>
-                    <goods-one compid="{{$compid__79}}"></goods-one>
-                    <goods-one compid="{{$compid__80}}"></goods-one>
-                    <goods-one compid="{{$compid__81}}"></goods-one>
-                    <goods-one compid="{{$compid__82}}"></goods-one>
-                    <goods-one compid="{{$compid__83}}"></goods-one>
-                    <goods-one compid="{{$compid__84}}"></goods-one>
                     <goods-one compid="{{$compid__85}}"></goods-one>
+                    <goods-one compid="{{$compid__86}}"></goods-one>
+                    <goods-one compid="{{$compid__87}}"></goods-one>
+                    <goods-one compid="{{$compid__88}}"></goods-one>
+                    <goods-one compid="{{$compid__89}}"></goods-one>
+                    <goods-one compid="{{$compid__90}}"></goods-one>
+                    <goods-one compid="{{$compid__91}}"></goods-one>
+                    <goods-one compid="{{$compid__92}}"></goods-one>
+                    <goods-one compid="{{$compid__93}}"></goods-one>
+                    <goods-one compid="{{$compid__94}}"></goods-one>
                 </view>
             </at-tabs-pane>
-            <at-tabs-pane compid="{{$compid__86}}">
+            <at-tabs-pane compid="{{$compid__95}}">
                 <view style="font-size:18px;text-align:center;height:200px;">标签页三的内容</view>
             </at-tabs-pane>
-            <at-tabs-pane compid="{{$compid__87}}">
+            <at-tabs-pane compid="{{$compid__96}}">
                 <view style="font-size:18px;text-align:center;height:200px;">标签页四的内容</view>
             </at-tabs-pane>
-            <at-tabs-pane compid="{{$compid__88}}">
+            <at-tabs-pane compid="{{$compid__97}}">
                 <view style="font-size:18px;text-align:center;height:200px;">标签页五的内容</view>
             </at-tabs-pane>
-            <at-tabs-pane compid="{{$compid__89}}">
+            <at-tabs-pane compid="{{$compid__98}}">
                 <view style="font-size:18px;text-align:center;height:200px;">标签页六的内容</view>
             </at-tabs-pane>
         </at-tabs>

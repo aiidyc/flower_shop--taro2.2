@@ -40,7 +40,7 @@
 }
 .goodsItem__text_subTitle {
   font-size: 20rpx;
-  color: #795a4d;
+  color: #515151;
   text-align: left;
   height: 48%;
   overflow: hidden;

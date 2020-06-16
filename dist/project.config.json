@@ -1,101 +1,13 @@
 {
-	"projectname": "flower_shop",
-	"description": "flowershop",
-	"appid": "touristappid",
-	"setting": {
-		"urlCheck": true,
-		"es6": false,
-		"postcss": false,
-		"minified": false
-	},
-	"compileType": "miniprogram",
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"plugin": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"list": []
-		},
-		"gamePlugin": {
-			"current": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": -1,
-			"list": [
-				{
-					"id": 0,
-					"name": "pages/cart/cart",
-					"pathName": "pages/cart/cart",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/mine/mine",
-					"pathName": "pages/mine/mine",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/order/orderTabs/orderTabs",
-					"pathName": "pages/order/orderTabs/orderTabs",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 3,
-					"name": "pages/mine/myAddress/editAddress/editAddress",
-					"pathName": "pages/mine/myAddress/editAddress/editAddress",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/mine/myAddress/checkAddress",
-					"pathName": "pages/mine/myAddress/checkAddress",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/order/orderConfirm/orderConfirm",
-					"pathName": "pages/order/orderConfirm/orderConfirm",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/order/productDetails/productDetails",
-					"pathName": "pages/order/productDetails/productDetails",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/index/index",
-					"pathName": "pages/index/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/mine/myAddress/setAddress",
-					"pathName": "pages/mine/myAddress/setAddress",
-					"query": "",
-					"scene": null
-				}
-			]
-		}
-	}
+  "miniprogramRoot": "./",
+  "projectname": "flower_shop",
+  "description": "flowershop",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
 }

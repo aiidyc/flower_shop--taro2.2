@@ -1,6 +1,6 @@
 <block wx:if="{{$taroCompReady}}">
     <view class="goodsCard">
-        <view wx:key="id" bindtap="anonymousFunc0" style="{{item.$loopState__temp2}}" class="goodsItem " wx:for="{{loopArray11}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">
+        <view wx:key="id" style="{{item.$loopState__temp2}}" class="goodsItem " bindtap="anonymousFunc0" wx:for="{{loopArray11}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">
             <image mode="aspectFill" class="goodsItem_img" src="{{item.$original.url}}"></image><text class="goodsItem_title">{{item.$original.title}}</text><text class="goodsItem_subTitle">{{item.$original.subTitle}}</text><text class="goodsItem_price">{{item.$original.price}}</text>
         </view>
     </view>

@@ -24,6 +24,10 @@ var _class, _temp2;
 
 __webpack_require__(/*! ./goodsOne.scss */ "./src/compoents/goods/goodsOne.scss");
 
+var _addCart = __webpack_require__(/*! ./../../assets/addCart.png */ "./src/assets/addCart.png");
+
+var _addCart2 = _interopRequireDefault(_addCart);
+
 var _taroWeapp = __webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@tarojs/taro-weapp/index.js");
 
 var _taroWeapp2 = _interopRequireDefault(_taroWeapp);
@@ -50,18 +54,18 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = GoodsOne.__proto__ || Object.getPrototypeOf(GoodsOne)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "$compid__262", "$compid__263", "goodsData", "priceType", "buttonType"], _this.customComponents = ["AtIcon", "AtInputNumber"], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = GoodsOne.__proto__ || Object.getPrototypeOf(GoodsOne)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "$compid__139", "goodsData", "priceType", "buttonType", "addCartIcon"], _this.customComponents = ["AtInputNumber"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(GoodsOne, [{
-    key: "_constructor",
+    key: '_constructor',
     value: function _constructor(props) {
-      _get(GoodsOne.prototype.__proto__ || Object.getPrototypeOf(GoodsOne.prototype), "_constructor", this).call(this, props);
+      _get(GoodsOne.prototype.__proto__ || Object.getPrototypeOf(GoodsOne.prototype), '_constructor', this).call(this, props);
 
       this.$$refs = new _taroWeapp2.default.RefsArray();
     }
   }, {
-    key: "_createData",
+    key: '_createData',
     value: function _createData() {
       this.__state = arguments[0] || this.state || {};
       this.__props = arguments[1] || this.props || {};
@@ -69,15 +73,10 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__262"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__139"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__262 = _genCompid2[0],
-          $compid__262 = _genCompid2[1];
-
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__263"),
-          _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__263 = _genCompid4[0],
-          $compid__263 = _genCompid4[1];
+          $prevCompid__139 = _genCompid2[0],
+          $compid__139 = _genCompid2[1];
 
       var props = this.__props;
 
@@ -93,49 +92,36 @@ var GoodsOne = (_temp2 = _class = function (_Taro$Component) {
           setCount = _useState2[1];
 
       var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ height: height });
+      var anonymousState__temp2 = buttonType === '1' ? (0, _taroWeapp.internal_inline_style)({ width: '25px', height: '25px' }) : null;
 
-      this.anonymousFunc0 = function () {
-        console.log(goodsData);
-      };
-
-      this.anonymousFunc1 = function (value) {
+      this.anonymousFunc0 = function (value) {
         setCount(value);
       };
 
-      var anonymousState__temp2 = (0, _taroWeapp.internal_inline_style)({ color: '#757575' });
-      buttonType === '1' && _taroWeapp.propsManager.set({
-        "onClick": this.anonymousFunc0,
-        "value": "add-circle",
-        "size": "25",
-        "color": "#5F9F92"
-      }, $compid__262, $prevCompid__262);
+      var anonymousState__temp3 = (0, _taroWeapp.internal_inline_style)({ color: '#757575' });
       !(buttonType === '1') && buttonType === '2' && _taroWeapp.propsManager.set({
         "min": 1,
         "max": 9999,
         "step": 1,
         "value": count,
         "width": numWidth,
-        "onChange": this.anonymousFunc1
-      }, $compid__263, $prevCompid__263);
+        "onChange": this.anonymousFunc0
+      }, $compid__139, $prevCompid__139);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
         anonymousState__temp2: anonymousState__temp2,
-        $compid__262: $compid__262,
-        $compid__263: $compid__263,
+        anonymousState__temp3: anonymousState__temp3,
+        $compid__139: $compid__139,
         goodsData: goodsData,
         priceType: priceType,
-        buttonType: buttonType
+        buttonType: buttonType,
+        addCartIcon: _addCart2.default
       });
       return this.__state;
     }
   }, {
-    key: "anonymousFunc0",
+    key: 'anonymousFunc0',
     value: function anonymousFunc0(e) {
-      ;
-    }
-  }, {
-    key: "anonymousFunc1",
-    value: function anonymousFunc1(e) {
       ;
     }
   }]);
@@ -173,6 +159,17 @@ Component(__webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@tarojs/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "compoents/goods/goodsOne.wxml";
+
+/***/ }),
+
+/***/ "./src/assets/addCart.png":
+/*!********************************!*\
+  !*** ./src/assets/addCart.png ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAABKVJREFUaEPdml1sFFUUx39n6W6bWIEGsRKKxcYEXjQUn1oTSvWhaEwEokVpSzWaiBojaDTYbcM0bUE0SCEh+oJAdttKH7SJCbHxg7aRGBI/UBOkPmhNbYRC0jbEtO5u95iZ2i/Y7c5sZxfLfdw953/Ob+6d+3HmCm6040YWvlAJUc+DQD6iK0HygJUT8vonMIDKAPAHnuhZQr5unjXG5htekhZo868iwpOIlKFsQMhypKWMIdqNSCcRbae6yYRz3JwDtBp3EA3XgewEfI4jxnTQUVSOkDl+kPL9V5xo2gdoN7IJhd8AeQ3IdhLEtq3qNZD3CIUO8tw71+z42QMI1K5BtANkrR3R+dvoBaLyGDsaf0+klRggWPMweD4GFicSc/n/qyCbqWw4O5fu3ACB2hcQPQqyyOXk7MqFEH2eiqZAPIf4AEH/TpD37UZKrZ2+SGXTB7FixAYI+IuBLkS8qU3MprpqGPGUxhpONwIEjTw0/D0iy23Kp8dM9QriXU+lYS6KU202wLE3byfT2wOyLj1ZOYyi/EAko3jmCj4bIFBrIOx1KJtec6WeqkZjMug0QGtNLlHpBVmS3owcRlOGyQyvpvzAiOk5DRCobUZ41aFcXPOl3iweXzWx7p387bxbshM6ygGqGvdMA5hPf9zT53hDNkdaJ4q2Ul1QaFnU/3wG46evXITQUXzeAsqNSxM9kII5v2/z6+TfttSS7x7sY+Pnx1wEsLrBWhsmAT4DKXMzglY0TMmlCKCTyqZNgjV1+q66tzX+b5imHIAQfw9mCy11T6Ha5ubTtzo49QDmy/yIkKK5P00A9ULQfwKkekH2AHrS7IEuhJIFCaB0C8Hai8AapwAz53mnvtfbd/T/wpae1mRkes0hNOx0+7BrbRGHHng0mYBxfUq/+JCuywlPkNf560hSAM8UFHK8aKurAIWnj3J+6JJDTQsguSFk3P8QG3PviRuw5M7VU/+NhMfmTK6j/wLNF79xmLxl3nsrvMT+j0C2JYM/l09a1gH0lNkDrm6jJ6HSAqAcXthbCZGnhaCxGCJmPdKlOmcaN3O+jGW3wHY6RQea4XI/S7wTFfcUnQdmHGgCNSsQ8+ODJK6V2pyuzHVi732llvXu704nO8/HiaaKR1ewfd/lmYd610sq63LushJwvsImeEozSivTANbLHP4VJNfmQ745ZsogodC9k98PZg+ZoH8XyKGbk5ndqLqbyqbmSevZAGeMDAbCX4JssCuXVjvVr8nzllJqRGIDmL+2v7WcfxZ9i3B3WpNLGEz78XjXs90wCxBTLfas01ZXSCR67n9TXkdHES2mYt8NJb6F8YFDZRtVDe2xOsnGJyaOuL3NSDhapg1CCC9R0Ri3rJd44WqtK2I8+ikiyxwEnr+p6l+oZws7Gs7NJZYYwPRu8ecTlU8QJqq1qW7Kj2RmbDKLt4lC2QOwZifDRyjyCqgfJCeRcHL/6xAq+8nMOEy5EbKjYR9gUq1lTw7RjDqEl917N3QUpBmJvEvF20N2Eo+/Dtj1Ni97ROUJVMtQKXH8bcG67EEPqp1EOZW+yx6xAGNetzGv2lhXbsw2YF25ScF1m38BcWfN+8mO0wcAAAAASUVORK5CYII="
 
 /***/ }),
 

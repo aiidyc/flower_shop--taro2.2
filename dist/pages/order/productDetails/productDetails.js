@@ -98,7 +98,7 @@ var ProduceDetails = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ProduceDetails.__proto__ || Object.getPrototypeOf(ProduceDetails)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '商品详情'
-    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "$compid__1594", "$compid__1595", "$compid__1596", "home", "cart"], _this.customComponents = ["NewSwiper", "GoodsDetails", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "$compid__136", "$compid__137", "$compid__138", "home", "cart"], _this.customComponents = ["NewSwiper", "GoodsDetails", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(ProduceDetails, [{
@@ -117,50 +117,61 @@ var ProduceDetails = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__1594"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__136"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__1594 = _genCompid2[0],
-          $compid__1594 = _genCompid2[1];
+          $prevCompid__136 = _genCompid2[0],
+          $compid__136 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1595"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__137"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__1595 = _genCompid4[0],
-          $compid__1595 = _genCompid4[1];
+          $prevCompid__137 = _genCompid4[0],
+          $compid__137 = _genCompid4[1];
 
-      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1596"),
+      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__138"),
           _genCompid6 = _slicedToArray(_genCompid5, 2),
-          $prevCompid__1596 = _genCompid6[0],
-          $compid__1596 = _genCompid6[1];
+          $prevCompid__138 = _genCompid6[0],
+          $compid__138 = _genCompid6[1];
 
       var props = this.__props;
       var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ color: "#D5B67A" });
       var anonymousState__temp2 = (0, _taroWeapp.internal_inline_style)({ width: '26px', height: '26px', marginBottom: '1px' });
       var anonymousState__temp3 = (0, _taroWeapp.internal_inline_style)({ width: '26px', height: '26px', marginBottom: '1px' });
       var anonymousState__temp4 = { color: '#737373' };
+
+      this.anonymousFunc0 = function () {
+        _taroWeapp2.default.navigateTo({ url: '/pages/order/orderConfirm/orderConfirm' });
+      };
+
       _taroWeapp.propsManager.set({
         "img": images,
         "height": '100%'
-      }, $compid__1594, $prevCompid__1594);
+      }, $compid__136, $prevCompid__136);
       _taroWeapp.propsManager.set({
         "circle": true,
         "style": anonymousState__temp4
-      }, $compid__1595, $prevCompid__1595);
+      }, $compid__137, $prevCompid__137);
       _taroWeapp.propsManager.set({
         "type": "primary",
-        "circle": true
-      }, $compid__1596, $prevCompid__1596);
+        "circle": true,
+        "onClick": this.anonymousFunc0
+      }, $compid__138, $prevCompid__138);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
         anonymousState__temp2: anonymousState__temp2,
         anonymousState__temp3: anonymousState__temp3,
         anonymousState__temp4: anonymousState__temp4,
-        $compid__1594: $compid__1594,
-        $compid__1595: $compid__1595,
-        $compid__1596: $compid__1596,
+        $compid__136: $compid__136,
+        $compid__137: $compid__137,
+        $compid__138: $compid__138,
         home: _home2.default,
         cart: _cart2.default
       });
       return this.__state;
+    }
+  }, {
+    key: 'anonymousFunc0',
+    value: function anonymousFunc0(e) {
+      ;
     }
   }]);
 
@@ -193,7 +204,7 @@ module.exports = __webpack_require__.p + "pages/order/productDetails/productDeta
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAA8tJREFUaEPtWtFR3DAQ3fWn/RFSQaCCcJ/HeiZHBSEVhFQAVBCoAKgglwpyVMAxI3Gfd6kgpALgAz6lzN7YjBCyLPnsw5PBPwzYXu/Trt7uPoFSyn0A+AHWpbW+Q8RJmqZHg8Hgzr7ft99RSql9Tmmtp3me7/bNcdsfBjIFgE8+RxHxy87OzqTPYJCdm81mI9tJpdQYAD4Ufz8houPeA3E5KIQYI+LX4t4VEb0A2ydgy4i4LiklR+B7T5ydJElyPhwOeRs4r0og19fXe1rrXz0BUrrxjYg45V9cvohsA8C8T0C4JGRZtuUqB5VAGIBFzSdJklSGtivASinem08pXsWgXiBCiAUifnxt5rJKhJNB6yLCteNzAeSCiPa6WnmfXSHELSJu8DNa66M8z8/s5+uAmMy1IKLBuoFIKe29OiCiRSyQZ30YEXmBdwHSKgP3RLSMTBQQrvhKqUvjJedqdAGgtCmlZObkqHBa/czznBc3DojNXEmS7PqKUtuAZrPZplLqj2E3vo4YK3LzWj2XPWKkafq+aqSozXmT+nyhbTsaRTY8sabW+nee58sUa5paJnOttXk0aRcAvB14SERehblCabeMTi0Qm7mSJNkaDoe8bzq9Qmk3GMh8Pt94fHy8LV9YF3PF7s3aiBSbjsWHdwWXTxFxHc2jOZFW0m5wRAogtXN9l3kWks6hEeEm7aBLZz22/xLRZt23g4AIIQ4R8dQwdlVnuKX7nNLHribRth8ExGYuX4VtCUC0mVAgz3qePupcQUCKDW/2XIs0TXf7JKXGAHFqxNE50OwFXkRuUZwKCpsMBsIPWzN8M5eav3VDRFtVr0cBKao8r0o5xzd3K/LNus47Ckj5bR54AKCW2yN99T5eN9A1AtKmg23ZagSkSDGu9EwAHBnejOM0Tc9XYTKWaZVSB4hYCua1mm9Ur2WuWjFHsyDhSq2bojuObvOllHxq5hQWAKCdptEEIoS4NFbsRWY0OeEKEczrxoeo1HJMbRcAwHM1K5Amk0XJRpYkeq+1XrbwiMg/l+MDAHiVziggVvP4TCyTUpozi1PWrNrYplhuSqJSSrPrbq+O2F1w2TzaU2SVPrsKkJVVFPPjdmrxfuBpUWs9svZNbGqZsg9HdtmKIOJh+f3WC2LAKXC0ZOSQZl3B8y5O1B5h65xGDw8PHIny3OTpoxz+LMtGTWpJ1T8uFMbbp18DzD4iMlvxGf2V1nqSZdm4CQij9WHRnNNpm4/ZAIAPms5amxDbaiO6tBOdWl06s4rtNyCrrF4X775FpItVXcXmfxORfxwg70KdIWYGAAAAAElFTkSuQmCC"
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAA1VJREFUaEPtWottFDEQHVdAqABSAaQCSAVABUAFgQruXQWECrhUAKmASwUkFXBUQKjA6K3GkeN4/Vl2fdYJS5Giy956nmfmzZtxjBzIMgeCQwyAdyLyJQLoVkS+ichHAPy960UgNmPhFsBp1yhEBo9sReRFxtA3AOidbteQIwBeRizciMgT/XwNAN2ioEfGjANAIG/171cjYLvBlgJCD6w6sZRh/VnTIGpSCshrEfnaCRBnxnuNlAdmpYA8F5EfnQFhGTiOlYNkQQyoeS0iZLjWi0Tkh3iUQXNArkXk2b6ZKygRUQbNAWGSvVIglwCYN80XgN8icqQbU2mch0bkgPjMdQ3gpDUKAGGungBgpNxbOSD3dBiA5iJTC/GQI9baP+v12nmmCggT7bv3jehpLOklAGROeoXrQkVuOf26JwPmOk0VpbkBAXgqIj+999bXEQ/Ibl+aK9JiPB5rKbIxH1DfqGvn9gbfp4rbseaNJn50qxIgPnM1FY8B7SYVeAmQvTBXKe0695QACZmLWod5s+gqpd0aIORtVla3mjBXbW5mPULrV6vVrTHmkSLZGmMWF4/WWr8jHaXdYo8oe5T09UuGWjacizyiIu1sSUsT7/6lhTG5fSmQDyLyyXvTVSNQbKSY9w9EYrh/KZCQuUYrbCOA9VpLcyTUPN3NuYo8omB8zUVXk4a7GaXWABmbEbeIJh4iJQpnbdO0lv8tTTrXw7cA4O+xA3A8FxBWeZ6KU6QtwSSVd3FoBZ5h8vOn2co1dJOANLO+YqNJQAAcGWPOrLUkAHpmZ4zZWGs5n53MZDpuooJwtwPZmW+V1oqEFQcSsdAiu5CWq2U+AN6a8WBiax7RGAAhiNh9inus+oZLPZEbmCfbh6rQinRtl3rPyAmkz2RVYyO/9+DsyhgzSHhKea99SE46a4HcicdwWBb0LNGx5ljuBiOnu+8GqnvWOhKq4EE8MvmDLnIJIP82RQnyI5zDDt2itZY54+dNbWj5w3KynpMiPDi35i2IBbfA1SMjvZ/0R7OxKEweTlWO8O0aRmx9Y5rrhp6ZUksS/7jAbeenXw8MOZ9sxTt6dowMj80UEO741TMMJ4YwQ4ztwvlsHWKFUtjbo9WhtTdLMxv/B9KbZw7GI38BEAqJQlh/bCgAAAAASUVORK5CYII="
 
 /***/ }),
 
@@ -204,7 +215,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAe
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAA7lJREFUaEPtmVFS2zAQhnf1xDgP5QZNTwB5DPJMkxM0nIBwgpITlJ4AOEHTEwAnIJ2xyWPoCYAbwAMML/Z2lpEZWZEsxXFKholeJcv7rVb/rtcIH2TgB+GAlYEkSXKAiEcAsKucdSGEOOt2u5NVOG8lIGma/gKAocPgQynluGmYRkFms9n209PTOSL2qgwlotM4jkdNwjQGMp1O23men2uhVNh5SURtRNwxDB9HUTTqdDoPTQA1ApKm6S4RXSHitmHUWxglSTJGxANj/iaKon4TMEuDpGk6JKITA+IRAHpSyhvdcF4LAHx/9HEHAPvm2kVPaSkQh2H3ADBwGXZ9fT0gIr7snwpjiegBEfvLwNQGsSkTEf1ttVo9X6hwKAIAy/AbjIKqrWgLg7AyPT8/c3gM9OMnot+tVuvIB1E8w+KQZdmFRQSOpZQ/VxpaCuLKokxnUkpOfgsNtd8FAHw1FU1KebjIZsEnEqJMi7xYX9uEogWBTKfTXpZlnOh0eX1ExOHe3h57dOmRJMkRIp6Y8iyE2O92u6xslcML4lAmq7z6Xuabt70rVNEqQZIk4fxQiv1QZfIZ7Zq3KZqCGVXVaE4QR+F3GUXRMFSZloHhXGNRNKc8z4G4lInlNY5jV0Vb12bnc6oAndhqNJuilUAqIEZCiDsi2omi6Ox/nAgAfBNC/MmybGip0cYmTAkkTdNjAPihuYkvNavJAxFxZcvjRkrZafwI1IbqJG4LhRRCfMnznO/pd/2dQoi+/pFWAjEk8E2ZTEAppVft6oKy1Od5zkn3dRQGWxSto9dmcwYpmLYQ4rTQ73UAYSgFOUDEiZm/gjy7LiBVp7wBqXsHfM+57ojvuc2J+DxUd35tTkR1UzgXuaoAbtSNXBXtWoBUfLOUDqiqol0LkCRJuCVU2ZwriIhoEsdx3wzBdwdRIXWrGcbdlFJrlIg4memNulJ21pLeXGb33bnGVMv0JCLum9k3xNsha2xQKwMxi7pQb29AfLHH8yG1Vognm1qzCa0PcyJmz0l1VkqddiLiTK5n8zlpVR2SmRYa3DI91UPF3McmGrVDy5IjfFfrXkrZti1K05SbbZ99G6j5Ryml+c/F+miQ/KoLz54rfTe7jLHlkGKt+q1QfP/7eIK788EggTCvzQrfz071/c2OMX8rFGBB++heWAhEJbU2EfGvtuK38+t+QojJ1tbWTWiriLslLy8vu3mel2qzRfcpYBYG8cXCe81vQN7L806BWTeD6tqzCa26nlvVc5sTWZVn6+77DzlS01FzEKd8AAAAAElFTkSuQmCC"
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAA2hJREFUaEPtme1R3DAQhlcVhA6SVACpIKSCQAVABRwV+HUFgQoCFQAVhFSQpAOoIEkFm3kvex5ZJ9uSzh4DY/268ejr2W/tOXklw70SDpkMpK7rE1VdiciBCetORK4APEwhvNFBAOyJyK2IHMYu7JxbVVV1NTbMqCAAKP2vnha67nsN4GxMmNFADOKbiFAj/nhS1T3n3JvgO03tDMCfMYBGAQFwKiJfIhA1/g/C0Tf2g0v/FJFPY8DsDFLX9bmqXkakSmlfb74bDOedBHOpEcIQqnjsBAKA/kBtNENV/zrnDrsuBoAw5xGY410iWhGISZcQR6E/8NuQdM0UuT4cLS3mqCcbxCDo1Jv8sDnvF0Nuqr0DOFLV60gQuARwkQPBuVkgPZHpRkRWqRCe3xyo6kMEhr51kbNfMgglaDkiDK/M1szgRWOsiJYEMoVN+9QGQy18joRn+s1gRBsEAcD80JK4RaZTAExqow0L10XhuRPEpESIrPC6K5WZKc/NimhRkLEiUykUTZlJNgwCzjlUVVXH9t0CscjE6vVdsOCe2smJJKUgXMd7dEW0WMHZAukLr+bwu9wtey0ACpN+GNZorNtYCTQFZwPSE5mYnB6dc/uqegPgMftGBQsY7u1MWgIjWm/B6YP89qtXi0yMVqSmqXHw9/upzctyVutMEYkVnOvqupXZTdJv+dEv/Gxi5QmVleokz1Uv4/NyW2dG7sLsv668fY2wduJHSp3lxtqEnhOI3YcVBi2F92vKopSEGJVOgdknLykR3gKSLN6CiYtG+oRWIp0CJbSWlJw5iY+wQnDOhSX5+rKqej9Uls8OMtRl9MTe+wJ8DiB8y0dbpRFzuwNwHDPDWUGCsiLVTT7EzGxuEJqL/7pjozp8QfKR5s9paiWffG4Q1l8fvXop9tah2dH8NoOOH/bGisqi0aKWFZK5IN8BbPnUS9TIAhJGk8W0Qom8RB/ZajJbRv/hd14AdLWa1BMCH0fMJU0ToaM6iOYbX5gppsWXIy+ZM6Jh1V54bH+GjYS+vZ+sm9J7/iCIHd7KEQlEne/6ggqgeZf3nZsK0vUfYGzvwT9retqi4X5sP7Vatl0wSSBetuamXRvT3pnLkvpelgi5V9jR5HHcg39hJ3drskASTGq2KQvIbKLvOHjRyKKRiSTwDyUCT1Fbbbv4AAAAAElFTkSuQmCC"
 
 /***/ }),
 

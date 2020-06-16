@@ -40,6 +40,10 @@ var _daishouhuo = __webpack_require__(/*! ../../assets/daishouhuo.png */ "./src/
 
 var _daishouhuo2 = _interopRequireDefault(_daishouhuo);
 
+var _mineBgc = __webpack_require__(/*! ../../assets/mineBgc.png */ "./src/assets/mineBgc.png");
+
+var _mineBgc2 = _interopRequireDefault(_mineBgc);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -64,7 +68,7 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Mine.__proto__ || Object.getPrototypeOf(Mine)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '我的'
-    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "anonymousState__temp5", "anonymousState__temp6", "$compid__1583", "$compid__1584", "$compid__1585", "$compid__1586", "$compid__1587", "$compid__1588", "$compid__1589", "$compid__1590", "daifukuan", "daifahuo", "daishouhuo"], _this.customComponents = ["AtBadge", "AtList", "AtListItem"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "anonymousState__temp5", "anonymousState__temp6", "anonymousState__temp7", "anonymousState__temp8", "$compid__99", "$compid__100", "$compid__101", "$compid__102", "$compid__103", "$compid__104", "$compid__105", "$compid__106", "$compid__107", "mineBgc", "daifukuan", "daifahuo", "daishouhuo"], _this.customComponents = ["AtAvatar", "AtBadge", "AtList", "AtListItem"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Mine, [{
@@ -83,47 +87,54 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__1583"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__99"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__1583 = _genCompid2[0],
-          $compid__1583 = _genCompid2[1];
+          $prevCompid__99 = _genCompid2[0],
+          $compid__99 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1584"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__100"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__1584 = _genCompid4[0],
-          $compid__1584 = _genCompid4[1];
+          $prevCompid__100 = _genCompid4[0],
+          $compid__100 = _genCompid4[1];
 
-      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1585"),
+      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__101"),
           _genCompid6 = _slicedToArray(_genCompid5, 2),
-          $prevCompid__1585 = _genCompid6[0],
-          $compid__1585 = _genCompid6[1];
+          $prevCompid__101 = _genCompid6[0],
+          $compid__101 = _genCompid6[1];
 
-      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1586"),
+      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__102"),
           _genCompid8 = _slicedToArray(_genCompid7, 2),
-          $prevCompid__1586 = _genCompid8[0],
-          $compid__1586 = _genCompid8[1];
+          $prevCompid__102 = _genCompid8[0],
+          $compid__102 = _genCompid8[1];
 
-      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1587"),
+      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__103"),
           _genCompid10 = _slicedToArray(_genCompid9, 2),
-          $prevCompid__1587 = _genCompid10[0],
-          $compid__1587 = _genCompid10[1];
+          $prevCompid__103 = _genCompid10[0],
+          $compid__103 = _genCompid10[1];
 
-      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1588"),
+      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__104"),
           _genCompid12 = _slicedToArray(_genCompid11, 2),
-          $prevCompid__1588 = _genCompid12[0],
-          $compid__1588 = _genCompid12[1];
+          $prevCompid__104 = _genCompid12[0],
+          $compid__104 = _genCompid12[1];
 
-      var _genCompid13 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1589"),
+      var _genCompid13 = (0, _taroWeapp.genCompid)(__prefix + "$compid__105"),
           _genCompid14 = _slicedToArray(_genCompid13, 2),
-          $prevCompid__1589 = _genCompid14[0],
-          $compid__1589 = _genCompid14[1];
+          $prevCompid__105 = _genCompid14[0],
+          $compid__105 = _genCompid14[1];
 
-      var _genCompid15 = (0, _taroWeapp.genCompid)(__prefix + "$compid__1590"),
+      var _genCompid15 = (0, _taroWeapp.genCompid)(__prefix + "$compid__106"),
           _genCompid16 = _slicedToArray(_genCompid15, 2),
-          $prevCompid__1590 = _genCompid16[0],
-          $compid__1590 = _genCompid16[1];
+          $prevCompid__106 = _genCompid16[0],
+          $compid__106 = _genCompid16[1];
+
+      var _genCompid17 = (0, _taroWeapp.genCompid)(__prefix + "$compid__107"),
+          _genCompid18 = _slicedToArray(_genCompid17, 2),
+          $prevCompid__107 = _genCompid18[0],
+          $compid__107 = _genCompid18[1];
 
       var props = this.__props;
+      var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ color: "#FFFFFF", fontSize: '15px' });
+      var anonymousState__temp2 = (0, _taroWeapp.internal_inline_style)({ color: "#BAE2D5", fontSize: '13px' });
 
       this.anonymousFunc0 = function () {
         _taroWeapp2.default.navigateTo({ url: '/pages/order/orderTabs/orderTabs' });
@@ -134,24 +145,24 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
         _taroWeapp2.default.navigateTo({ url: '/pages/order/orderTabs/orderTabs?current=0' });
       };
 
-      var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ width: '60rpx', height: '60rpx' });
-      var anonymousState__temp2 = (0, _taroWeapp.internal_inline_style)({ marginTop: '5px' });
+      var anonymousState__temp3 = (0, _taroWeapp.internal_inline_style)({ width: '60rpx', height: '60rpx' });
+      var anonymousState__temp4 = (0, _taroWeapp.internal_inline_style)({ marginTop: '5px' });
 
       this.anonymousFunc2 = function () {
         console.log('跳转到待发货');
         _taroWeapp2.default.navigateTo({ url: '/pages/order/orderTabs/orderTabs?current=1' });
       };
 
-      var anonymousState__temp3 = (0, _taroWeapp.internal_inline_style)({ width: '60rpx', height: '60rpx' });
-      var anonymousState__temp4 = (0, _taroWeapp.internal_inline_style)({ marginTop: '4px' });
+      var anonymousState__temp5 = (0, _taroWeapp.internal_inline_style)({ width: '60rpx', height: '60rpx' });
+      var anonymousState__temp6 = (0, _taroWeapp.internal_inline_style)({ marginTop: '4px' });
 
       this.anonymousFunc3 = function () {
         console.log('跳转到待收货');
         _taroWeapp2.default.navigateTo({ url: '/pages/order/orderTabs/orderTabs?current=2' });
       };
 
-      var anonymousState__temp5 = (0, _taroWeapp.internal_inline_style)({ width: '60rpx', height: '60rpx' });
-      var anonymousState__temp6 = (0, _taroWeapp.internal_inline_style)({ marginTop: '5px' });
+      var anonymousState__temp7 = (0, _taroWeapp.internal_inline_style)({ width: '60rpx', height: '60rpx' });
+      var anonymousState__temp8 = (0, _taroWeapp.internal_inline_style)({ marginTop: '5px' });
 
       this.anonymousFunc4 = function () {
         console.log('个人信息');
@@ -174,42 +185,48 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
       };
 
       _taroWeapp.propsManager.set({
-        "value": 10,
-        "maxValue": 99
-      }, $compid__1583, $prevCompid__1583);
+        "className": "mine__header_avatar--img",
+        "size": "large",
+        "circle": true,
+        "text": '\u59AE\u59AEYan_ni'
+      }, $compid__99, $prevCompid__99);
       _taroWeapp.propsManager.set({
         "value": 10,
         "maxValue": 99
-      }, $compid__1584, $prevCompid__1584);
+      }, $compid__100, $prevCompid__100);
       _taroWeapp.propsManager.set({
         "value": 10,
         "maxValue": 99
-      }, $compid__1585, $prevCompid__1585);
+      }, $compid__101, $prevCompid__101);
+      _taroWeapp.propsManager.set({
+        "value": 10,
+        "maxValue": 99
+      }, $compid__102, $prevCompid__102);
       _taroWeapp.propsManager.set({
         "title": '\u4E2A\u4EBA\u4FE1\u606F',
         "arrow": "right",
         "onClick": this.anonymousFunc4
-      }, $compid__1586, $prevCompid__1586);
+      }, $compid__103, $prevCompid__103);
       _taroWeapp.propsManager.set({
         "title": '\u5730\u5740\u7BA1\u7406',
         "arrow": "right",
         "onClick": this.anonymousFunc5
-      }, $compid__1587, $prevCompid__1587);
+      }, $compid__104, $prevCompid__104);
       _taroWeapp.propsManager.set({
         "title": '\u5730\u5740\u9009\u62E9',
         "arrow": "right",
         "onClick": this.anonymousFunc6
-      }, $compid__1588, $prevCompid__1588);
+      }, $compid__105, $prevCompid__105);
       _taroWeapp.propsManager.set({
         "title": '\u8BA2\u5355\u786E\u8BA4',
         "arrow": "right",
         "onClick": this.anonymousFunc7
-      }, $compid__1589, $prevCompid__1589);
+      }, $compid__106, $prevCompid__106);
       _taroWeapp.propsManager.set({
         "title": '\u5546\u54C1\u8BE6\u60C5',
         "arrow": "right",
         "onClick": this.anonymousFunc8
-      }, $compid__1590, $prevCompid__1590);
+      }, $compid__107, $prevCompid__107);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
         anonymousState__temp2: anonymousState__temp2,
@@ -217,14 +234,18 @@ var Mine = (_temp2 = _class = function (_Taro$Component) {
         anonymousState__temp4: anonymousState__temp4,
         anonymousState__temp5: anonymousState__temp5,
         anonymousState__temp6: anonymousState__temp6,
-        $compid__1583: $compid__1583,
-        $compid__1584: $compid__1584,
-        $compid__1585: $compid__1585,
-        $compid__1586: $compid__1586,
-        $compid__1587: $compid__1587,
-        $compid__1588: $compid__1588,
-        $compid__1589: $compid__1589,
-        $compid__1590: $compid__1590,
+        anonymousState__temp7: anonymousState__temp7,
+        anonymousState__temp8: anonymousState__temp8,
+        $compid__99: $compid__99,
+        $compid__100: $compid__100,
+        $compid__101: $compid__101,
+        $compid__102: $compid__102,
+        $compid__103: $compid__103,
+        $compid__104: $compid__104,
+        $compid__105: $compid__105,
+        $compid__106: $compid__106,
+        $compid__107: $compid__107,
+        mineBgc: _mineBgc2.default,
         daifukuan: _daifukuan2.default,
         daifahuo: _daifahuo2.default,
         daishouhuo: _daishouhuo2.default
@@ -330,6 +351,17 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAe
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAYAAABznEEcAAAABHNCSVQICAgIfAhkiAAABY9JREFUaEPtmltsFGUUx39ntlAQRC4iGgU1EK9vQPTBF6lEX0RMDCDpbBMSQ0AJYAQDnUELna2JMZCQeHvABHYKBALhTWMEQgw+YJAXY9RIikKpYChI6Y1055jZW2fbvbR7oWvCJH3ZOZf//zvzne9851TI97Tai1FvLSqLQPoRHswrX9aXegWkA/WOEW7Zns+05HzpWgdBXkaYhpYV3SiNaR9KG7U9C1i+qzebcnYS7rbt4G0GmThKj5UTV9qZWvMES5p6hjoZTiJqv4boVyAzMoRVrwNe5VAOgzYZoXbIr2cxnYUjIGH9gcjcQUG9COxlwLtMjTHUaOU46YBCzesI80GmxB0J/4C3gvqWk0HHmZHYZ9chHEGYmhS6iReLIHq0cmgLWa75FuHxtJRygrDzUm4SrdY3qLwSiEIMjT1VyE1l34c2ILIuQKIHvHmEWzpSvw1GItr4EMh5JGMzu+hA3vRWWQL+JyTjwTgDMinhS3tRPicceW84Cdf+BOUdhAlJ4W409ipwqeJA8zno7+9kwqQjwIuBL6QXM3JPlkhYvYgkCcRfn0UH3hxTAr5zn0TtxAWIcRCYnsRzC9U1hCOtif3uP1GrHuELkMlpIS+2EdFTVUHirV2duNbfILMCeH7DdOL7NUHCtX8Gng2E6zoae27MCaQi4ZNotdbj8TEiqTR/g5DUsbL5nBBtnA/G8XRaVW4DJ8D7oSpIIN34fyIC3mf+Tg8s9mHMyHJhv70fj5XVAXjUKPqY/u9UwbXaQB4btXo1KHjaR8hYJbj2mNaopa1FHPq7mSTUuw5yr3+ilGa8otr+UZCopRIwh5DAv4gYmzCb3YrCKMV41O5GSB50d0mUspQl6t6NRIkLmFd979YZGKG3MfRX6iOH88pWZST8ikHkSOKs0msQCmPu+Donkaojsc8KY8hO4P5AKXEGM/L8/4OEa1somwJXYVDtxWAX9RGr+klE7QMIdcADabCqfYhEMZ3V1b8nXPsUysLBAysOuRNlD2Hn/YL5Y8z3hGv77R+/k5K6fPmYu/DYSoPzaUECvkDZSLhbn+Hh2t9Z1DQwIseHmqZze6AdUvf3pJZqF4YuHdpHqvznFG3cCcYK0FucH/c0TU35u4LxFGqcHkYAVTyZS4PTNqKFSAmVHIloYwMiu0HuS9ocYHz3lFyNXrKm0LjmNeqdmUgR1XLpJKyVCP4VMdUh9MvhGGakZthqZk+hPQgXMCOB+/yo4lCmPeFax1AWI6lmVhzELUzHv4ckntwp9DtMZ8koYWeKlxyJlDnXPgt+ozfjuYrpzCJXCsVrxWxZXxKBPNnpT2BO3LjnXQRjIw1O4QZyq9WGDrmbq3Yg8Zth8Sm0EMuyRWIwIlcyTt2hAIpJoXechO/QtbuGrHz6ECgqhY4Jifh3anUiMi3gv/gUOmYkDi0L0f/kKYRHQU9jRirXiM66J6J2R3q0q94lVDfQ8FHhjZ1txU421Yy4FCm04rneR60LicVKdjOVNX4HsCdjSqo0E3Y+KNZHRfVat0xDQ+1pvP4wVIx1QtQ+jkHdYAHgHcVseaOiYIo17m57AfRY+iao/IWhy/yu+GZEdkB6wNKJsJt6Z2zHXNmIunY3pBpn8QZgO2HnEeHL1eOYNLMXJBTQuwT+xFS+Ryb8SKhveG1U7GqORu82HiGdjeo8MPZkqKr2o7TQENmRnBTZa4EmJHBdTGhcRVWQ9ARpNBDKIRtDGYj3XCVYdMajcI6wEy99gtPTDYjhZD+4yoGnnDb0l2AlnDmMd60tKI3J+qecXstkS7tQ+YmwE5ikBiORcnPAmo2HjbI0PjtWbiGaHreWCc3IzKh4iI4DLgMxxNhOfbM/Rc14cv+rkC+298M51HgzUc83dOcfz1DQm8RqOljVdCMXgP8AFkags5rGCzIAAAAASUVORK5CYII="
+
+/***/ }),
+
+/***/ "./src/assets/mineBgc.png":
+/*!********************************!*\
+  !*** ./src/assets/mineBgc.png ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/mineBgc.png";
 
 /***/ }),
 

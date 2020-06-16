@@ -100,7 +100,9 @@ const ProduceDetails = (props) => {
             <AtButton circle={true} style={{color:'#737373'}}>加入购物车</AtButton>
           </View>
           <View className="ProduceDetails__footer--right--btn2 ProduceDetails__footer--right--btn">
-          <AtButton type='primary' circle={true}>立即购买</AtButton>
+          <AtButton type='primary' circle={true} onClick={()=>{
+            Taro.navigateTo({ url: '/pages/order/orderConfirm/orderConfirm'})
+          }}>立即购买</AtButton>
           </View>
         </View>
       </View>

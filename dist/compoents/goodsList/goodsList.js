@@ -81,19 +81,19 @@ var GoodsList = (_temp2 = _class = function (_Taro$Component) {
           marginLeft: '15px'
         };
         var indexType = index % 2 !== 0;
+        var $loopState__temp2 = (0, _taroWeapp.internal_inline_style)(indexType ? style : null);
 
         var _$indexKey = "bezzz" + index;
 
         _this2.anonymousFunc0Map[_$indexKey] = function () {
-          console.log(index);
+          _taroWeapp2.default.navigateTo({ url: '/pages/order/productDetails/productDetails?pid=' + item.$original.id });
         };
 
-        var $loopState__temp2 = (0, _taroWeapp.internal_inline_style)(indexType ? style : null);
         return {
           style: style,
           indexType: indexType,
-          _$indexKey: _$indexKey,
           $loopState__temp2: $loopState__temp2,
+          _$indexKey: _$indexKey,
           $original: item.$original
         };
       });

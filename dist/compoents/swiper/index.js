@@ -20,11 +20,11 @@ var _get = function get(object, property, receiver) { if (object === null) objec
 
 var _class, _temp2;
 
+__webpack_require__(/*! ./index.scss */ "./src/compoents/swiper/index.scss");
+
 var _taroWeapp = __webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@tarojs/taro-weapp/index.js");
 
 var _taroWeapp2 = _interopRequireDefault(_taroWeapp);
-
-__webpack_require__(/*! ./index.scss */ "./src/compoents/swiper/index.scss");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -48,7 +48,7 @@ var NewSwiper = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = NewSwiper.__proto__ || Object.getPrototypeOf(NewSwiper)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "loopArray10", "img"], _this.anonymousFunc0Map = {}, _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = NewSwiper.__proto__ || Object.getPrototypeOf(NewSwiper)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "loopArray15", "img"], _this.anonymousFunc0Map = {}, _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(NewSwiper, [{
@@ -74,15 +74,15 @@ var NewSwiper = (_temp2 = _class = function (_Taro$Component) {
           height = props.height;
 
       var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ height: height });
-      var loopArray10 = img.map(function (item, __index0) {
+      var loopArray15 = img.map(function (item, __index0) {
         item = {
           $original: (0, _taroWeapp.internal_get_original)(item)
         };
 
-        var _$indexKey = "bdzzz" + __index0;
+        var _$indexKey = "bhzzz" + __index0;
 
         _this2.anonymousFunc0Map[_$indexKey] = function () {
-          console.log(1);
+          _taroWeapp2.default.navigateTo({ url: '/pages/order/productDetails/productDetails?pid=' + item.$original.id });
         };
 
         return {
@@ -92,7 +92,7 @@ var NewSwiper = (_temp2 = _class = function (_Taro$Component) {
       });
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
-        loopArray10: loopArray10,
+        loopArray15: loopArray15,
         img: img
       });
       return this.__state;

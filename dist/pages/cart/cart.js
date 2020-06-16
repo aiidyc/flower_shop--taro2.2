@@ -65,7 +65,7 @@ var Cart = (_temp2 = _class = function (_Taro$Component) {
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Cart.__proto__ || Object.getPrototypeOf(Cart)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '购物车',
       backgroundColor: '#F3F3F3'
-    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "$compid__90", "$compid__91", "$compid__92", "$compid__93", "$compid__94", "$compid__95", "$compid__96", "$compid__97", "$compid__98", "$compid__99", "$compid__100", "selectFlag", "selectYes", "selectNo"], _this.customComponents = ["GoodsOne", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "$compid__147", "$compid__148", "$compid__149", "$compid__150", "$compid__151", "$compid__152", "$compid__153", "$compid__154", "$compid__155", "$compid__156", "$compid__157", "selectFlag", "selectYes", "selectNo"], _this.customComponents = ["GoodsOne", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Cart, [{
@@ -84,60 +84,60 @@ var Cart = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__90"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__147"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__90 = _genCompid2[0],
-          $compid__90 = _genCompid2[1];
+          $prevCompid__147 = _genCompid2[0],
+          $compid__147 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__91"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__148"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__91 = _genCompid4[0],
-          $compid__91 = _genCompid4[1];
+          $prevCompid__148 = _genCompid4[0],
+          $compid__148 = _genCompid4[1];
 
-      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__92"),
+      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__149"),
           _genCompid6 = _slicedToArray(_genCompid5, 2),
-          $prevCompid__92 = _genCompid6[0],
-          $compid__92 = _genCompid6[1];
+          $prevCompid__149 = _genCompid6[0],
+          $compid__149 = _genCompid6[1];
 
-      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__93"),
+      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__150"),
           _genCompid8 = _slicedToArray(_genCompid7, 2),
-          $prevCompid__93 = _genCompid8[0],
-          $compid__93 = _genCompid8[1];
+          $prevCompid__150 = _genCompid8[0],
+          $compid__150 = _genCompid8[1];
 
-      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__94"),
+      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__151"),
           _genCompid10 = _slicedToArray(_genCompid9, 2),
-          $prevCompid__94 = _genCompid10[0],
-          $compid__94 = _genCompid10[1];
+          $prevCompid__151 = _genCompid10[0],
+          $compid__151 = _genCompid10[1];
 
-      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__95"),
+      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__152"),
           _genCompid12 = _slicedToArray(_genCompid11, 2),
-          $prevCompid__95 = _genCompid12[0],
-          $compid__95 = _genCompid12[1];
+          $prevCompid__152 = _genCompid12[0],
+          $compid__152 = _genCompid12[1];
 
-      var _genCompid13 = (0, _taroWeapp.genCompid)(__prefix + "$compid__96"),
+      var _genCompid13 = (0, _taroWeapp.genCompid)(__prefix + "$compid__153"),
           _genCompid14 = _slicedToArray(_genCompid13, 2),
-          $prevCompid__96 = _genCompid14[0],
-          $compid__96 = _genCompid14[1];
+          $prevCompid__153 = _genCompid14[0],
+          $compid__153 = _genCompid14[1];
 
-      var _genCompid15 = (0, _taroWeapp.genCompid)(__prefix + "$compid__97"),
+      var _genCompid15 = (0, _taroWeapp.genCompid)(__prefix + "$compid__154"),
           _genCompid16 = _slicedToArray(_genCompid15, 2),
-          $prevCompid__97 = _genCompid16[0],
-          $compid__97 = _genCompid16[1];
+          $prevCompid__154 = _genCompid16[0],
+          $compid__154 = _genCompid16[1];
 
-      var _genCompid17 = (0, _taroWeapp.genCompid)(__prefix + "$compid__98"),
+      var _genCompid17 = (0, _taroWeapp.genCompid)(__prefix + "$compid__155"),
           _genCompid18 = _slicedToArray(_genCompid17, 2),
-          $prevCompid__98 = _genCompid18[0],
-          $compid__98 = _genCompid18[1];
+          $prevCompid__155 = _genCompid18[0],
+          $compid__155 = _genCompid18[1];
 
-      var _genCompid19 = (0, _taroWeapp.genCompid)(__prefix + "$compid__99"),
+      var _genCompid19 = (0, _taroWeapp.genCompid)(__prefix + "$compid__156"),
           _genCompid20 = _slicedToArray(_genCompid19, 2),
-          $prevCompid__99 = _genCompid20[0],
-          $compid__99 = _genCompid20[1];
+          $prevCompid__156 = _genCompid20[0],
+          $compid__156 = _genCompid20[1];
 
-      var _genCompid21 = (0, _taroWeapp.genCompid)(__prefix + "$compid__100"),
+      var _genCompid21 = (0, _taroWeapp.genCompid)(__prefix + "$compid__157"),
           _genCompid22 = _slicedToArray(_genCompid21, 2),
-          $prevCompid__100 = _genCompid22[0],
-          $compid__100 = _genCompid22[1];
+          $prevCompid__157 = _genCompid22[0],
+          $compid__157 = _genCompid22[1];
 
       var props = this.__props;
 
@@ -199,64 +199,64 @@ var Cart = (_temp2 = _class = function (_Taro$Component) {
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__90, $prevCompid__90);
+      }, $compid__147, $prevCompid__147);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__91, $prevCompid__91);
+      }, $compid__148, $prevCompid__148);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__92, $prevCompid__92);
+      }, $compid__149, $prevCompid__149);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__93, $prevCompid__93);
+      }, $compid__150, $prevCompid__150);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__94, $prevCompid__94);
+      }, $compid__151, $prevCompid__151);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__95, $prevCompid__95);
+      }, $compid__152, $prevCompid__152);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__96, $prevCompid__96);
+      }, $compid__153, $prevCompid__153);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__97, $prevCompid__97);
+      }, $compid__154, $prevCompid__154);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__98, $prevCompid__98);
+      }, $compid__155, $prevCompid__155);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__99, $prevCompid__99);
+      }, $compid__156, $prevCompid__156);
       _taroWeapp.propsManager.set({
         "size": "normal",
         "className": "newCart__footer__button",
         "type": "primary",
         "circle": true
-      }, $compid__100, $prevCompid__100);
+      }, $compid__157, $prevCompid__157);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
         anonymousState__temp2: anonymousState__temp2,
         anonymousState__temp3: anonymousState__temp3,
-        $compid__90: $compid__90,
-        $compid__91: $compid__91,
-        $compid__92: $compid__92,
-        $compid__93: $compid__93,
-        $compid__94: $compid__94,
-        $compid__95: $compid__95,
-        $compid__96: $compid__96,
-        $compid__97: $compid__97,
-        $compid__98: $compid__98,
-        $compid__99: $compid__99,
-        $compid__100: $compid__100,
+        $compid__147: $compid__147,
+        $compid__148: $compid__148,
+        $compid__149: $compid__149,
+        $compid__150: $compid__150,
+        $compid__151: $compid__151,
+        $compid__152: $compid__152,
+        $compid__153: $compid__153,
+        $compid__154: $compid__154,
+        $compid__155: $compid__155,
+        $compid__156: $compid__156,
+        $compid__157: $compid__157,
         selectFlag: selectFlag,
         selectYes: _selected2.default,
         selectNo: _select2.default
@@ -367,7 +367,7 @@ module.exports = __webpack_require__.p + "pages/cart/cart.wxml";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACy0lEQVRYR81XXW7aQBCesV2JPpWeoOQEoScovFQ1L3ELfYrCzwlKTlD3BNATEIj6VGidF5D6Em4QcoLQE4Q+Ban709k1Rg4xYRsFk5WQLbyz883PzjeD8B+rPDz1AOUBAuRAyiwg5rW4lBN6n0mAKaIM+u9qZ6bH0ln3L2/UydlgfyYlHgD+IW0BohUoKQZsqp4OOLkQh1B76CdfEKCAA/8SuA29Z91aC8A772SdufOJDm0CwhkH4W86LFISgrZ8OpzAWC2WYV+DYmOWBCIRgFZ+Y50rixnyuqniVQUff33LS8bbyiPsuSgmgbgDQAkJxs6V1QO3Vt8UIpPv5VH3BCQcWI5T/P72cBKXuQVAWW7fWFcS8fiHWz0xOdx0z4dRr26BbLOMyMU9sQQQuV0iXD6W5avglCdQwn48HEsAlVHXB4mFfqlaMLXqIfsqw96YrvK479Z8Ja8B6KyV1gVH8fqhCWcKRicmZ+MoFBqAThJa23J9UigifRoAuX/GQOS3bX28TjhgTSgMWVyUV3/gVsOymtIqD3tTyoAmLu7obFCqNVPSrdWUh10qUAQhzEr0++7ROE0AldFpgcjDJw/0Jkiu2A0A0cLKqCcZ8L20EvB2ItpXuwewyxBI4oankISaKndzDRGiQiRaVIb30ryGy0K081L8JMhI0bEihzQIKZGOF2HwqTK/6bvV4jZzIbz2NDvEGxKlUPeDc1vxwQUxY2MbIMK+A/Nx5r3TlDpzayqIG1JvSiOLoxhJwJ+P5QndjJKT0XYK97blS6JYhIOErtG2j1eFTMMTDiasQ20+8gwvGA0mcRAUDtWkNJU3TOa8ONOpeZKS7T39144SLgm44XAaznk0/V6jxIDe9XD6F/lv9Xwm7VfqSd89idKj7y/pPeAZ0Vw3E0ZgNgKIow77R+ERiBwNMFkS3l8ovqSBY0bKpyCtYFA60gBN1j/fgZ3T//dbzgAAAABJRU5ErkJggg=="
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAABHNCSVQICAgIfAhkiAAABAFJREFUWEfFWP9L42YYz9toGqmomDq9eXS6gQpKlTG9VTh/WIuJ5pr8MsZgHJtj92eMY//FcWyy7e5+uPvhwKRtEpnCedhjQ3adDpwUv6x+vyWCs72a1iTjLW2p1S4tbbQQKHnyfN7P+z7P+7yf9wFIhT+e5/0Yht3Rdf1jwzCcmqY5IQSKojIA4B+bzfabqqocwzCBSqBBOR8Hg8H3UBS9n0qlppxO57HL5WpuaGhA7HY7guN4BuL09DT/xGKxY1mWm+12+7SmafcnJyd3zMb5XyKGYQBRFB8BANihoaHG9vZ2M7xz9oODAyQSiSQAAM9JkvwSAGCUAihJJBAIvF9fX/+yp6fn3a6urooIFH+8tbWFrK2t7Wua5qFp+u/LwC4lMjMz8xGO43Ner7cJRdGqSOScz87OkLm5ubimabdpmo4Ug14gAkm0tbX94vF4mmvCoAgkHA4fK4ryCcMwvxeazhHJhuP1+Ph4kxUkcpiSJMVTqVQ/wzCx3Ls8EZiYkiTt+ny+G7UKR6nJwDDNz8/vkiR58wIRQRAe9/X1fVFtYpa7kpubm0g0Gv2JJMmvoE9mRbJ14k+SJBvLBarFd5IkJdLpdK/f79/NEJmdnZ12u91TldaJasns7+8jKysrP5Ak+U2GCMdxht/vrxa3Yn/DMBCe53WWZVEAzw6CIB5ZtV3N2IXD4X8VRfkclvCHAwMD9zo7O818LLHv7Owgq6urD4AgCH+MjIy4W1tbLRnIDFRRFGRpaSkCQqHQ3tjY2A2Hw2HmY4k9kUggCwsLezBH1ImJCczqIlZqFpqmIYIgpK6dCKyyoiimrj008XgchmY3k6zDw8NugiAsyQEzUFmWYbK+hgfdw/7+/mvbvtvb21A0PQAcx91xOp1PPB6PpUd/qZVZXFw8URTls2sv8YFAQGcYBs0QEUVxenBwcKqjo8MspDW1w0NveXn5e4qi7mWIhEKhmwCAvyiKutKqJoriW13XP6Bp+iCv0ERR/Lm3t/fuVQmjjY2NZDQafUpR1FReGME/2TvMns/n66irq6tpCIrBsop+j6Ko/El7TjxflVIrVGYXNGvuRTAYHGppaXkxOjpqyXaG+kOW5dssyy4XrtSlFyyO4z7EMOyF1+ttrFWYsuFIqKo6WkziXI4Ux5HjOBeGYa/glbO7u7uqnIGJub6+fqSq6i0olC8DM+0GSJL0o2EYn7rdbgesMwCYumTGgXr08PAQXsLfAgCe5XZHqRmVhcrzfCeGYd+pqvo1QRAnLperCbYlYEsCPnDQXFsimUwisVjs5OjoyIHj+HQ6nf4W1gmzJS2LSCEIx3ETOI4zsFGj6/o7uUaNzWaDTZo3KIr+mkwmZ1iWFc0GL7T/B/sQz5Fs1L9WAAAAAElFTkSuQmCC"
 
 /***/ }),
 
@@ -378,7 +378,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABz
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADbElEQVRYR71XQVIaURDtnmFBVuIJQk6gOUFgkwpsHANZpQQ9QcgJ1BNET6BgZRWIwwaqspGcQDxBvEF0JQtmfl7/z8iAM8DgmF+lQ8Gf369f9+9+zZRgVXoXDrHaYaI8KZUj5m39ulJDfL5TRLfMym1/qHdXPRZnLV5O/yxvk30IIw4z57Q9ohtWdEeMP/NFTjHlcNiWwaPwG7te1vvqFg/Mnpi1EEC13zxSir5MDHd9ItfPem7coc7VWc4a2Y6laB/g3gkQZuukXdo7TgRADso8WFeaYkW/8TzCIYNlbIV/r/YvCqDiSIBIiMav/GIU8CcMfPr1fdsfj6/Ea3h88LNUO09ieH7vx35r3yI6EzasTKb44/3nYXjPDADx3H6w/jADN1lOUq/jgGo2yHcRTuW98t+EmXgEMEM7cTEt4wEoA0JdSTja5frb4PtHAJJwRHyYBu1xTAThAJDjdqkOe7Ao//RVU9Y1mL9pl2tA+nKr2msNEImtIBQaQKXfPIfxOvCkTv28K0EoAKLZKdX3NQDQj2LBg3ap5ryc79OTAxY65fomS3lF+bxMO/amiFnDTnnPjb+avMsB/eOst7msbK7KTnCm3H3xcv49feNG9l/8fsqaDtTxTqlmGssz1zSfdE84BYBG1JGVfmso/QQMmA9pZP+M8UmSxfkjjgPiBlf7LTQ36j43AZMYN4nfktzYWQqg0mueYGM9qo4H3iU1PgNgWQgqvRZEBr2OaybrGNcAJrmnk1BiEa7P4bhJd1TeGHt4Yx7EusZN8XtMQlMFF13DKBC+N26Y6imCyFS1VS/QzDVctRCFQYQNJTUu7041AgqRSYjVSvE8iHWMB/GHuN1GRxQdmawZBSBwd90ktAesRTYjExPrFol2jXpQXDWW6+zTSQ/vx1k/L6X/vwoSGG9AgXx7IkimBQVXQ2v79HXBlHq6CfedJ6JUQiHiEXp+Ny1dKMaV8i9F7AbUB05HyvKg8KShEUK037OdKSyU5QEqLc9H9mAyakkVhIhcYzAhdYgzCzLKYUwrrDSYhDPbKGVCP+cNPEVMnntZv7toNLNHFoZXlqpYQLLd44nRzCjgqLV8ONVsWCfYCL2ogUynYRlQsRDb3My0DMNSJwC2sUxlLQUQRm3Gc99hxfmZaXgyLYMhjF3WIEoHxjHwD/aIR9HF44JtAAAAAElFTkSuQmCC"
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAABHNCSVQICAgIfAhkiAAABNZJREFUWEe9WFtvG0UUPrM3O3XYJOA0cRI3NyhSAlUVAi1UlSokHsgmXtRECAlVEEQe+Qmo4pVHnqq2REDLAxBH9tqOEAIpFaoqaNKkVYkqouZup7n7Esf2encHzZZUa8eO147VebC12nO++c4538yeGQRFDp/P10drqV4V0FlAlB1jZCcQCOFNhLUNCvDfCuIkl8vlLwYamTEOBALNSE1dVoAZtGqRyAvqehWLZaBxGmiQdQgVOFAQCwriYJeuiyQovorCyjDFWi/39PSsFJrnUCIYYxSQRm8AgFibflx5TNsphJfxPk69CJtsWxxhGO0RL36CEML5APIS8fv9baDKf9YoSw28ulYUgWzjKF0HYca5Coz1bUEQFnOB5STi9Xq7GZT+w5m8xyPIG0RR5DSgYNnStYsY63lBEKaznQ8QISQqcOx3h/xPVVEzmTRe5TojSYp/1+Vy3TO6ZBAh5UBacupEcpI3iVuS2aKle1dDbKfL5VraB3hGhAhzTBoNOlOTjnKVIx9LUqYVS1dQEPubDhDxe903a5Tlj48qTLMpitL1EGGc3/eIFz/V9yHyQ/YJrCQfNqcmKs0ClcNu0dodx4h7ta+vL/iUiMc9bFceDxa7TxyVTJyqgS22/VtB7P9cJyJJEm5N3jkq7gF/irVC24UhUNMJmB+/ngMfwZzljCaKIo3It8Oihm845JmyL9eX3/sCrNUOiIZmYOn2zZyBrnKd0STFf4T8npGrdnVpyKZulDUjTW8OQHVLF2jpJDwKfK3/5xpx5jhs084rKOB1369L/3vKokXLRuSlV86B47SgTz43fg2S4dW82Em6CtaYk9PI7x0NNcoPHQxOlIWIrbYVWi8M6Vgrd0cgvJCxgR6YQ6EqYIV9PYQkryfVIk9wCKuHEmGPVUN6L3yoDdEDEScR6dbsbVidDhQMDiMaFrhu2RQRUmtS852FSQjedecE318hhcSZ7awBIfKGbKo0JN3N5y7pkeYjQ8pB7IgeiC7yiTObSBpVQJB7LYh8npH79crsKWsBsRrTnk2GCJMIlEw++9s3BUtoJJOgeFhjT04hv3fkql1ZHLKpmwXraSQTDc7oYuQbO/SykTE/fg3iG/MFcYwGMboWwkzLFSRJUq9Vi/zokGdMffqNZEgZyLPZFZKLYZDtiKUo/sOStngjGQJOlijJTvHDsMUT54Dnl2G7Ml/UR4+QIQKW4zt6SUoZpLne4tquC67+IT0jY2NjTVo68ag5NWErBbBUn0XLW3uI4doFQXjyrEMLeNw/VKvLl55XYxSh6xMRuvEn4YOBQRJIRqsYkNwhZ2qqngKt1CBN+f3f0Yd6xf7GfYeM5vl5dWrGziwnEV24gcBpJr19q8HkcjaVAoNRiOuIJhF/XhTFB0bfnAcsSZK6KJy+5UzdqyxXmfRyWLviKmbeySaRoZHsyCRJOkHh9J0aZaWBV58UG3iGvS5MtmlbQ9wZ0ijnAit4GzDmHf1OQ3jALs/ZbPoh3OwRFMHTQ3j7HsLqz/urI19EBYkQR5/P10hp8lcKMJ9V4FiMV9d5ch3B6FcTMmAMoKL9awkLRKnamEzxNhYpwxpt/ZLsE4VSaoqIEUSSpPcZLLs0oM5iQMcxIDvGGCiENwDwOgvorxTQXlEUfy00ufH9f0x0NRX+88O1AAAAAElFTkSuQmCC"
 
 /***/ }),
 

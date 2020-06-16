@@ -1,7 +1,12 @@
 <block wx:if="{{$taroCompReady}}">
     <view class="mine">
         <view class="mine__header">
-            <view class="mine__header_avatar"></view>
+            <image mode="aspectFill" src="{{mineBgc}}" class="mine__header__bgc"></image>
+            <view class="mine__header_avatar">
+                <at-avatar compid="{{$compid__99}}"></at-avatar>
+                <view class="mine__header_avatar--text"><text style="{{anonymousState__temp}}">Yanni233</text><text style="{{anonymousState__temp2}}">181*****9902</text>
+                </view>
+            </view>
         </view>
         <view class="mine__content">
             <view class="mine__content__top">
@@ -9,30 +14,30 @@
                 </view>
                 <view class="mine__content__top--right">
                     <view class="mine__content__top--right--item" bindtap="anonymousFunc1">
-                        <at-badge compid="{{$compid__1583}}">
-                            <image src="{{daifukuan}}" style="{{anonymousState__temp}}"></image>
-                        </at-badge><text style="{{anonymousState__temp2}}">待付款</text>
+                        <at-badge compid="{{$compid__100}}">
+                            <image src="{{daifukuan}}" style="{{anonymousState__temp3}}"></image>
+                        </at-badge><text style="{{anonymousState__temp4}}">待付款</text>
                     </view>
                     <view class="mine__content__top--right--item" bindtap="anonymousFunc2">
-                        <at-badge compid="{{$compid__1584}}">
-                            <image src="{{daifahuo}}" style="{{anonymousState__temp3}}"></image>
-                        </at-badge><text style="{{anonymousState__temp4}}">待发货</text>
+                        <at-badge compid="{{$compid__101}}">
+                            <image src="{{daifahuo}}" style="{{anonymousState__temp5}}"></image>
+                        </at-badge><text style="{{anonymousState__temp6}}">待发货</text>
                     </view>
                     <view class="mine__content__top--right--item" bindtap="anonymousFunc3">
-                        <at-badge compid="{{$compid__1585}}">
-                            <image src="{{daishouhuo}}" style="{{anonymousState__temp5}}"></image>
-                        </at-badge><text style="{{anonymousState__temp6}}">待收货</text>
+                        <at-badge compid="{{$compid__102}}">
+                            <image src="{{daishouhuo}}" style="{{anonymousState__temp7}}"></image>
+                        </at-badge><text style="{{anonymousState__temp8}}">待收货</text>
                     </view>
                 </view>
             </view>
             <view class="mine__content__middle">
                 <view class="mine__content__middle_list">
                     <at-list>
-                        <at-list-item compid="{{$compid__1586}}"></at-list-item>
-                        <at-list-item compid="{{$compid__1587}}"></at-list-item>
-                        <at-list-item compid="{{$compid__1588}}"></at-list-item>
-                        <at-list-item compid="{{$compid__1589}}"></at-list-item>
-                        <at-list-item compid="{{$compid__1590}}"></at-list-item>
+                        <at-list-item compid="{{$compid__103}}"></at-list-item>
+                        <at-list-item compid="{{$compid__104}}"></at-list-item>
+                        <at-list-item compid="{{$compid__105}}"></at-list-item>
+                        <at-list-item compid="{{$compid__106}}"></at-list-item>
+                        <at-list-item compid="{{$compid__107}}"></at-list-item>
                     </at-list>
                 </view>
             </view>

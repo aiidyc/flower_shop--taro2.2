@@ -25,7 +25,8 @@ const CheckAddress = (props) => {
              data: item
            }
            checkAddress(checkData)
-           Taro.navigateTo({url:'/pages/order/orderConfirm/orderConfirm?index='+index})
+           Taro.redirectTo({url:'/pages/order/orderConfirm/orderConfirm?index='+index})
+           // Taro.navigateBack({ index: index })
          }}>
            <CheckAddressItem  addressData={item} checked={index===checkedIndex}/>
          </View>

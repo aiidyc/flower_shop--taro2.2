@@ -7,12 +7,20 @@
 .mine__header{
   width: 100%;
   height: 30%;
-  background-color: #27A57D;
+  //background-color: #27A57D;
   display: flex;
   flex-direction: row;
   align-items: center;
+  position: relative;
+}
+.mine__header__bgc{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 888;
 }
 .mine__header_avatar{
+  z-index: 999;
   margin-left: 70px;
   display: flex;
   flex-direction: row;
@@ -88,4 +96,7 @@
 
 .at-list__item{
   padding: 29px 24px;
+}
+.at-list__item:active{
+  background-color: #fff;
 }

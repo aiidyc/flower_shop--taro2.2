@@ -2,8 +2,8 @@
     <view class="checkMyAddress">
         <view class="addAddress" bindtap="anonymousFunc0"><text>+添加新地址</text>
         </view>
-        <view class="CheckAddressItem__Box" wx:key="id" bindtap="anonymousFunc1" wx:for="{{loopArray82}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">
-            <check-address-item compid="{{item.$compid__1574}}"></check-address-item>
+        <view class="CheckAddressItem__Box" wx:key="id" bindtap="anonymousFunc1" wx:for="{{loopArray8}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">
+            <check-address-item compid="{{item.$compid__109}}"></check-address-item>
         </view>
     </view>
 </block>

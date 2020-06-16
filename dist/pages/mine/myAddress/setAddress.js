@@ -57,7 +57,7 @@ var MyAddress = (_temp2 = _class = function (_Taro$Component) {
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = MyAddress.__proto__ || Object.getPrototypeOf(MyAddress)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '地址管理'
       // 获取全局状态变量和方法 放入props
-    }, _this.$usedState = ["loopArray71", "allAddress"], _this.anonymousFunc1Map = {}, _this.customComponents = ["AddressItem"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["loopArray7", "allAddress"], _this.anonymousFunc1Map = {}, _this.customComponents = ["AddressItem"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(MyAddress, [{
@@ -89,34 +89,34 @@ var MyAddress = (_temp2 = _class = function (_Taro$Component) {
         _taroWeapp2.default.navigateTo({ url: '/pages/mine/myAddress/editAddress/editAddress' });
       };
 
-      var loopArray71 = allAddress.map(function (item, index) {
+      var loopArray7 = allAddress.map(function (item, index) {
         item = {
           $original: (0, _taroWeapp.internal_get_original)(item)
         };
 
-        var _$indexKey = "bbizz" + index;
+        var _$indexKey = "izzzz" + index;
 
         _this2.anonymousFunc1Map[_$indexKey] = function () {
           _taroWeapp2.default.navigateTo({ url: '/pages/mine/myAddress/editAddress/editAddress?index=' + index });
         };
 
-        var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "bbjzzzzzzz" + index, true),
+        var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "jzzzzzzzzz" + index, true),
             _genCompid2 = _slicedToArray(_genCompid, 2),
-            $prevCompid__1535 = _genCompid2[0],
-            $compid__1535 = _genCompid2[1];
+            $prevCompid__108 = _genCompid2[0],
+            $compid__108 = _genCompid2[1];
 
         _taroWeapp.propsManager.set({
           "addressData": item.$original,
           "defaultAddress": item.$original.default
-        }, $compid__1535, $prevCompid__1535);
+        }, $compid__108, $prevCompid__108);
         return {
           _$indexKey: _$indexKey,
-          $compid__1535: $compid__1535,
+          $compid__108: $compid__108,
           $original: item.$original
         };
       });
       Object.assign(this.__state, {
-        loopArray71: loopArray71,
+        loopArray7: loopArray7,
         allAddress: allAddress
       });
       return this.__state;

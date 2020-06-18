@@ -98,7 +98,7 @@ var ProduceDetails = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ProduceDetails.__proto__ || Object.getPrototypeOf(ProduceDetails)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '商品详情'
-    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "$compid__136", "$compid__137", "$compid__138", "home", "cart"], _this.customComponents = ["NewSwiper", "GoodsDetails", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "$compid__266", "$compid__267", "$compid__268", "home", "cart"], _this.customComponents = ["NewSwiper", "GoodsDetails", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(ProduceDetails, [{
@@ -117,52 +117,62 @@ var ProduceDetails = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__136"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__266"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__136 = _genCompid2[0],
-          $compid__136 = _genCompid2[1];
+          $prevCompid__266 = _genCompid2[0],
+          $compid__266 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__137"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__267"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__137 = _genCompid4[0],
-          $compid__137 = _genCompid4[1];
+          $prevCompid__267 = _genCompid4[0],
+          $compid__267 = _genCompid4[1];
 
-      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__138"),
+      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__268"),
           _genCompid6 = _slicedToArray(_genCompid5, 2),
-          $prevCompid__138 = _genCompid6[0],
-          $compid__138 = _genCompid6[1];
+          $prevCompid__268 = _genCompid6[0],
+          $compid__268 = _genCompid6[1];
 
       var props = this.__props;
       var anonymousState__temp = (0, _taroWeapp.internal_inline_style)({ color: "#D5B67A" });
+
+      this.anonymousFunc0 = function () {
+        _taroWeapp2.default.switchTab({ url: '/pages/index/index' });
+      };
+
       var anonymousState__temp2 = (0, _taroWeapp.internal_inline_style)({ width: '26px', height: '26px', marginBottom: '1px' });
+
+      this.anonymousFunc1 = function () {
+        _taroWeapp2.default.switchTab({ url: '/pages/cart/cart' });
+      };
+
       var anonymousState__temp3 = (0, _taroWeapp.internal_inline_style)({ width: '26px', height: '26px', marginBottom: '1px' });
       var anonymousState__temp4 = { color: '#737373' };
 
-      this.anonymousFunc0 = function () {
+      this.anonymousFunc2 = function () {
         _taroWeapp2.default.navigateTo({ url: '/pages/order/orderConfirm/orderConfirm' });
       };
 
       _taroWeapp.propsManager.set({
         "img": images,
         "height": '100%'
-      }, $compid__136, $prevCompid__136);
+      }, $compid__266, $prevCompid__266);
       _taroWeapp.propsManager.set({
         "circle": true,
         "style": anonymousState__temp4
-      }, $compid__137, $prevCompid__137);
+      }, $compid__267, $prevCompid__267);
       _taroWeapp.propsManager.set({
         "type": "primary",
         "circle": true,
-        "onClick": this.anonymousFunc0
-      }, $compid__138, $prevCompid__138);
+        "onClick": this.anonymousFunc2
+      }, $compid__268, $prevCompid__268);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
         anonymousState__temp2: anonymousState__temp2,
         anonymousState__temp3: anonymousState__temp3,
         anonymousState__temp4: anonymousState__temp4,
-        $compid__136: $compid__136,
-        $compid__137: $compid__137,
-        $compid__138: $compid__138,
+        $compid__266: $compid__266,
+        $compid__267: $compid__267,
+        $compid__268: $compid__268,
         home: _home2.default,
         cart: _cart2.default
       });
@@ -173,10 +183,20 @@ var ProduceDetails = (_temp2 = _class = function (_Taro$Component) {
     value: function anonymousFunc0(e) {
       ;
     }
+  }, {
+    key: 'anonymousFunc1',
+    value: function anonymousFunc1(e) {
+      ;
+    }
+  }, {
+    key: 'anonymousFunc2',
+    value: function anonymousFunc2(e) {
+      ;
+    }
   }]);
 
   return ProduceDetails;
-}(_taroWeapp2.default.Component), _class.$$events = [], _class.$$componentPath = "pages/order/productDetails/productDetails", _temp2);
+}(_taroWeapp2.default.Component), _class.$$events = ["anonymousFunc0", "anonymousFunc1"], _class.$$componentPath = "pages/order/productDetails/productDetails", _temp2);
 
 
 ProduceDetails.config = { navigationBarTitleText: '商品详情' };

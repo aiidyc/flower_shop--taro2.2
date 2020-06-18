@@ -63,9 +63,25 @@ function EditAddress (props) {
          setForm(obj)
        }} />
        <AtButton type='primary' onClick={()=>{
+         const reg = /^1[3456789]\d{9}$/
+         if(form.name===''||form.address===''){
+           console.log(1)
+           Taro.showToast({
+             title: '姓名或地址不能为空',
+             icon:'none',
+             duration: 1000
+           })
+         }else if(!reg.test(form.phoneNumber)){
+           Taro.showToast({
+             title: '手机号码格式不正确',
+             icon:'none',
+             duration: 1000
+           })
+         }
+         console.log(reg.test(form.phoneNumber), 'phone')
          // 派遣保存
-         editAddressP(form, addressIndex)
-         Taro.navigateBack()
+         // editAddressP(form, addressIndex)
+         // Taro.navigateBack()
        }}>保存</AtButton>
        <AtButton type='secondary'>删除</AtButton>
    </View>

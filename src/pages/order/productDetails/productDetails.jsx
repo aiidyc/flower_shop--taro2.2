@@ -86,11 +86,15 @@ const ProduceDetails = (props) => {
       </View>
       <View className="ProduceDetails__footer">
         <View className='ProduceDetails__footer--left'>
-          <View className='ProduceDetails__footer--left__item ProduceDetails__footer--left__item1'>
+          <View className='ProduceDetails__footer--left__item ProduceDetails__footer--left__item1' onClick={()=>{
+            Taro.switchTab({ url: '/pages/index/index'})
+          }}>
             <Image src={home} style={{width:'26px',height:'26px',marginBottom:'1px'}}/>
             <Text>主页</Text>
           </View>
-          <View className='ProduceDetails__footer--left__item ProduceDetails__footer--left__item2'>
+          <View className='ProduceDetails__footer--left__item ProduceDetails__footer--left__item2' onClick={()=>{
+            Taro.switchTab({ url: '/pages/cart/cart'})
+          }}>
             <Image src={cart} style={{width:'26px',height:'26px',marginBottom:'1px'}}/>
             <Text>购物车</Text>
           </View>

@@ -61,7 +61,7 @@ var EditAddress = (_temp2 = _class = function (_Taro$Component) {
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = EditAddress.__proto__ || Object.getPrototypeOf(EditAddress)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '地址编辑'
       // 获取全局状态变量和方法 放入props
-    }, _this.$usedState = ["$compid__110", "$compid__111", "$compid__112", "$compid__113", "$compid__114", "$compid__115"], _this.customComponents = ["AtInput", "AtSwitch", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["$compid__371", "$compid__372", "$compid__373", "$compid__374", "$compid__375", "$compid__376"], _this.customComponents = ["AtInput", "AtSwitch", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(EditAddress, [{
@@ -82,35 +82,35 @@ var EditAddress = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__110"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__371"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__110 = _genCompid2[0],
-          $compid__110 = _genCompid2[1];
+          $prevCompid__371 = _genCompid2[0],
+          $compid__371 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__111"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__372"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__111 = _genCompid4[0],
-          $compid__111 = _genCompid4[1];
+          $prevCompid__372 = _genCompid4[0],
+          $compid__372 = _genCompid4[1];
 
-      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__112"),
+      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__373"),
           _genCompid6 = _slicedToArray(_genCompid5, 2),
-          $prevCompid__112 = _genCompid6[0],
-          $compid__112 = _genCompid6[1];
+          $prevCompid__373 = _genCompid6[0],
+          $compid__373 = _genCompid6[1];
 
-      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__113"),
+      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__374"),
           _genCompid8 = _slicedToArray(_genCompid7, 2),
-          $prevCompid__113 = _genCompid8[0],
-          $compid__113 = _genCompid8[1];
+          $prevCompid__374 = _genCompid8[0],
+          $compid__374 = _genCompid8[1];
 
-      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__114"),
+      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__375"),
           _genCompid10 = _slicedToArray(_genCompid9, 2),
-          $prevCompid__114 = _genCompid10[0],
-          $compid__114 = _genCompid10[1];
+          $prevCompid__375 = _genCompid10[0],
+          $compid__375 = _genCompid10[1];
 
-      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__115"),
+      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__376"),
           _genCompid12 = _slicedToArray(_genCompid11, 2),
-          $prevCompid__115 = _genCompid12[0],
-          $compid__115 = _genCompid12[1];
+          $prevCompid__376 = _genCompid12[0],
+          $compid__376 = _genCompid12[1];
 
       var props = this.__props;
 
@@ -156,9 +156,25 @@ var EditAddress = (_temp2 = _class = function (_Taro$Component) {
       };
 
       this.anonymousFunc4 = function () {
+        var reg = /^1[3456789]\d{9}$/;
+        if (form.name === '' || form.address === '') {
+          console.log(1);
+          _taroWeapp2.default.showToast({
+            title: '姓名或地址不能为空',
+            icon: 'none',
+            duration: 1000
+          });
+        } else if (!reg.test(form.phoneNumber)) {
+          _taroWeapp2.default.showToast({
+            title: '手机号码格式不正确',
+            icon: 'none',
+            duration: 1000
+          });
+        }
+        console.log(reg.test(form.phoneNumber), 'phone');
         // 派遣保存
-        editAddressP(form, addressIndex);
-        _taroWeapp2.default.navigateBack();
+        // editAddressP(form, addressIndex)
+        // Taro.navigateBack()
       };
 
       _taroWeapp.propsManager.set({
@@ -169,7 +185,7 @@ var EditAddress = (_temp2 = _class = function (_Taro$Component) {
         "placeholder": "\u8BF7\u8F93\u5165\u59D3\u540D",
         "value": form.name,
         "onChange": this.anonymousFunc0
-      }, $compid__110, $prevCompid__110);
+      }, $compid__371, $prevCompid__371);
       _taroWeapp.propsManager.set({
         "required": true,
         "name": "phoneNumber",
@@ -178,7 +194,7 @@ var EditAddress = (_temp2 = _class = function (_Taro$Component) {
         "placeholder": "\u8BF7\u8F93\u5165\u624B\u673A\u53F7",
         "value": form.phoneNumber,
         "onChange": this.anonymousFunc1
-      }, $compid__111, $prevCompid__111);
+      }, $compid__372, $prevCompid__372);
       _taroWeapp.propsManager.set({
         "required": true,
         "name": "address",
@@ -187,26 +203,26 @@ var EditAddress = (_temp2 = _class = function (_Taro$Component) {
         "placeholder": "\u8BF7\u8F93\u5165\u6536\u8D27\u5730\u5740",
         "value": form.address,
         "onChange": this.anonymousFunc2
-      }, $compid__112, $prevCompid__112);
+      }, $compid__373, $prevCompid__373);
       _taroWeapp.propsManager.set({
         "title": "\u8BBE\u4E3A\u9ED8\u8BA4\u5730\u5740",
         "checked": form.default,
         "onChange": this.anonymousFunc3
-      }, $compid__113, $prevCompid__113);
+      }, $compid__374, $prevCompid__374);
       _taroWeapp.propsManager.set({
         "type": "primary",
         "onClick": this.anonymousFunc4
-      }, $compid__114, $prevCompid__114);
+      }, $compid__375, $prevCompid__375);
       _taroWeapp.propsManager.set({
         "type": "secondary"
-      }, $compid__115, $prevCompid__115);
+      }, $compid__376, $prevCompid__376);
       Object.assign(this.__state, {
-        $compid__110: $compid__110,
-        $compid__111: $compid__111,
-        $compid__112: $compid__112,
-        $compid__113: $compid__113,
-        $compid__114: $compid__114,
-        $compid__115: $compid__115
+        $compid__371: $compid__371,
+        $compid__372: $compid__372,
+        $compid__373: $compid__373,
+        $compid__374: $compid__374,
+        $compid__375: $compid__375,
+        $compid__376: $compid__376
       });
       return this.__state;
     }

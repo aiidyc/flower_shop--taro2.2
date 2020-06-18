@@ -2,7 +2,7 @@
     <view class="ProduceDetails">
         <view class="ProduceDetails__header">
             <view class="ProduceDetails__header__swiper">
-                <new-swiper compid="{{$compid__136}}"></new-swiper>
+                <new-swiper compid="{{$compid__266}}"></new-swiper>
             </view>
             <view class="ProduceDetails__header__content">
                 <view class="ProduceDetails__header__content--priceCard">
@@ -25,19 +25,19 @@
         </view>
         <view class="ProduceDetails__footer">
             <view class="ProduceDetails__footer--left">
-                <view class="ProduceDetails__footer--left__item ProduceDetails__footer--left__item1">
+                <view class="ProduceDetails__footer--left__item ProduceDetails__footer--left__item1" bindtap="anonymousFunc0">
                     <image src="{{home}}" style="{{anonymousState__temp2}}"></image><text>主页</text>
                 </view>
-                <view class="ProduceDetails__footer--left__item ProduceDetails__footer--left__item2">
+                <view class="ProduceDetails__footer--left__item ProduceDetails__footer--left__item2" bindtap="anonymousFunc1">
                     <image src="{{cart}}" style="{{anonymousState__temp3}}"></image><text>购物车</text>
                 </view>
             </view>
             <view class="ProduceDetails__footer--right">
                 <view class="ProduceDetails__footer--right--btn1 ProduceDetails__footer--right--btn">
-                    <at-button compid="{{$compid__137}}">加入购物车</at-button>
+                    <at-button compid="{{$compid__267}}">加入购物车</at-button>
                 </view>
                 <view class="ProduceDetails__footer--right--btn2 ProduceDetails__footer--right--btn">
-                    <at-button compid="{{$compid__138}}">立即购买</at-button>
+                    <at-button compid="{{$compid__268}}">立即购买</at-button>
                 </view>
             </view>
         </view>

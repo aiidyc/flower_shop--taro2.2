@@ -1,10 +1,10 @@
 import Taro, { useEffect } from '@tarojs/taro'
 import { View } from '@tarojs/components'
 
-import NewSwiper from './../../compoents/swiper/index'
+import NewSwiper from '../../components/swiper/index'
 import ShopList from './shopList/shopList'
-import TitleCard from './../../compoents/titile-card/titile-card'
-import GoodsList from './../../compoents/goodsList/goodsList'
+import TitleCard from '../../components/titile-card/titile-card'
+import GoodsList from '../../components/goodsList/goodsList'
 import './index.scss'
 
 import { getToken } from "../../api/login"
@@ -14,7 +14,7 @@ const imgs = [
     url: 'https://s1.ax1x.com/2020/06/04/t0wNtI.jpg',
     id: '2',
     title: '夏日福利【巴黎午后】旋转吧银河',
-    subTitle: '献给你爱的那个她',
+    subTitle: '献给你爱的那个她 ',
     price: '¥188'
   },
   {

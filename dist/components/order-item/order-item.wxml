@@ -1,7 +1,7 @@
 <block wx:if="{{$taroCompReady}}">
     <view class="OrderItem">
         <view class="OrderItem__goodsList">
-            <goods-one wx:key="id" wx:for="{{loopArray12}}" wx:for-item="item" wx:for-index="_anonIdx2" compid="{{item.$compid__140}}"></goods-one>
+            <goods-one wx:key="id" wx:for="{{loopArray12}}" wx:for-item="item" wx:for-index="_anonIdx2" compid="{{item.$compid__151}}"></goods-one>
         </view>
         <view class="OrderItem__price"><text class="OrderItem__price__item"><text class="OrderItem__price__subItem">小计:</text>¥{{orderData.orderPrice}}</text>
         </view>
@@ -10,25 +10,25 @@
                 <block wx:if="{{orderType === '1'}}">
                     <view class="OrderItem__button">
                         <view style="{{anonymousState__temp}}">
-                            <at-button compid="{{$compid__141}}">取消订单</at-button>
+                            <at-button compid="{{$compid__152}}">取消订单</at-button>
                         </view>
-                        <at-button compid="{{$compid__142}}">订单支付</at-button>
+                        <at-button compid="{{$compid__153}}">订单支付</at-button>
                     </view>
                 </block>
                 <block wx:else>
                     <block>
                         <block wx:if="{{orderType === '2'}}">
                             <view class="OrderItem__button">
-                                <at-button compid="{{$compid__143}}">提醒发货</at-button>
+                                <at-button compid="{{$compid__154}}">提醒发货</at-button>
                             </view>
                         </block>
                         <block wx:else>
                             <block wx:if="{{orderType === '3'}}">
                                 <view class="OrderItem__button">
                                     <view style="{{anonymousState__temp2}}">
-                                        <at-button compid="{{$compid__144}}">查看物流</at-button>
+                                        <at-button compid="{{$compid__155}}">查看物流</at-button>
                                     </view>
-                                    <at-button compid="{{$compid__145}}">确认收货</at-button>
+                                    <at-button compid="{{$compid__156}}">确认收货</at-button>
                                 </view>
                             </block>
                         </block>

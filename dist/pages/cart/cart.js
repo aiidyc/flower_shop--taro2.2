@@ -65,7 +65,7 @@ var Cart = (_temp2 = _class = function (_Taro$Component) {
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Cart.__proto__ || Object.getPrototypeOf(Cart)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '购物车',
       backgroundColor: '#F3F3F3'
-    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "$compid__147", "$compid__148", "$compid__149", "$compid__150", "$compid__151", "$compid__152", "$compid__153", "$compid__154", "$compid__155", "$compid__156", "$compid__157", "selectFlag", "selectYes", "selectNo"], _this.customComponents = ["GoodsOne", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "$compid__99", "$compid__100", "$compid__101", "$compid__102", "$compid__103", "$compid__104", "$compid__105", "$compid__106", "$compid__107", "$compid__108", "$compid__109", "selectFlag", "selectYes", "selectNo"], _this.customComponents = ["GoodsOne", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Cart, [{
@@ -84,60 +84,60 @@ var Cart = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__147"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__99"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__147 = _genCompid2[0],
-          $compid__147 = _genCompid2[1];
+          $prevCompid__99 = _genCompid2[0],
+          $compid__99 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__148"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__100"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__148 = _genCompid4[0],
-          $compid__148 = _genCompid4[1];
+          $prevCompid__100 = _genCompid4[0],
+          $compid__100 = _genCompid4[1];
 
-      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__149"),
+      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__101"),
           _genCompid6 = _slicedToArray(_genCompid5, 2),
-          $prevCompid__149 = _genCompid6[0],
-          $compid__149 = _genCompid6[1];
+          $prevCompid__101 = _genCompid6[0],
+          $compid__101 = _genCompid6[1];
 
-      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__150"),
+      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__102"),
           _genCompid8 = _slicedToArray(_genCompid7, 2),
-          $prevCompid__150 = _genCompid8[0],
-          $compid__150 = _genCompid8[1];
+          $prevCompid__102 = _genCompid8[0],
+          $compid__102 = _genCompid8[1];
 
-      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__151"),
+      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__103"),
           _genCompid10 = _slicedToArray(_genCompid9, 2),
-          $prevCompid__151 = _genCompid10[0],
-          $compid__151 = _genCompid10[1];
+          $prevCompid__103 = _genCompid10[0],
+          $compid__103 = _genCompid10[1];
 
-      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__152"),
+      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__104"),
           _genCompid12 = _slicedToArray(_genCompid11, 2),
-          $prevCompid__152 = _genCompid12[0],
-          $compid__152 = _genCompid12[1];
+          $prevCompid__104 = _genCompid12[0],
+          $compid__104 = _genCompid12[1];
 
-      var _genCompid13 = (0, _taroWeapp.genCompid)(__prefix + "$compid__153"),
+      var _genCompid13 = (0, _taroWeapp.genCompid)(__prefix + "$compid__105"),
           _genCompid14 = _slicedToArray(_genCompid13, 2),
-          $prevCompid__153 = _genCompid14[0],
-          $compid__153 = _genCompid14[1];
+          $prevCompid__105 = _genCompid14[0],
+          $compid__105 = _genCompid14[1];
 
-      var _genCompid15 = (0, _taroWeapp.genCompid)(__prefix + "$compid__154"),
+      var _genCompid15 = (0, _taroWeapp.genCompid)(__prefix + "$compid__106"),
           _genCompid16 = _slicedToArray(_genCompid15, 2),
-          $prevCompid__154 = _genCompid16[0],
-          $compid__154 = _genCompid16[1];
+          $prevCompid__106 = _genCompid16[0],
+          $compid__106 = _genCompid16[1];
 
-      var _genCompid17 = (0, _taroWeapp.genCompid)(__prefix + "$compid__155"),
+      var _genCompid17 = (0, _taroWeapp.genCompid)(__prefix + "$compid__107"),
           _genCompid18 = _slicedToArray(_genCompid17, 2),
-          $prevCompid__155 = _genCompid18[0],
-          $compid__155 = _genCompid18[1];
+          $prevCompid__107 = _genCompid18[0],
+          $compid__107 = _genCompid18[1];
 
-      var _genCompid19 = (0, _taroWeapp.genCompid)(__prefix + "$compid__156"),
+      var _genCompid19 = (0, _taroWeapp.genCompid)(__prefix + "$compid__108"),
           _genCompid20 = _slicedToArray(_genCompid19, 2),
-          $prevCompid__156 = _genCompid20[0],
-          $compid__156 = _genCompid20[1];
+          $prevCompid__108 = _genCompid20[0],
+          $compid__108 = _genCompid20[1];
 
-      var _genCompid21 = (0, _taroWeapp.genCompid)(__prefix + "$compid__157"),
+      var _genCompid21 = (0, _taroWeapp.genCompid)(__prefix + "$compid__109"),
           _genCompid22 = _slicedToArray(_genCompid21, 2),
-          $prevCompid__157 = _genCompid22[0],
-          $compid__157 = _genCompid22[1];
+          $prevCompid__109 = _genCompid22[0],
+          $compid__109 = _genCompid22[1];
 
       var props = this.__props;
 
@@ -199,64 +199,64 @@ var Cart = (_temp2 = _class = function (_Taro$Component) {
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__147, $prevCompid__147);
+      }, $compid__99, $prevCompid__99);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__148, $prevCompid__148);
+      }, $compid__100, $prevCompid__100);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__149, $prevCompid__149);
+      }, $compid__101, $prevCompid__101);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__150, $prevCompid__150);
+      }, $compid__102, $prevCompid__102);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__151, $prevCompid__151);
+      }, $compid__103, $prevCompid__103);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__152, $prevCompid__152);
+      }, $compid__104, $prevCompid__104);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__153, $prevCompid__153);
+      }, $compid__105, $prevCompid__105);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__154, $prevCompid__154);
+      }, $compid__106, $prevCompid__106);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__155, $prevCompid__155);
+      }, $compid__107, $prevCompid__107);
       _taroWeapp.propsManager.set({
         "height": '16.5vh',
         "buttonType": '2'
-      }, $compid__156, $prevCompid__156);
+      }, $compid__108, $prevCompid__108);
       _taroWeapp.propsManager.set({
         "size": "normal",
         "className": "newCart__footer__button",
         "type": "primary",
         "circle": true
-      }, $compid__157, $prevCompid__157);
+      }, $compid__109, $prevCompid__109);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
         anonymousState__temp2: anonymousState__temp2,
         anonymousState__temp3: anonymousState__temp3,
-        $compid__147: $compid__147,
-        $compid__148: $compid__148,
-        $compid__149: $compid__149,
-        $compid__150: $compid__150,
-        $compid__151: $compid__151,
-        $compid__152: $compid__152,
-        $compid__153: $compid__153,
-        $compid__154: $compid__154,
-        $compid__155: $compid__155,
-        $compid__156: $compid__156,
-        $compid__157: $compid__157,
+        $compid__99: $compid__99,
+        $compid__100: $compid__100,
+        $compid__101: $compid__101,
+        $compid__102: $compid__102,
+        $compid__103: $compid__103,
+        $compid__104: $compid__104,
+        $compid__105: $compid__105,
+        $compid__106: $compid__106,
+        $compid__107: $compid__107,
+        $compid__108: $compid__108,
+        $compid__109: $compid__109,
         selectFlag: selectFlag,
         selectYes: _selected2.default,
         selectNo: _select2.default

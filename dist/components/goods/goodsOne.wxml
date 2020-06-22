@@ -21,7 +21,7 @@
                         <block wx:else>
                             <block>
                                 <block wx:if="{{buttonType === '2'}}">
-                                    <at-input-number compid="{{$compid__139}}"></at-input-number>
+                                    <at-input-number compid="{{$compid__150}}"></at-input-number>
                                 </block>
                                 <block wx:else><text style="{{anonymousState__temp3}}">x{{goodsData.GoodsNum}}</text>
                                 </block>

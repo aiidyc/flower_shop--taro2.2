@@ -1,9 +1,9 @@
 <block wx:if="{{$taroCompReady}}">
     <view class="index">
-        <new-swiper compid="{{$compid__254}}"></new-swiper>
-        <title-card compid="{{$compid__255}}"></title-card>
+        <new-swiper compid="{{$compid__161}}"></new-swiper>
+        <title-card compid="{{$compid__162}}"></title-card>
         <shop-list></shop-list>
-        <title-card compid="{{$compid__256}}"></title-card>
+        <title-card compid="{{$compid__163}}"></title-card>
         <goods-list></goods-list>
     </view>
 </block>

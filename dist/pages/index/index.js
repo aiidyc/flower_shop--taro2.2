@@ -40,7 +40,7 @@ var imgs = [{
   url: 'https://s1.ax1x.com/2020/06/04/t0wNtI.jpg',
   id: '2',
   title: '夏日福利【巴黎午后】旋转吧银河',
-  subTitle: '献给你爱的那个她',
+  subTitle: '献给你爱的那个她 ',
   price: '¥188'
 }, {
   url: 'https://s1.ax1x.com/2020/06/04/t0T8Rf.png',
@@ -90,7 +90,7 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '鲜花首页'
-    }, _this.$usedState = ["$compid__254", "$compid__255", "$compid__256"], _this.customComponents = ["NewSwiper", "TitleCard", "ShopList", "GoodsList"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["$compid__161", "$compid__162", "$compid__163"], _this.customComponents = ["NewSwiper", "TitleCard", "ShopList", "GoodsList"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Index, [{
@@ -109,20 +109,20 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__254"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__161"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__254 = _genCompid2[0],
-          $compid__254 = _genCompid2[1];
+          $prevCompid__161 = _genCompid2[0],
+          $compid__161 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__255"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__162"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__255 = _genCompid4[0],
-          $compid__255 = _genCompid4[1];
+          $prevCompid__162 = _genCompid4[0],
+          $compid__162 = _genCompid4[1];
 
-      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__256"),
+      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__163"),
           _genCompid6 = _slicedToArray(_genCompid5, 2),
-          $prevCompid__256 = _genCompid6[0],
-          $compid__256 = _genCompid6[1];
+          $prevCompid__163 = _genCompid6[0],
+          $compid__163 = _genCompid6[1];
 
       (0, _taroWeapp.useEffect)(function () {
         // getToken().then((res)=>{
@@ -132,20 +132,20 @@ var Index = (_temp2 = _class = function (_Taro$Component) {
       _taroWeapp.propsManager.set({
         "img": imgs,
         "height": '35%'
-      }, $compid__254, $prevCompid__254);
+      }, $compid__161, $prevCompid__161);
       _taroWeapp.propsManager.set({
         "leftText": '限时抢购',
         "paddingTop": '12px',
         "height": '20px'
-      }, $compid__255, $prevCompid__255);
+      }, $compid__162, $prevCompid__162);
       _taroWeapp.propsManager.set({
         "leftText": '新品推荐',
         "paddingBottom": '3px'
-      }, $compid__256, $prevCompid__256);
+      }, $compid__163, $prevCompid__163);
       Object.assign(this.__state, {
-        $compid__254: $compid__254,
-        $compid__255: $compid__255,
-        $compid__256: $compid__256
+        $compid__161: $compid__161,
+        $compid__162: $compid__162,
+        $compid__163: $compid__163
       });
       return this.__state;
     }

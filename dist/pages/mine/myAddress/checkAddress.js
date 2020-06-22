@@ -112,17 +112,17 @@ var CheckAddress = (_temp2 = _class = function (_Taro$Component) {
 
         var _genCompid = (0, _taroWeapp.genCompid)(__prefix + 'bbzzzzzzzz' + index, true),
             _genCompid2 = _slicedToArray(_genCompid, 2),
-            $prevCompid__109 = _genCompid2[0],
-            $compid__109 = _genCompid2[1];
+            $prevCompid__120 = _genCompid2[0],
+            $compid__120 = _genCompid2[1];
 
         _taroWeapp.propsManager.set({
           "addressData": item.$original,
           "checked": $loopState__temp2
-        }, $compid__109, $prevCompid__109);
+        }, $compid__120, $prevCompid__120);
         return {
           _$indexKey: _$indexKey,
           $loopState__temp2: $loopState__temp2,
-          $compid__109: $compid__109,
+          $compid__120: $compid__120,
           $original: item.$original
         };
       });

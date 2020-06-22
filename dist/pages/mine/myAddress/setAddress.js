@@ -102,16 +102,16 @@ var MyAddress = (_temp2 = _class = function (_Taro$Component) {
 
         var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "jzzzzzzzzz" + index, true),
             _genCompid2 = _slicedToArray(_genCompid, 2),
-            $prevCompid__108 = _genCompid2[0],
-            $compid__108 = _genCompid2[1];
+            $prevCompid__119 = _genCompid2[0],
+            $compid__119 = _genCompid2[1];
 
         _taroWeapp.propsManager.set({
           "addressData": item.$original,
           "defaultAddress": item.$original.default
-        }, $compid__108, $prevCompid__108);
+        }, $compid__119, $prevCompid__119);
         return {
           _$indexKey: _$indexKey,
-          $compid__108: $compid__108,
+          $compid__119: $compid__119,
           $original: item.$original
         };
       });

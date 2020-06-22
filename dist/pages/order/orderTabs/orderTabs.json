@@ -1,1 +1,1 @@
-{"usingComponents":{"at-tabs":"../../../npm/taro-ui/dist/weapp/components/tabs/index","at-tabs-pane":"../../../npm/taro-ui/dist/weapp/components/tabs-pane/index","order-item":"../../../compoents/order-item/order-item"},"navigationBarTitleText":"我的订单","backgroundColor":"#F3F3F3"}
+{"usingComponents":{"at-tabs":"../../../npm/taro-ui/dist/weapp/components/tabs/index","at-tabs-pane":"../../../npm/taro-ui/dist/weapp/components/tabs-pane/index","order-item":"../../../components/order-item/order-item"},"navigationBarTitleText":"我的订单","backgroundColor":"#F3F3F3"}

@@ -2,7 +2,7 @@ import { connect } from '@tarojs/redux'
 
 import { View, Text,  Image } from '@tarojs/components'
 import { AtButton } from 'taro-ui'
-import GoodsOne from './../../compoents/goods/goodsOne'
+import GoodsOne from '../../components/goods/goodsOne'
 import selectNo from './../../assets/select.png'
 import selectYes from './../../assets/selected.png'
 import './cart.scss'

@@ -2,8 +2,8 @@ import Taro from '@tarojs/taro'
 import { View, Text, Image, Button } from '@tarojs/components'
 import { AtButton } from 'taro-ui'
 
-import NewSwiper from './../../../compoents/swiper/index'
-import GoodsDetails from './../../../compoents/goodsDetails/goodsDetails'
+import NewSwiper from '../../../components/swiper/index'
+import GoodsDetails from '../../../components/goodsDetails/goodsDetails'
 
 import './productDetails.scss'
 import home from './../../../assets/tab-bar/home.png'

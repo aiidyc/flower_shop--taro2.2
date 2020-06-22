@@ -3,7 +3,7 @@
         <view class="mine__header">
             <image mode="aspectFill" src="{{mineBgc}}" class="mine__header__bgc"></image>
             <view class="mine__header_avatar">
-                <at-avatar compid="{{$compid__99}}"></at-avatar>
+                <at-avatar compid="{{$compid__110}}"></at-avatar>
                 <view class="mine__header_avatar--text"><text style="{{anonymousState__temp}}">Yanni233</text><text style="{{anonymousState__temp2}}">181*****9902</text>
                 </view>
             </view>
@@ -14,17 +14,17 @@
                 </view>
                 <view class="mine__content__top--right">
                     <view class="mine__content__top--right--item" bindtap="anonymousFunc1">
-                        <at-badge compid="{{$compid__100}}">
+                        <at-badge compid="{{$compid__111}}">
                             <image src="{{daifukuan}}" style="{{anonymousState__temp3}}"></image>
                         </at-badge><text style="{{anonymousState__temp4}}">待付款</text>
                     </view>
                     <view class="mine__content__top--right--item" bindtap="anonymousFunc2">
-                        <at-badge compid="{{$compid__101}}">
+                        <at-badge compid="{{$compid__112}}">
                             <image src="{{daifahuo}}" style="{{anonymousState__temp5}}"></image>
                         </at-badge><text style="{{anonymousState__temp6}}">待发货</text>
                     </view>
                     <view class="mine__content__top--right--item" bindtap="anonymousFunc3">
-                        <at-badge compid="{{$compid__102}}">
+                        <at-badge compid="{{$compid__113}}">
                             <image src="{{daishouhuo}}" style="{{anonymousState__temp7}}"></image>
                         </at-badge><text style="{{anonymousState__temp8}}">待收货</text>
                     </view>
@@ -33,11 +33,11 @@
             <view class="mine__content__middle">
                 <view class="mine__content__middle_list">
                     <at-list>
-                        <at-list-item compid="{{$compid__103}}"></at-list-item>
-                        <at-list-item compid="{{$compid__104}}"></at-list-item>
-                        <at-list-item compid="{{$compid__105}}"></at-list-item>
-                        <at-list-item compid="{{$compid__106}}"></at-list-item>
-                        <at-list-item compid="{{$compid__107}}"></at-list-item>
+                        <at-list-item compid="{{$compid__114}}"></at-list-item>
+                        <at-list-item compid="{{$compid__115}}"></at-list-item>
+                        <at-list-item compid="{{$compid__116}}"></at-list-item>
+                        <at-list-item compid="{{$compid__117}}"></at-list-item>
+                        <at-list-item compid="{{$compid__118}}"></at-list-item>
                     </at-list>
                 </view>
             </view>

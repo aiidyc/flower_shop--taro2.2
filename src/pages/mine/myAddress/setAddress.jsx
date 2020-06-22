@@ -3,7 +3,7 @@ import {connect} from "@tarojs/redux";
 import {ADDRESS} from "../../../reducers/reducersType";
 
 import { View, Text } from '@tarojs/components'
-import AddressItem from './../../../compoents/address-item/address-item'
+import AddressItem from '../../../components/address-item/address-item'
 import './setAddress.scss'
 
 

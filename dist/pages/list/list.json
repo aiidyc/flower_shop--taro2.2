@@ -1,1 +1,1 @@
-{"usingComponents":{"at-tabs":"../../npm/taro-ui/dist/weapp/components/tabs/index","at-tabs-pane":"../../npm/taro-ui/dist/weapp/components/tabs-pane/index","goods-one":"../../compoents/goods/goodsOne"},"navigationBarTitleText":"分类"}
+{"usingComponents":{"at-tabs":"../../npm/taro-ui/dist/weapp/components/tabs/index","at-tabs-pane":"../../npm/taro-ui/dist/weapp/components/tabs-pane/index","goods-one":"../../components/goods/goodsOne"},"navigationBarTitleText":"分类"}

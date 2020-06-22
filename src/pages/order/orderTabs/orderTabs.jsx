@@ -1,7 +1,7 @@
 import Taro, { useState, useEffect } from '@tarojs/taro'
 import { View, Text } from '@tarojs/components'
 import { AtTabs, AtTabsPane } from 'taro-ui'
-import OrderItem from './../../../compoents/order-item/order-item'
+import OrderItem from '../../../components/order-item/order-item'
 import './orderTabs.scss'
 
 function OrderTabs(props) {

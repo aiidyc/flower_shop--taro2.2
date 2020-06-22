@@ -26,14 +26,14 @@
                 </view>
             </view>
             <view class="OrderConfirm--top__orderInfo">
-                <order-item compid="{{$compid__134}}"></order-item>
+                <order-item compid="{{$compid__145}}"></order-item>
             </view>
         </view>
         <view class="OrderConfirm--footer">
             <view class="OrderConfirm--footer__price"><text class="OrderConfirm--footer__price1">合计:</text><text class="OrderConfirm--footer__price2">¥188</text>
             </view>
             <view class="OrderConfirm--footer__button">
-                <at-button compid="{{$compid__135}}">支付</at-button>
+                <at-button compid="{{$compid__146}}">支付</at-button>
             </view>
         </view>
     </view>

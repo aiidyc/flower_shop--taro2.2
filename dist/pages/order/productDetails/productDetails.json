@@ -1,1 +1,1 @@
-{"usingComponents":{"new-swiper":"../../../compoents/swiper/index","goods-details":"../../../compoents/goodsDetails/goodsDetails","at-button":"../../../npm/taro-ui/dist/weapp/components/button/index"},"navigationBarTitleText":"商品详情"}
+{"usingComponents":{"new-swiper":"../../../components/swiper/index","goods-details":"../../../components/goodsDetails/goodsDetails","at-button":"../../../npm/taro-ui/dist/weapp/components/button/index"},"navigationBarTitleText":"商品详情"}

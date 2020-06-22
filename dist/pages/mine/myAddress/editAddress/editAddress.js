@@ -61,7 +61,7 @@ var EditAddress = (_temp2 = _class = function (_Taro$Component) {
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = EditAddress.__proto__ || Object.getPrototypeOf(EditAddress)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
       navigationBarTitleText: '地址编辑'
       // 获取全局状态变量和方法 放入props
-    }, _this.$usedState = ["$compid__371", "$compid__372", "$compid__373", "$compid__374", "$compid__375", "$compid__376"], _this.customComponents = ["AtInput", "AtSwitch", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.$usedState = ["$compid__121", "$compid__122", "$compid__123", "$compid__124", "$compid__125", "$compid__126"], _this.customComponents = ["AtInput", "AtSwitch", "AtButton"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(EditAddress, [{
@@ -82,35 +82,35 @@ var EditAddress = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__371"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__121"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__371 = _genCompid2[0],
-          $compid__371 = _genCompid2[1];
+          $prevCompid__121 = _genCompid2[0],
+          $compid__121 = _genCompid2[1];
 
-      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__372"),
+      var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "$compid__122"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__372 = _genCompid4[0],
-          $compid__372 = _genCompid4[1];
+          $prevCompid__122 = _genCompid4[0],
+          $compid__122 = _genCompid4[1];
 
-      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__373"),
+      var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "$compid__123"),
           _genCompid6 = _slicedToArray(_genCompid5, 2),
-          $prevCompid__373 = _genCompid6[0],
-          $compid__373 = _genCompid6[1];
+          $prevCompid__123 = _genCompid6[0],
+          $compid__123 = _genCompid6[1];
 
-      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__374"),
+      var _genCompid7 = (0, _taroWeapp.genCompid)(__prefix + "$compid__124"),
           _genCompid8 = _slicedToArray(_genCompid7, 2),
-          $prevCompid__374 = _genCompid8[0],
-          $compid__374 = _genCompid8[1];
+          $prevCompid__124 = _genCompid8[0],
+          $compid__124 = _genCompid8[1];
 
-      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__375"),
+      var _genCompid9 = (0, _taroWeapp.genCompid)(__prefix + "$compid__125"),
           _genCompid10 = _slicedToArray(_genCompid9, 2),
-          $prevCompid__375 = _genCompid10[0],
-          $compid__375 = _genCompid10[1];
+          $prevCompid__125 = _genCompid10[0],
+          $compid__125 = _genCompid10[1];
 
-      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__376"),
+      var _genCompid11 = (0, _taroWeapp.genCompid)(__prefix + "$compid__126"),
           _genCompid12 = _slicedToArray(_genCompid11, 2),
-          $prevCompid__376 = _genCompid12[0],
-          $compid__376 = _genCompid12[1];
+          $prevCompid__126 = _genCompid12[0],
+          $compid__126 = _genCompid12[1];
 
       var props = this.__props;
 
@@ -185,7 +185,7 @@ var EditAddress = (_temp2 = _class = function (_Taro$Component) {
         "placeholder": "\u8BF7\u8F93\u5165\u59D3\u540D",
         "value": form.name,
         "onChange": this.anonymousFunc0
-      }, $compid__371, $prevCompid__371);
+      }, $compid__121, $prevCompid__121);
       _taroWeapp.propsManager.set({
         "required": true,
         "name": "phoneNumber",
@@ -194,7 +194,7 @@ var EditAddress = (_temp2 = _class = function (_Taro$Component) {
         "placeholder": "\u8BF7\u8F93\u5165\u624B\u673A\u53F7",
         "value": form.phoneNumber,
         "onChange": this.anonymousFunc1
-      }, $compid__372, $prevCompid__372);
+      }, $compid__122, $prevCompid__122);
       _taroWeapp.propsManager.set({
         "required": true,
         "name": "address",
@@ -203,26 +203,26 @@ var EditAddress = (_temp2 = _class = function (_Taro$Component) {
         "placeholder": "\u8BF7\u8F93\u5165\u6536\u8D27\u5730\u5740",
         "value": form.address,
         "onChange": this.anonymousFunc2
-      }, $compid__373, $prevCompid__373);
+      }, $compid__123, $prevCompid__123);
       _taroWeapp.propsManager.set({
         "title": "\u8BBE\u4E3A\u9ED8\u8BA4\u5730\u5740",
         "checked": form.default,
         "onChange": this.anonymousFunc3
-      }, $compid__374, $prevCompid__374);
+      }, $compid__124, $prevCompid__124);
       _taroWeapp.propsManager.set({
         "type": "primary",
         "onClick": this.anonymousFunc4
-      }, $compid__375, $prevCompid__375);
+      }, $compid__125, $prevCompid__125);
       _taroWeapp.propsManager.set({
         "type": "secondary"
-      }, $compid__376, $prevCompid__376);
+      }, $compid__126, $prevCompid__126);
       Object.assign(this.__state, {
-        $compid__371: $compid__371,
-        $compid__372: $compid__372,
-        $compid__373: $compid__373,
-        $compid__374: $compid__374,
-        $compid__375: $compid__375,
-        $compid__376: $compid__376
+        $compid__121: $compid__121,
+        $compid__122: $compid__122,
+        $compid__123: $compid__123,
+        $compid__124: $compid__124,
+        $compid__125: $compid__125,
+        $compid__126: $compid__126
       });
       return this.__state;
     }

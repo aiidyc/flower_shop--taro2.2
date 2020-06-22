@@ -2,7 +2,7 @@ import {View, Text, Image} from '@tarojs/components'
 import { useState } from '@tarojs/taro'
 import { AtTabs, AtTabsPane } from 'taro-ui'
 import './list.scss'
-import GoodsOne from './../../compoents/goods/goodsOne'
+import GoodsOne from '../../components/goods/goodsOne'
 const List = (props) => {
   const [ current, setCurrent ] = useState(0)
     return (

@@ -3,7 +3,7 @@ import {AtButton} from "taro-ui";
 import {View, Text, Image, Picker} from '@tarojs/components'
 import {connect} from "@tarojs/redux";
 
-import OrderItem from './../../../compoents/order-item/order-item'
+import OrderItem from '../../../components/order-item/order-item'
 import rightArrow from './../../../assets/right-arrow.png'
 import coordinate from './../../../assets/coordinate.png'
 import './OrderConfirm.scss'

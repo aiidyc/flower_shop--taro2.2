@@ -2,7 +2,7 @@ import Taro from "@tarojs/taro";
 import { View, Text } from '@tarojs/components'
 import { connect } from '@tarojs/redux'
 
-import CheckAddressItem from './../../../compoents/address-item/checkAddress-item'
+import CheckAddressItem from '../../../components/address-item/checkAddress-item'
 import './checkAddress.scss'
 import { ADDRESS } from "../../../reducers/reducersType";
 

@@ -1,1 +1,1 @@
-{"usingComponents":{"new-swiper":"../../compoents/swiper/index","title-card":"../../compoents/titile-card/titile-card","shop-list":"./shopList/shopList","goods-list":"../../compoents/goodsList/goodsList"},"navigationBarTitleText":"鲜花首页"}
+{"usingComponents":{"new-swiper":"../../components/swiper/index","title-card":"../../components/titile-card/titile-card","shop-list":"./shopList/shopList","goods-list":"../../components/goodsList/goodsList"},"navigationBarTitleText":"鲜花首页"}
